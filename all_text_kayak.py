@@ -1,6 +1,8 @@
 from selenium import webdriver
 import time
 
+# https://www.geeksforgeeks.org/get-all-text-of-the-page-using-selenium-in-python/
+
 options = webdriver.ChromeOptions()
 
 driver = webdriver.Chrome(options=options)
