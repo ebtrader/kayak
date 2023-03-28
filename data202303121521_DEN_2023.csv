@@ -1,0 +1,720 @@
+City,Country,Duration,Price,Airline,Airport,Depart,Return,Link,MinPrice,is_MinPrice
+Incheon,Coreia do Sul,3184.0,1298.85,Qatar Airways,ICN,2023-12-04,2023-12-11,http://kayak.com/flights/DEN-ICN/2023-12-04/2023-12-11/,1298.85,1.0
+Paris,França,1985.0,769.73,Várias companhias aéreas,PAR,2023-04-06,2023-04-13,http://kayak.com/flights/DEN-PAR/2023-04-06/2023-04-13/,769.73,1.0
+Nova Iorque,Estados Unidos,860.0,146.62,Spirit Airlines,NYC,2023-04-29,2023-05-03,http://kayak.com/flights/DEN-NYC/2023-04-29/2023-05-03/,146.62,1.0
+Los Angeles,Estados Unidos,148.0,54.52,Spirit Airlines,LAX,2023-04-12,2023-04-19,http://kayak.com/flights/DEN-LAX/2023-04-12/2023-04-19/,54.52,1.0
+Londres,Reino Unido,775.0,534.77,Icelandair,LON,2023-09-19,2023-09-26,http://kayak.com/flights/DEN-LON/2023-09-19/2023-09-26/,534.77,1.0
+Copenhaga,Dinamarca,1780.0,897.54,Várias companhias aéreas,CPH,2023-04-20,2023-04-26,http://kayak.com/flights/DEN-CPH/2023-04-20/2023-04-26/,897.54,1.0
+Madrid,Espanha,1725.0,820.48,Várias companhias aéreas,MAD,2023-04-28,2023-05-02,http://kayak.com/flights/DEN-MAD/2023-04-28/2023-05-02/,820.48,1.0
+Banguecoque,Tailândia,1884.0,963.33,Várias companhias aéreas,BKK,2023-09-11,2023-09-18,http://kayak.com/flights/DEN-BKK/2023-09-11/2023-09-18/,963.33,1.0
+Barcelona,Espanha,1430.0,712.4,American Airlines,BCN,2023-12-04,2023-12-11,http://kayak.com/flights/DEN-BCN/2023-12-04/2023-12-11/,712.4,1.0
+Miami,Estados Unidos,265.0,95.87,Spirit Airlines,MIA,2023-04-01,2023-04-07,http://kayak.com/flights/DEN-MIA/2023-04-01/2023-04-07/,95.87,1.0
+São Francisco,Estados Unidos,664.0,93.99,Frontier,SFO,2023-03-21,2023-03-27,http://kayak.com/flights/DEN-SFO/2023-03-21/2023-03-27/,93.99,1.0
+Boston,Estados Unidos,936.0,193.61,Frontier,BOS,2023-04-06,2023-04-11,http://kayak.com/flights/DEN-BOS/2023-04-06/2023-04-11/,193.61,1.0
+Lisboa,Portugal,1965.0,704.88,United Airlines,LIS,2023-12-03,2023-12-10,http://kayak.com/flights/DEN-LIS/2023-12-03/2023-12-10/,704.88,1.0
+Viena,Áustria,1010.0,1415.39,Air Canada,VIE,2023-06-03,2023-06-10,http://kayak.com/flights/DEN-VIE/2023-06-03/2023-06-10/,1415.39,1.0
+Frankfurt,Alemanha,780.0,760.33,Icelandair,FRA,2023-12-04,2023-12-08,http://kayak.com/flights/DEN-FRA/2023-12-04/2023-12-08/,760.33,1.0
+Amesterdão,Holanda,785.0,659.77,Icelandair,AMS,2023-11-20,2023-11-26,http://kayak.com/flights/DEN-AMS/2023-11-20/2023-11-26/,659.77,1.0
+Las Vegas,Estados Unidos,115.0,38.54,Spirit Airlines,LAS,2023-04-03,2023-04-07,http://kayak.com/flights/DEN-LAS/2023-04-03/2023-04-07/,38.54,1.0
+Roma,Itália,1760.0,874.05,American Airlines,ROM,2023-12-01,2023-12-08,http://kayak.com/flights/DEN-ROM/2023-12-01/2023-12-08/,874.05,1.0
+Atlanta,Estados Unidos,498.0,140.04,Frontier,ATL,2023-05-02,2023-05-06,http://kayak.com/flights/DEN-ATL/2023-05-02/2023-05-06/,140.04,1.0
+Newark,Estados Unidos,860.0,146.62,Spirit Airlines,EWR,2023-04-29,2023-05-03,http://kayak.com/flights/DEN-EWR/2023-04-29/2023-05-03/,146.62,1.0
+Manila,Filipinas,1780.0,972.73,Várias companhias aéreas,MNL,2023-11-06,2023-11-13,http://kayak.com/flights/DEN-MNL/2023-11-06/2023-11-13/,972.73,1.0
+Nova Deli,Índia,1926.0,1199.23,Várias companhias aéreas,DEL,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-DEL/2023-04-10/2023-04-17/,1199.23,1.0
+Seattle,Estados Unidos,532.0,83.65,Spirit Airlines,SEA,2023-04-29,2023-05-03,http://kayak.com/flights/DEN-SEA/2023-04-29/2023-05-03/,83.65,1.0
+Berlim,Alemanha,1135.0,1230.24,United Airlines,BER,2023-03-23,2023-03-30,http://kayak.com/flights/DEN-BER/2023-03-23/2023-03-30/,1230.24,1.0
+Munique,Alemanha,1100.0,921.04,Várias companhias aéreas,MUC,2023-04-17,2023-04-24,http://kayak.com/flights/DEN-MUC/2023-04-17/2023-04-24/,921.04,1.0
+Dallas,Estados Unidos,132.0,75.19,Frontier,DFW,2023-04-29,2023-05-06,http://kayak.com/flights/DEN-DFW/2023-04-29/2023-05-06/,75.19,1.0
+Singapura,Singapura,3590.0,1262.2,China Airlines,SIN,2023-05-10,2023-05-15,http://kayak.com/flights/DEN-SIN/2023-05-10/2023-05-15/,1262.2,1.0
+Dubai,Emirados Árabes Unidos,2027.0,1005.62,Várias companhias aéreas,DXB,2023-05-17,2023-05-23,http://kayak.com/flights/DEN-DXB/2023-05-17/2023-05-23/,1005.62,1.0
+Bogotá,Colômbia,893.0,346.8,Várias companhias aéreas,BOG,2023-04-18,2023-04-25,http://kayak.com/flights/DEN-BOG/2023-04-18/2023-04-25/,346.8,1.0
+Cancún,México,883.0,203.95,Volaris,CUN,2023-09-23,2023-09-30,http://kayak.com/flights/DEN-CUN/2023-09-23/2023-09-30/,203.95,1.0
+Cidade do México,México,225.0,211.47,Volaris,MEX,2023-10-23,2023-10-30,http://kayak.com/flights/DEN-MEX/2023-10-23/2023-10-30/,211.47,1.0
+Atenas,Grécia,2079.0,935.14,Várias companhias aéreas,ATH,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-ATH/2023-04-10/2023-04-17/,935.14,1.0
+Zurique,Suíça,1840.0,759.39,Várias companhias aéreas,ZRH,2023-11-06,2023-11-10,http://kayak.com/flights/DEN-ZRH/2023-11-06/2023-11-10/,759.39,1.0
+Chicago,Estados Unidos,472.0,126.88,Frontier,CHI,2023-04-27,2023-05-03,http://kayak.com/flights/DEN-CHI/2023-04-27/2023-05-03/,126.88,1.0
+Sydney,Austrália,2745.0,1551.66,Air Canada,SYD,2023-10-21,2023-10-28,http://kayak.com/flights/DEN-SYD/2023-10-21/2023-10-28/,1551.66,1.0
+Orlando,Estados Unidos,257.0,150.38,Frontier,MCO,2023-04-22,2023-04-29,http://kayak.com/flights/DEN-MCO/2023-04-22/2023-04-29/,150.38,1.0
+Milão,Itália,1830.0,662.59,United Airlines,MIL,2023-11-14,2023-11-21,http://kayak.com/flights/DEN-MIL/2023-11-14/2023-11-21/,662.59,1.0
+"Washington, D.C.",Estados Unidos,907.0,144.74,Spirit Airlines,WAS,2023-04-12,2023-04-18,http://kayak.com/flights/DEN-WAS/2023-04-12/2023-04-18/,144.74,1.0
+Fort Lauderdale,Estados Unidos,1546.0,132.52,Spirit Airlines,FLL,2023-03-28,2023-04-04,http://kayak.com/flights/DEN-FLL/2023-03-28/2023-04-04/,132.52,1.0
+Telavive,Israel,1316.0,852.43,Várias companhias aéreas,TLV,2023-05-01,2023-05-08,http://kayak.com/flights/DEN-TLV/2023-05-01/2023-05-08/,852.43,1.0
+Toronto,Canadá,215.0,434.21,Air Canada,YYZ,2023-09-06,2023-09-10,http://kayak.com/flights/DEN-YYZ/2023-09-06/2023-09-10/,434.21,1.0
+Istambul,Turquia,1870.0,900.36,Várias companhias aéreas,IST,2023-11-21,2023-11-28,http://kayak.com/flights/DEN-IST/2023-11-21/2023-11-28/,900.36,1.0
+Palma de Maiorca,Espanha,2577.0,1093.03,Scandinavian Airlines,PMI,2023-05-10,2023-05-16,http://kayak.com/flights/DEN-PMI/2023-05-10/2023-05-16/,1093.03,1.0
+Phoenix,Estados Unidos,119.0,75.19,Frontier,PHX,2023-04-18,2023-04-22,http://kayak.com/flights/DEN-PHX/2023-04-18/2023-04-22/,75.19,1.0
+Dublin,Irlanda,815.0,448.3,Icelandair,DUB,2023-11-29,2023-12-05,http://kayak.com/flights/DEN-DUB/2023-11-29/2023-12-05/,448.3,1.0
+Porto,Portugal,2122.0,1196.41,Várias companhias aéreas,OPO,2023-04-19,2023-04-25,http://kayak.com/flights/DEN-OPO/2023-04-19/2023-04-25/,1196.41,1.0
+Filadélfia,Estados Unidos,263.0,133.46,Frontier,PHL,2023-04-04,2023-04-11,http://kayak.com/flights/DEN-PHL/2023-04-04/2023-04-11/,133.46,1.0
+Bruxelas,Bélgica,1790.0,1026.3,Várias companhias aéreas,BRU,2023-04-20,2023-04-26,http://kayak.com/flights/DEN-BRU/2023-04-20/2023-04-26/,1026.3,1.0
+Varsóvia,Polónia,1114.0,1039.46,KLM,WAW,2023-04-21,2023-04-28,http://kayak.com/flights/DEN-WAW/2023-04-21/2023-04-28/,1039.46,1.0
+Tóquio,Japão,1800.0,1093.97,Air Canada,TYO,2023-09-27,2023-10-04,http://kayak.com/flights/DEN-TYO/2023-09-27/2023-10-04/,1093.97,1.0
+Málaga,Espanha,1700.0,881.57,Delta,AGP,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-AGP/2023-04-10/2023-04-17/,881.57,1.0
+Oslo,Noruega,1808.0,552.63,Várias companhias aéreas,OSL,2023-10-23,2023-10-28,http://kayak.com/flights/DEN-OSL/2023-10-23/2023-10-28/,552.63,1.0
+Minneapolis,Estados Unidos,142.0,102.45,Frontier,MSP,2023-05-17,2023-05-22,http://kayak.com/flights/DEN-MSP/2023-05-17/2023-05-22/,102.45,1.0
+Denpasar,Indonésia,2230.0,1145.66,Várias companhias aéreas,DPS,2023-10-26,2023-10-30,http://kayak.com/flights/DEN-DPS/2023-10-26/2023-10-30/,1145.66,1.0
+Dusseldorf,Alemanha,1664.0,951.11,Várias companhias aéreas,DUS,2023-03-27,2023-04-03,http://kayak.com/flights/DEN-DUS/2023-03-27/2023-04-03/,951.11,1.0
+Vancouver,Canadá,1018.0,320.49,Várias companhias aéreas,YVR,2023-05-23,2023-05-27,http://kayak.com/flights/DEN-YVR/2023-05-23/2023-05-27/,320.49,1.0
+San Juan,Porto Rico,762.0,186.09,Frontier,SJU,2023-05-13,2023-05-18,http://kayak.com/flights/DEN-SJU/2023-05-13/2023-05-18/,186.09,1.0
+Estocolmo,Suécia,1705.0,653.19,Icelandair,STO,2023-10-16,2023-10-22,http://kayak.com/flights/DEN-STO/2023-10-16/2023-10-22/,653.19,1.0
+Tampa,Estados Unidos,250.0,150.38,Frontier,TPA,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-TPA/2023-04-10/2023-04-17/,150.38,1.0
+Mumbai,Índia,2446.0,1348.66,Várias companhias aéreas,BOM,2023-04-08,2023-04-15,http://kayak.com/flights/DEN-BOM/2023-04-08/2023-04-15/,1348.66,1.0
+Joanesburgo,África do Sul,2313.0,1188.89,American Airlines,JNB,2023-09-21,2023-09-28,http://kayak.com/flights/DEN-JNB/2023-09-21/2023-09-28/,1188.89,1.0
+Helsínquia,Finlândia,1098.0,909.76,American Airlines,HEL,2023-04-11,2023-04-18,http://kayak.com/flights/DEN-HEL/2023-04-11/2023-04-18/,909.76,1.0
+Hamburgo,Alemanha,1673.0,1681.36,Várias companhias aéreas,HAM,2023-07-26,2023-07-30,http://kayak.com/flights/DEN-HAM/2023-07-26/2023-07-30/,1681.36,1.0
+Lyon,França,1010.0,1479.3,Várias companhias aéreas,LYS,2023-06-26,2023-07-03,http://kayak.com/flights/DEN-LYS/2023-06-26/2023-07-03/,1479.3,1.0
+São Paulo,Brasil,1980.0,640.97,Várias companhias aéreas,SAO,2023-04-28,2023-05-03,http://kayak.com/flights/DEN-SAO/2023-04-28/2023-05-03/,640.97,1.0
+Hong Kong,Hong Kong,1800.0,1484.94,Várias companhias aéreas,HKG,2023-10-09,2023-10-16,http://kayak.com/flights/DEN-HKG/2023-10-09/2023-10-16/,1484.94,1.0
+Honolulu,Estados Unidos,1144.0,405.07,Várias companhias aéreas,HNL,2023-05-18,2023-05-23,http://kayak.com/flights/DEN-HNL/2023-05-18/2023-05-23/,405.07,1.0
+Lima,Perú,1417.0,419.17,Várias companhias aéreas,LIM,2023-04-06,2023-04-12,http://kayak.com/flights/DEN-LIM/2023-04-06/2023-04-12/,419.17,1.0
+Cairo,Egito,1585.0,1227.42,United Airlines,CAI,2023-04-30,2023-05-06,http://kayak.com/flights/DEN-CAI/2023-04-30/2023-05-06/,1227.42,1.0
+Kuala Lumpur,Malásia,2215.0,1392.83,Várias companhias aéreas,KUL,2023-05-10,2023-05-16,http://kayak.com/flights/DEN-KUL/2023-05-10/2023-05-16/,1392.83,1.0
+Praga,República Checa,1100.0,880.63,British Airways,PRG,2023-10-17,2023-10-24,http://kayak.com/flights/DEN-PRG/2023-10-17/2023-10-24/,880.63,1.0
+San José,Costa Rica,1764.0,385.34,Várias companhias aéreas,SJO,2023-04-12,2023-04-19,http://kayak.com/flights/DEN-SJO/2023-04-12/2023-04-19/,385.34,1.0
+São Diego,Estados Unidos,690.0,65.79,Spirit Airlines,SAN,2023-04-29,2023-05-03,http://kayak.com/flights/DEN-SAN/2023-04-29/2023-05-03/,65.79,1.0
+Budapeste,Hungria,1115.0,1514.07,Austrian Airlines,BUD,2023-05-13,2023-05-20,http://kayak.com/flights/DEN-BUD/2023-05-13/2023-05-20/,1514.07,1.0
+Marselha,França,2047.0,1106.18,British Airways,MRS,2023-04-09,2023-04-16,http://kayak.com/flights/DEN-MRS/2023-04-09/2023-04-16/,1106.18,1.0
+Houston,Estados Unidos,158.0,74.25,Spirit Airlines,IAH,2023-03-31,2023-04-04,http://kayak.com/flights/DEN-IAH/2023-03-31/2023-04-04/,74.25,1.0
+Genebra,Suíça,1635.0,912.58,Várias companhias aéreas,GVA,2023-05-02,2023-05-09,http://kayak.com/flights/DEN-GVA/2023-05-02/2023-05-09/,912.58,1.0
+Nice,França,2000.0,701.12,Lufthansa,NCE,2023-11-30,2023-12-06,http://kayak.com/flights/DEN-NCE/2023-11-30/2023-12-06/,701.12,1.0
+Seul,Coreia do Sul,3184.0,1298.85,Qatar Airways,SEL,2023-12-04,2023-12-11,http://kayak.com/flights/DEN-SEL/2023-12-04/2023-12-11/,1298.85,1.0
+Osaka,Japão,2595.0,1170.09,China Airlines,KIX,2023-11-06,2023-11-10,http://kayak.com/flights/DEN-KIX/2023-11-06/2023-11-10/,1170.09,1.0
+Veneza,Itália,2353.0,730.25,American Airlines,VCE,2023-12-10,2023-12-17,http://kayak.com/flights/DEN-VCE/2023-12-10/2023-12-17/,730.25,1.0
+Portland,Estados Unidos,818.0,93.05,Várias companhias aéreas,PDX,2023-04-26,2023-05-01,http://kayak.com/flights/DEN-PDX/2023-04-26/2023-05-01/,93.05,1.0
+Austin,Estados Unidos,139.0,110.9,Frontier,AUS,2023-03-31,2023-04-05,http://kayak.com/flights/DEN-AUS/2023-03-31/2023-04-05/,110.9,1.0
+Cidade de Ho Chi Minh,Vietname,2847.0,1283.81,Qatar Airways,SGN,2023-04-11,2023-04-18,http://kayak.com/flights/DEN-SGN/2023-04-11/2023-04-18/,1283.81,1.0
+Charlotte,Estados Unidos,449.0,149.44,Frontier,CLT,2023-05-12,2023-05-17,http://kayak.com/flights/DEN-CLT/2023-05-12/2023-05-17/,149.44,1.0
+Billund,Dinamarca,2331.0,1284.75,Lufthansa,BLL,2023-03-18,2023-03-24,http://kayak.com/flights/DEN-BLL/2023-03-18/2023-03-24/,1284.75,1.0
+Montreal,Canadá,960.0,462.4,United Airlines,YUL,2023-04-28,2023-05-02,http://kayak.com/flights/DEN-YUL/2023-04-28/2023-05-02/,462.4,1.0
+Nápoles,Itália,1345.0,1011.26,Lufthansa,NAP,2023-03-28,2023-04-04,http://kayak.com/flights/DEN-NAP/2023-03-28/2023-04-04/,1011.26,1.0
+Raleigh,Estados Unidos,241.0,131.58,Frontier,RDU,2023-05-06,2023-05-13,http://kayak.com/flights/DEN-RDU/2023-05-06/2023-05-13/,131.58,1.0
+Nashville,Estados Unidos,187.0,122.18,Frontier,BNA,2023-03-27,2023-03-31,http://kayak.com/flights/DEN-BNA/2023-03-27/2023-03-31/,122.18,1.0
+Salt Lake City,Estados Unidos,780.0,94.93,Várias companhias aéreas,SLC,2023-05-10,2023-05-15,http://kayak.com/flights/DEN-SLC/2023-05-10/2023-05-15/,94.93,1.0
+Cidade do Cabo,África do Sul,1878.0,1240.58,KLM,CPT,2023-05-12,2023-05-19,http://kayak.com/flights/DEN-CPT/2023-05-12/2023-05-19/,1240.58,1.0
+Buenos Aires,Argentina,2390.0,1233.06,Air Canada,BUE,2023-04-15,2023-04-22,http://kayak.com/flights/DEN-BUE/2023-04-15/2023-04-22/,1233.06,1.0
+Cracóvia,Polónia,985.0,1313.89,Lufthansa,KRK,2023-08-14,2023-08-21,http://kayak.com/flights/DEN-KRK/2023-08-14/2023-08-21/,1313.89,1.0
+Edimburgo,Reino Unido,1846.0,761.27,Air Canada,EDI,2023-09-28,2023-10-05,http://kayak.com/flights/DEN-EDI/2023-09-28/2023-10-05/,761.27,1.0
+Medellín,Colômbia,1808.0,433.27,Spirit Airlines,MDE,2023-04-04,2023-04-11,http://kayak.com/flights/DEN-MDE/2023-04-04/2023-04-11/,433.27,1.0
+Marraquexe,Marrocos,3445.0,1302.61,Várias companhias aéreas,RAK,2023-04-27,2023-05-04,http://kayak.com/flights/DEN-RAK/2023-04-27/2023-05-04/,1302.61,1.0
+Doha,Catar,2386.0,1116.52,Várias companhias aéreas,DOH,2023-04-10,2023-04-16,http://kayak.com/flights/DEN-DOH/2023-04-10/2023-04-16/,1116.52,1.0
+Detroit,Estados Unidos,205.0,131.58,Frontier,DTW,2023-05-04,2023-05-10,http://kayak.com/flights/DEN-DTW/2023-05-04/2023-05-10/,131.58,1.0
+Estugarda,Alemanha,1415.0,987.77,Várias companhias aéreas,STR,2023-09-13,2023-09-20,http://kayak.com/flights/DEN-STR/2023-09-13/2023-09-20/,987.77,1.0
+Gotemburgo,Suécia,2115.0,1477.42,Lufthansa,GOT,2023-03-12,2023-03-18,http://kayak.com/flights/DEN-GOT/2023-03-12/2023-03-18/,1477.42,1.0
+Valência,Espanha,1885.0,984.95,British Airways,VLC,2023-11-18,2023-11-25,http://kayak.com/flights/DEN-VLC/2023-11-18/2023-11-25/,984.95,1.0
+Nova Orleães,Estados Unidos,195.0,140.98,Frontier,MSY,2023-05-08,2023-05-12,http://kayak.com/flights/DEN-MSY/2023-05-08/2023-05-12/,140.98,1.0
+Rio de Janeiro,Brasil,1752.0,862.77,Várias companhias aéreas,RIO,2023-05-05,2023-05-12,http://kayak.com/flights/DEN-RIO/2023-05-05/2023-05-12/,862.77,1.0
+Baltimore,Estados Unidos,907.0,144.74,Spirit Airlines,BWI,2023-04-12,2023-04-18,http://kayak.com/flights/DEN-BWI/2023-04-12/2023-04-18/,144.74,1.0
+Phuket,Tailândia,2011.0,1072.35,Korean Air,HKT,2023-11-07,2023-11-14,http://kayak.com/flights/DEN-HKT/2023-11-07/2023-11-14/,1072.35,1.0
+Bucareste,Roménia,1785.0,1389.07,Várias companhias aéreas,BUH,2023-03-12,2023-03-19,http://kayak.com/flights/DEN-BUH/2023-03-12/2023-03-19/,1389.07,1.0
+Luqa,Malta,3315.0,909.76,SWISS,MLA,2023-11-21,2023-11-27,http://kayak.com/flights/DEN-MLA/2023-11-21/2023-11-27/,909.76,1.0
+Riga,Letónia,1633.0,1368.4,Várias companhias aéreas,RIX,2023-07-05,2023-07-11,http://kayak.com/flights/DEN-RIX/2023-07-05/2023-07-11/,1368.4,1.0
+Auckland,Nova Zelândia,3439.0,1405.05,Várias companhias aéreas,AKL,2023-04-11,2023-04-18,http://kayak.com/flights/DEN-AKL/2023-04-11/2023-04-18/,1405.05,1.0
+Punta Cana,República Dominicana,1100.0,257.52,Frontier,PUJ,2023-05-10,2023-05-16,http://kayak.com/flights/DEN-PUJ/2023-05-10/2023-05-16/,257.52,1.0
+Amã,Jordânia,2093.0,1159.76,United Airlines,AMM,2023-09-04,2023-09-11,http://kayak.com/flights/DEN-AMM/2023-09-04/2023-09-11/,1159.76,1.0
+Toulouse,França,2140.0,1150.36,United Airlines,TLS,2023-04-02,2023-04-09,http://kayak.com/flights/DEN-TLS/2023-04-02/2023-04-09/,1150.36,1.0
+Hyderabad,Índia,1770.0,1530.05,Várias companhias aéreas,HYD,2023-05-07,2023-05-14,http://kayak.com/flights/DEN-HYD/2023-05-07/2023-05-14/,1530.05,1.0
+Brisbane,Austrália,1528.0,1314.83,Várias companhias aéreas,BNE,2023-11-04,2023-11-11,http://kayak.com/flights/DEN-BNE/2023-11-04/2023-11-11/,1314.83,1.0
+Calgary,Canadá,1516.0,285.71,Várias companhias aéreas,YYC,2023-04-20,2023-04-24,http://kayak.com/flights/DEN-YYC/2023-04-20/2023-04-24/,285.71,1.0
+Cleveland,Estados Unidos,575.0,140.98,Frontier,CLE,2023-04-26,2023-04-30,http://kayak.com/flights/DEN-CLE/2023-04-26/2023-04-30/,140.98,1.0
+Bordéus,França,2455.0,977.43,SWISS,BOD,2023-11-14,2023-11-20,http://kayak.com/flights/DEN-BOD/2023-11-14/2023-11-20/,977.43,1.0
+Catânia,Itália,1665.0,1694.52,Lufthansa,CTA,2023-07-10,2023-07-17,http://kayak.com/flights/DEN-CTA/2023-07-10/2023-07-17/,1694.52,1.0
+Colónia,Alemanha,985.0,1513.13,Lufthansa,CGN,2023-06-28,2023-07-05,http://kayak.com/flights/DEN-CGN/2023-06-28/2023-07-05/,1513.13,1.0
+Sevilha,Espanha,2085.0,1265.96,Várias companhias aéreas,SVQ,2023-04-02,2023-04-08,http://kayak.com/flights/DEN-SVQ/2023-04-02/2023-04-08/,1265.96,1.0
+Cebu,Filipinas,2991.0,1435.13,China Airlines,CEB,2023-04-09,2023-04-16,http://kayak.com/flights/DEN-CEB/2023-04-09/2023-04-16/,1435.13,1.0
+Las Palmas,Espanha,2510.0,1829.85,American Airlines,LPA,2023-05-27,2023-06-02,http://kayak.com/flights/DEN-LPA/2023-05-27/2023-06-02/,1829.85,1.0
+Fort Myers,Estados Unidos,866.0,192.67,Frontier,RSW,2023-04-15,2023-04-20,http://kayak.com/flights/DEN-RSW/2023-04-15/2023-04-20/,192.67,1.0
+Santo Domingo,República Dominicana,1281.0,342.1,Spirit Airlines,SDQ,2023-04-04,2023-04-10,http://kayak.com/flights/DEN-SDQ/2023-04-04/2023-04-10/,342.1,1.0
+Faro,Portugal,3610.0,881.57,Lufthansa,FAO,2023-11-13,2023-11-18,http://kayak.com/flights/DEN-FAO/2023-11-13/2023-11-18/,881.57,1.0
+Bangalore,Índia,2400.0,1244.34,Várias companhias aéreas,BLR,2023-05-11,2023-05-15,http://kayak.com/flights/DEN-BLR/2023-05-11/2023-05-15/,1244.34,1.0
+Cidade da Guatemala,Guatemala,1600.0,210.53,Várias companhias aéreas,GUA,2023-04-19,2023-04-25,http://kayak.com/flights/DEN-GUA/2023-04-19/2023-04-25/,210.53,1.0
+Bolonha,Itália,2045.0,1275.35,Turkish Airlines,BLQ,2023-09-09,2023-09-15,http://kayak.com/flights/DEN-BLQ/2023-09-09/2023-09-15/,1275.35,1.0
+Chennai,Índia,2320.0,1577.98,Várias companhias aéreas,MAA,2023-03-12,2023-03-19,http://kayak.com/flights/DEN-MAA/2023-03-12/2023-03-19/,1577.98,1.0
+Guadalajara,México,211.0,218.99,Volaris,GDL,2023-11-07,2023-11-14,http://kayak.com/flights/DEN-GDL/2023-11-07/2023-11-14/,218.99,1.0
+Tallin,Estónia,3365.0,747.17,American Airlines,TLL,2024-01-14,2024-01-20,http://kayak.com/flights/DEN-TLL/2024-01-14/2024-01-20/,747.17,1.0
+Casablanca,Marrocos,1767.0,1155.06,Várias companhias aéreas,CMN,2023-04-27,2023-05-03,http://kayak.com/flights/DEN-CMN/2023-04-27/2023-05-03/,1155.06,1.0
+Colombo,Sri Lanka,1965.0,1870.27,Várias companhias aéreas,CMB,2023-03-12,2023-03-18,http://kayak.com/flights/DEN-CMB/2023-03-12/2023-03-18/,1870.27,1.0
+Palermo,Itália,2258.0,2229.28,Várias companhias aéreas,PMO,2023-03-13,2023-03-20,http://kayak.com/flights/DEN-PMO/2023-03-13/2023-03-20/,2229.28,1.0
+Jacksonville,Estados Unidos,234.0,205.83,Frontier,JAX,2023-03-20,2023-03-27,http://kayak.com/flights/DEN-JAX/2023-03-20/2023-03-27/,205.83,1.0
+Cidade do Panamá,Panamá,1084.0,399.43,United Airlines,PTY,2023-09-06,2023-09-13,http://kayak.com/flights/DEN-PTY/2023-09-06/2023-09-13/,399.43,1.0
+Pittsburgh,Estados Unidos,1070.0,196.43,Várias companhias aéreas,PIT,2023-05-05,2023-05-09,http://kayak.com/flights/DEN-PIT/2023-05-05/2023-05-09/,196.43,1.0
+Indianápolis,Estados Unidos,174.0,93.99,Frontier,IND,2023-05-17,2023-05-24,http://kayak.com/flights/DEN-IND/2023-05-17/2023-05-24/,93.99,1.0
+Quito,Equador,1813.0,484.96,Aeromexico,UIO,2023-05-09,2023-05-16,http://kayak.com/flights/DEN-UIO/2023-05-09/2023-05-16/,484.96,1.0
+Ibiza,Espanha,3585.0,1289.45,Lufthansa,IBZ,2023-04-03,2023-04-08,http://kayak.com/flights/DEN-IBZ/2023-04-03/2023-04-08/,1289.45,1.0
+Túnis,Tunísia,1636.0,1196.41,Air France,TUN,2023-09-22,2023-09-29,http://kayak.com/flights/DEN-TUN/2023-09-22/2023-09-29/,1196.41,1.0
+Split,Croácia,1770.0,1157.88,Lufthansa,SPU,2023-04-03,2023-04-10,http://kayak.com/flights/DEN-SPU/2023-04-03/2023-04-10/,1157.88,1.0
+Lárnaca,Chipre,2343.0,1099.61,Lufthansa,LCA,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-LCA/2023-04-10/2023-04-17/,1099.61,1.0
+Malé,Maldivas,2250.0,1136.26,Várias companhias aéreas,MLE,2023-09-11,2023-09-18,http://kayak.com/flights/DEN-MLE/2023-09-11/2023-09-18/,1136.26,1.0
+Hartford,Estados Unidos,275.0,150.38,Frontier,BDL,2023-03-21,2023-03-28,http://kayak.com/flights/DEN-BDL/2023-03-21/2023-03-28/,150.38,1.0
+Cartagena,Colômbia,1056.0,485.9,Várias companhias aéreas,CTG,2023-04-20,2023-04-24,http://kayak.com/flights/DEN-CTG/2023-04-20/2023-04-24/,485.9,1.0
+São Salvador,El Salvador,1716.0,367.48,Várias companhias aéreas,SAL,2023-04-12,2023-04-19,http://kayak.com/flights/DEN-SAL/2023-04-12/2023-04-19/,367.48,1.0
+Hanói,Vietname,2912.0,1196.41,Várias companhias aéreas,HAN,2023-09-04,2023-09-09,http://kayak.com/flights/DEN-HAN/2023-09-04/2023-09-09/,1196.41,1.0
+Da Nang,Vietname,2562.0,1259.38,Singapore Airlines,DAD,2023-11-01,2023-11-08,http://kayak.com/flights/DEN-DAD/2023-11-01/2023-11-08/,1259.38,1.0
+Perth,Austrália,1715.0,1866.51,Várias companhias aéreas,PER,2023-05-14,2023-05-19,http://kayak.com/flights/DEN-PER/2023-05-14/2023-05-19/,1866.51,1.0
+Funchal,Portugal,2395.0,1187.01,British Airways,FNC,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-FNC/2023-04-10/2023-04-17/,1187.01,1.0
+Heraclião,Grécia,1300.0,1172.91,Várias companhias aéreas,HER,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-HER/2023-04-10/2023-04-17/,1172.91,1.0
+West Palm Beach,Estados Unidos,277.0,95.87,Frontier,PBI,2023-04-09,2023-04-13,http://kayak.com/flights/DEN-PBI/2023-04-09/2023-04-13/,95.87,1.0
+San Antonio,Estados Unidos,1350.0,124.06,Várias companhias aéreas,SAT,2023-05-11,2023-05-15,http://kayak.com/flights/DEN-SAT/2023-05-11/2023-05-15/,124.06,1.0
+Cincinnati,Estados Unidos,194.0,132.52,Frontier,CVG,2023-03-20,2023-03-25,http://kayak.com/flights/DEN-CVG/2023-03-20/2023-03-25/,132.52,1.0
+Manágua,Nicarágua,1269.0,442.66,Várias companhias aéreas,MGA,2023-05-03,2023-05-07,http://kayak.com/flights/DEN-MGA/2023-05-03/2023-05-07/,442.66,1.0
+Zagreb,Croácia,1985.0,796.98,Lufthansa,ZAG,2023-11-21,2023-11-28,http://kayak.com/flights/DEN-ZAG/2023-11-21/2023-11-28/,796.98,1.0
+Gdansk,Polónia,2093.0,1343.02,Lufthansa,GDN,2023-09-10,2023-09-17,http://kayak.com/flights/DEN-GDN/2023-09-10/2023-09-17/,1343.02,1.0
+Santa Cruz de Tenerife,Espanha,2049.0,854.31,American Airlines,TCI,2023-09-21,2023-09-28,http://kayak.com/flights/DEN-TCI/2023-09-21/2023-09-28/,854.31,1.0
+Montego Bay,Jamaica,1381.0,206.77,Frontier,MBJ,2023-05-01,2023-05-05,http://kayak.com/flights/DEN-MBJ/2023-05-01/2023-05-05/,206.77,1.0
+Santa Ana,Estados Unidos,701.0,83.65,Frontier,SNA,2023-04-30,2023-05-06,http://kayak.com/flights/DEN-SNA/2023-04-30/2023-05-06/,83.65,1.0
+Nuremberga,Alemanha,1440.0,1513.13,Várias companhias aéreas,NUE,2023-06-10,2023-06-15,http://kayak.com/flights/DEN-NUE/2023-06-10/2023-06-15/,1513.13,1.0
+Guaiaquil,Equador,979.0,672.92,Várias companhias aéreas,GYE,2023-05-25,2023-06-01,http://kayak.com/flights/DEN-GYE/2023-05-25/2023-06-01/,672.92,1.0
+Bari,Itália,1690.0,1511.25,ITA Airways,BRI,2023-05-24,2023-05-31,http://kayak.com/flights/DEN-BRI/2023-05-24/2023-05-31/,1511.25,1.0
+Belgrado,Sérvia,1400.0,1766.89,Várias companhias aéreas,BEG,2023-03-14,2023-03-20,http://kayak.com/flights/DEN-BEG/2023-03-14/2023-03-20/,1766.89,1.0
+Tirana,Albânia,1263.0,904.12,Lufthansa,TIA,2023-11-24,2023-12-01,http://kayak.com/flights/DEN-TIA/2023-11-24/2023-12-01/,904.12,1.0
+Abu Dhabi,Emirados Árabes Unidos,1684.0,1151.3,Qatar Airways,AUH,2023-03-29,2023-04-04,http://kayak.com/flights/DEN-AUH/2023-03-29/2023-04-04/,1151.3,1.0
+Charleston,Estados Unidos,471.0,200.19,JetBlue,CHS,2023-05-09,2023-05-16,http://kayak.com/flights/DEN-CHS/2023-05-09/2023-05-16/,200.19,1.0
+Columbus,Estados Unidos,193.0,186.09,United Airlines,CMH,2023-04-18,2023-04-22,http://kayak.com/flights/DEN-CMH/2023-04-18/2023-04-22/,186.09,1.0
+St Louis,Estados Unidos,147.0,129.7,Frontier,STL,2023-03-29,2023-04-02,http://kayak.com/flights/DEN-STL/2023-03-29/2023-04-02/,129.7,1.0
+Salónica,Grécia,3375.0,1729.29,SWISS,SKG,2023-03-18,2023-03-25,http://kayak.com/flights/DEN-SKG/2023-03-18/2023-03-25/,1729.29,1.0
+San Jose,Estados Unidos,160.0,219.93,United Airlines,SJC,2023-05-18,2023-05-22,http://kayak.com/flights/DEN-SJC/2023-05-18/2023-05-22/,219.93,1.0
+Cidade do Kansas,Estados Unidos,116.0,96.81,Frontier,MCI,2023-04-14,2023-04-18,http://kayak.com/flights/DEN-MCI/2023-04-14/2023-04-18/,96.81,1.0
+Nairobi,Quénia,1865.0,1679.48,Qatar Airways,NBO,2023-03-12,2023-03-19,http://kayak.com/flights/DEN-NBO/2023-03-12/2023-03-19/,1679.48,1.0
+Reiquiavique,Islândia,1040.0,537.59,Várias companhias aéreas,REK,2023-05-06,2023-05-13,http://kayak.com/flights/DEN-REK/2023-05-06/2023-05-13/,537.59,1.0
+Granadilla de Abona,Espanha,2049.0,854.31,American Airlines,TFS,2023-09-21,2023-09-28,http://kayak.com/flights/DEN-TFS/2023-09-21/2023-09-28/,854.31,1.0
+Cali,Colômbia,1247.0,697.36,Várias companhias aéreas,CLO,2023-07-09,2023-07-14,http://kayak.com/flights/DEN-CLO/2023-07-09/2023-07-14/,697.36,1.0
+Vilnius,Lituânia,1142.0,1489.64,Lufthansa,VNO,2023-03-22,2023-03-27,http://kayak.com/flights/DEN-VNO/2023-03-22/2023-03-27/,1489.64,1.0
+Dubrovnik,Croácia,2195.0,1433.25,Austrian Airlines,DBV,2023-05-23,2023-05-30,http://kayak.com/flights/DEN-DBV/2023-05-23/2023-05-30/,1433.25,1.0
+Argel,Argélia,1787.0,1387.19,Várias companhias aéreas,ALG,2023-03-18,2023-03-25,http://kayak.com/flights/DEN-ALG/2023-03-18/2023-03-25/,1387.19,1.0
+Islamabad,Paquistão,2416.0,1189.83,Várias companhias aéreas,ISB,2023-04-08,2023-04-15,http://kayak.com/flights/DEN-ISB/2023-04-08/2023-04-15/,1189.83,1.0
+Lahore,Paquistão,3068.0,1184.19,Várias companhias aéreas,LHE,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-LHE/2023-04-10/2023-04-17/,1184.19,1.0
+Port Louis,Maurícia,3495.0,1280.05,SWISS,MRU,2023-03-15,2023-03-19,http://kayak.com/flights/DEN-MRU/2023-03-15/2023-03-19/,1280.05,1.0
+Katmandu,Nepal,2028.0,3864.59,Várias companhias aéreas,KTM,2023-09-30,2023-10-07,http://kayak.com/flights/DEN-KTM/2023-09-30/2023-10-07/,3864.59,1.0
+Luxemburgo,Luxemburgo,1165.0,955.81,United Airlines,LUX,2023-09-28,2023-10-05,http://kayak.com/flights/DEN-LUX/2023-09-28/2023-10-05/,955.81,1.0
+Bérgamo,Itália,1230.0,1219.9,Várias companhias aéreas,BGY,2023-10-24,2023-10-30,http://kayak.com/flights/DEN-BGY/2023-10-24/2023-10-30/,1219.9,1.0
+Breslavia,Polónia,1850.0,1441.7,Várias companhias aéreas,WRO,2023-06-25,2023-07-01,http://kayak.com/flights/DEN-WRO/2023-06-25/2023-07-01/,1441.7,1.0
+Kahului,Estados Unidos,1674.0,302.63,Várias companhias aéreas,OGG,2023-04-26,2023-05-01,http://kayak.com/flights/DEN-OGG/2023-04-26/2023-05-01/,302.63,1.0
+Acra,Gana,1850.0,1474.6,Delta,ACC,2024-01-06,2024-01-12,http://kayak.com/flights/DEN-ACC/2024-01-06/2024-01-12/,1474.6,1.0
+Richmond,Estados Unidos,1233.0,192.67,Várias companhias aéreas,RIC,2023-04-26,2023-05-02,http://kayak.com/flights/DEN-RIC/2023-04-26/2023-05-02/,192.67,1.0
+Buffalo,Estados Unidos,373.0,205.83,Delta,BUF,2023-04-18,2023-04-25,http://kayak.com/flights/DEN-BUF/2023-04-18/2023-04-25/,205.83,1.0
+Puerto Vallarta,México,805.0,222.74,Volaris,PVR,2023-10-07,2023-10-13,http://kayak.com/flights/DEN-PVR/2023-10-07/2023-10-13/,222.74,1.0
+San José del Cabo,México,245.0,173.87,Frontier,SJD,2023-04-17,2023-04-24,http://kayak.com/flights/DEN-SJD/2023-04-17/2023-04-24/,173.87,1.0
+Sacramento,Estados Unidos,373.0,119.36,Spirit Airlines,SMF,2023-04-21,2023-04-25,http://kayak.com/flights/DEN-SMF/2023-04-21/2023-04-25/,119.36,1.0
+Glasgow,Reino Unido,740.0,658.83,Icelandair,GLA,2023-09-20,2023-09-25,http://kayak.com/flights/DEN-GLA/2023-09-20/2023-09-25/,658.83,1.0
+Basileia,Suíça,1633.0,1294.15,Várias companhias aéreas,EAP,2023-08-15,2023-08-21,http://kayak.com/flights/DEN-EAP/2023-08-15/2023-08-21/,1294.15,1.0
+Recife,Brasil,1305.0,886.26,Várias companhias aéreas,REC,2023-03-23,2023-03-29,http://kayak.com/flights/DEN-REC/2023-03-23/2023-03-29/,886.26,1.0
+Thera,Grécia,2525.0,1249.98,British Airways,JTR,2023-04-05,2023-04-10,http://kayak.com/flights/DEN-JTR/2023-04-05/2023-04-10/,1249.98,1.0
+Milwaukee,Estados Unidos,161.0,121.24,Frontier,MKE,2023-04-20,2023-04-25,http://kayak.com/flights/DEN-MKE/2023-04-20/2023-04-25/,121.24,1.0
+Ontário,Estados Unidos,146.0,56.39,Frontier,ONT,2023-04-11,2023-04-18,http://kayak.com/flights/DEN-ONT/2023-04-11/2023-04-18/,56.39,1.0
+Oakland,Estados Unidos,290.0,73.31,Spirit Airlines,OAK,2023-04-18,2023-04-25,http://kayak.com/flights/DEN-OAK/2023-04-18/2023-04-25/,73.31,1.0
+Durban,África do Sul,3410.0,4529.05,American Airlines,DUR,2023-03-16,2023-03-20,http://kayak.com/flights/DEN-DUR/2023-03-16/2023-03-20/,4529.05,1.0
+Turim,Itália,980.0,1467.08,Lufthansa,TRN,2023-08-30,2023-09-04,http://kayak.com/flights/DEN-TRN/2023-08-30/2023-09-04/,1467.08,1.0
+Corfú,Grécia,3515.0,1539.45,Lufthansa,CFU,2023-04-08,2023-04-15,http://kayak.com/flights/DEN-CFU/2023-04-08/2023-04-15/,1539.45,1.0
+Anchorage,Estados Unidos,1442.0,346.8,Várias companhias aéreas,ANC,2023-05-09,2023-05-15,http://kayak.com/flights/DEN-ANC/2023-05-09/2023-05-15/,346.8,1.0
+Zanzibar,Tanzânia,2904.0,1361.82,Várias companhias aéreas,ZNZ,2023-09-21,2023-09-27,http://kayak.com/flights/DEN-ZNZ/2023-09-21/2023-09-27/,1361.82,1.0
+Salzburgo,Áustria,1536.0,1164.45,Várias companhias aéreas,SZG,2023-03-13,2023-03-20,http://kayak.com/flights/DEN-SZG/2023-03-13/2023-03-20/,1164.45,1.0
+Bergen,Noruega,1175.0,1440.76,KLM,BGO,2023-06-27,2023-07-04,http://kayak.com/flights/DEN-BGO/2023-06-27/2023-07-04/,1440.76,1.0
+Salvador,Brasil,1541.0,1436.07,LATAM Airlines,SSA,2023-10-13,2023-10-20,http://kayak.com/flights/DEN-SSA/2023-10-13/2023-10-20/,1436.07,1.0
+Montevidéu,Uruguai,1750.0,1090.21,Várias companhias aéreas,MVD,2023-04-08,2023-04-15,http://kayak.com/flights/DEN-MVD/2023-04-08/2023-04-15/,1090.21,1.0
+Myrtle Beach,Estados Unidos,1730.0,217.11,Várias companhias aéreas,MYR,2023-05-15,2023-05-19,http://kayak.com/flights/DEN-MYR/2023-05-15/2023-05-19/,217.11,1.0
+Savannah,Estados Unidos,959.0,261.28,United Airlines,SAV,2023-04-12,2023-04-18,http://kayak.com/flights/DEN-SAV/2023-04-12/2023-04-18/,261.28,1.0
+Oranjestad,Aruba,1202.0,425.75,American Airlines,AUA,2023-12-04,2023-12-11,http://kayak.com/flights/DEN-AUA/2023-12-04/2023-12-11/,425.75,1.0
+Reno,Estados Unidos,875.0,111.84,Spirit Airlines,RNO,2023-04-08,2023-04-12,http://kayak.com/flights/DEN-RNO/2023-04-08/2023-04-12/,111.84,1.0
+Xangai,China,2795.0,1484.0,China Airlines,PVG,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-PVG/2023-04-10/2023-04-17/,1484.0,1.0
+Tamuning,Guam,2460.0,1754.67,Delta,GUM,2023-04-11,2023-04-17,http://kayak.com/flights/DEN-GUM/2023-04-11/2023-04-17/,1754.67,1.0
+Tbilisi,Geórgia,1243.0,1508.43,Várias companhias aéreas,TBS,2023-07-07,2023-07-12,http://kayak.com/flights/DEN-TBS/2023-07-07/2023-07-12/,1508.43,1.0
+Nassau,Bahamas,1616.0,341.16,Várias companhias aéreas,NAS,2023-04-28,2023-05-04,http://kayak.com/flights/DEN-NAS/2023-04-28/2023-05-04/,341.16,1.0
+Syracuse,Estados Unidos,541.0,205.83,Delta,SYR,2023-04-19,2023-04-25,http://kayak.com/flights/DEN-SYR/2023-04-19/2023-04-25/,205.83,1.0
+Ottawa,Canadá,942.0,1436.07,Delta,YOW,2023-03-25,2023-03-29,http://kayak.com/flights/DEN-YOW/2023-03-25/2023-03-29/,1436.07,1.0
+Roterdão,Holanda,2067.0,1775.34,Várias companhias aéreas,RTM,2023-04-19,2023-04-26,http://kayak.com/flights/DEN-RTM/2023-04-19/2023-04-26/,1775.34,1.0
+Fortaleza,Brasil,1394.0,1178.55,GOL,FOR,2023-10-13,2023-10-20,http://kayak.com/flights/DEN-FOR/2023-10-13/2023-10-20/,1178.55,1.0
+Porto Alegre,Brasil,2020.0,1367.46,Várias companhias aéreas,POA,2023-03-12,2023-03-17,http://kayak.com/flights/DEN-POA/2023-03-12/2023-03-17/,1367.46,1.0
+Arrecife,Espanha,1751.0,2571.38,American Airlines,ACE,2023-05-27,2023-06-02,http://kayak.com/flights/DEN-ACE/2023-05-27/2023-06-02/,2571.38,1.0
+Dakar,Senegal,2321.0,1365.58,American Airlines,DSS,2023-05-14,2023-05-21,http://kayak.com/flights/DEN-DSS/2023-05-14/2023-05-21/,1365.58,1.0
+Pisa,Itália,950.0,1494.33,British Airways,PSA,2023-07-13,2023-07-20,http://kayak.com/flights/DEN-PSA/2023-07-13/2023-07-20/,1494.33,1.0
+Norfolk,Estados Unidos,665.0,198.31,Frontier,ORF,2023-05-11,2023-05-17,http://kayak.com/flights/DEN-ORF/2023-05-11/2023-05-17/,198.31,1.0
+Edmonton,Canadá,394.0,377.82,Delta,YEG,2023-08-25,2023-08-31,http://kayak.com/flights/DEN-YEG/2023-08-25/2023-08-31/,377.82,1.0
+Omaha,Estados Unidos,101.0,75.19,Frontier,OMA,2023-04-03,2023-04-10,http://kayak.com/flights/DEN-OMA/2023-04-03/2023-04-10/,75.19,1.0
+Albuquerque,Estados Unidos,1087.0,343.98,United Airlines,ABQ,2023-04-03,2023-04-07,http://kayak.com/flights/DEN-ABQ/2023-04-03/2023-04-07/,343.98,1.0
+Boise,Estados Unidos,134.0,191.73,United Airlines,BOI,2023-04-20,2023-04-24,http://kayak.com/flights/DEN-BOI/2023-04-20/2023-04-24/,191.73,1.0
+Monterrei,México,830.0,361.84,Volaris,MTY,2023-04-05,2023-04-12,http://kayak.com/flights/DEN-MTY/2023-04-05/2023-04-12/,361.84,1.0
+Bristol,Reino Unido,1232.0,712.4,KLM,BRS,2023-03-17,2023-03-24,http://kayak.com/flights/DEN-BRS/2023-03-17/2023-03-24/,712.4,1.0
+Puerto del Rosario,Espanha,2075.0,4936.93,Várias companhias aéreas,FUE,2023-05-28,2023-06-02,http://kayak.com/flights/DEN-FUE/2023-05-28/2023-06-02/,4936.93,1.0
+Sarasota,Estados Unidos,1684.0,169.17,Várias companhias aéreas,SRQ,2023-04-01,2023-04-05,http://kayak.com/flights/DEN-SRQ/2023-04-01/2023-04-05/,169.17,1.0
+Grand Rapids,Estados Unidos,178.0,125.94,Frontier,GRR,2023-04-20,2023-04-25,http://kayak.com/flights/DEN-GRR/2023-04-20/2023-04-25/,125.94,1.0
+Rochester,Estados Unidos,447.0,196.43,JetBlue,ROC,2023-04-21,2023-04-25,http://kayak.com/flights/DEN-ROC/2023-04-21/2023-04-25/,196.43,1.0
+Memphis,Estados Unidos,457.0,270.68,United Airlines,MEM,2023-03-27,2023-03-31,http://kayak.com/flights/DEN-MEM/2023-03-27/2023-03-31/,270.68,1.0
+Tucson,Estados Unidos,125.0,267.86,United Airlines,TUS,2023-03-30,2023-04-05,http://kayak.com/flights/DEN-TUS/2023-03-30/2023-04-05/,267.86,1.0
+Bremen,Alemanha,1940.0,1805.42,Várias companhias aéreas,BRE,2023-07-26,2023-07-30,http://kayak.com/flights/DEN-BRE/2023-07-26/2023-07-30/,1805.42,1.0
+Ponta Delgada,Portugal,2061.0,928.56,Várias companhias aéreas,PDL,2023-04-24,2023-05-01,http://kayak.com/flights/DEN-PDL/2023-04-24/2023-05-01/,928.56,1.0
+Santiago de Compostela,Espanha,1675.0,1402.23,Várias companhias aéreas,SCQ,2023-08-03,2023-08-09,http://kayak.com/flights/DEN-SCQ/2023-08-03/2023-08-09/,1402.23,1.0
+Providence,Estados Unidos,396.0,343.98,Delta,PVD,2023-04-07,2023-04-12,http://kayak.com/flights/DEN-PVD/2023-04-07/2023-04-12/,343.98,1.0
+Halifax,Canadá,517.0,564.84,United Airlines,YHZ,2023-07-21,2023-07-25,http://kayak.com/flights/DEN-YHZ/2023-07-21/2023-07-25/,564.84,1.0
+Spokane,Estados Unidos,752.0,273.5,Várias companhias aéreas,GEG,2023-05-11,2023-05-17,http://kayak.com/flights/DEN-GEG/2023-05-11/2023-05-17/,273.5,1.0
+Tijuana,México,665.0,361.84,Volaris,TIJ,2023-06-25,2023-07-01,http://kayak.com/flights/DEN-TIJ/2023-06-25/2023-07-01/,361.84,1.0
+Oklahoma City,Estados Unidos,648.0,123.12,Frontier,OKC,2023-04-20,2023-04-25,http://kayak.com/flights/DEN-OKC/2023-04-20/2023-04-25/,123.12,1.0
+Okinawa,Japão,3060.0,1326.11,China Airlines,OKA,2023-05-04,2023-05-09,http://kayak.com/flights/DEN-OKA/2023-05-04/2023-05-09/,1326.11,1.0
+Jacarta,Indonésia,2200.0,1435.13,Várias companhias aéreas,JKT,2023-04-10,2023-04-16,http://kayak.com/flights/DEN-JKT/2023-04-10/2023-04-16/,1435.13,1.0
+Míconos,Grécia,3575.0,1723.65,Lufthansa,JMK,2023-06-12,2023-06-17,http://kayak.com/flights/DEN-JMK/2023-06-12/2023-06-17/,1723.65,1.0
+Addis Abeba,Etiópia,1755.0,1464.26,Lufthansa,ADD,2023-05-09,2023-05-16,http://kayak.com/flights/DEN-ADD/2023-05-09/2023-05-16/,1464.26,1.0
+Calcutá,Índia,1765.0,1604.29,Várias companhias aéreas,CCU,2023-03-20,2023-03-27,http://kayak.com/flights/DEN-CCU/2023-03-20/2023-03-27/,1604.29,1.0
+Pensacola,Estados Unidos,205.0,203.01,Frontier,PNS,2023-04-08,2023-04-15,http://kayak.com/flights/DEN-PNS/2023-04-08/2023-04-15/,203.01,1.0
+Knoxville,Estados Unidos,200.0,125.0,Frontier,TYS,2023-03-20,2023-03-25,http://kayak.com/flights/DEN-TYS/2023-03-20/2023-03-25/,125.0,1.0
+Louisville,Estados Unidos,901.0,156.02,Spirit Airlines,SDF,2023-04-03,2023-04-08,http://kayak.com/flights/DEN-SDF/2023-04-03/2023-04-08/,156.02,1.0
+Kingston,Jamaica,1040.0,497.18,American Airlines,KIN,2023-10-13,2023-10-19,http://kayak.com/flights/DEN-KIN/2023-10-13/2023-10-19/,497.18,1.0
+Porto de Espanha,Trinidad e Tobago,1673.0,538.53,United Airlines,POS,2023-10-22,2023-10-27,http://kayak.com/flights/DEN-POS/2023-10-22/2023-10-27/,538.53,1.0
+Bozeman,Estados Unidos,107.0,304.51,United Airlines,BZN,2023-05-22,2023-05-26,http://kayak.com/flights/DEN-BZN/2023-05-22/2023-05-26/,304.51,1.0
+Winnipeg,Canadá,510.0,468.04,WestJet,YWG,2023-06-08,2023-06-13,http://kayak.com/flights/DEN-YWG/2023-06-08/2023-06-13/,468.04,1.0
+Palm Springs,Estados Unidos,295.0,208.65,United Airlines,PSP,2023-05-06,2023-05-13,http://kayak.com/flights/DEN-PSP/2023-05-06/2023-05-13/,208.65,1.0
+Burbank,Estados Unidos,770.0,89.29,Várias companhias aéreas,BUR,2023-04-02,2023-04-08,http://kayak.com/flights/DEN-BUR/2023-04-02/2023-04-08/,89.29,1.0
+Liubliana,Eslovénia,1340.0,1059.19,KLM,LJU,2023-03-24,2023-03-31,http://kayak.com/flights/DEN-LJU/2023-03-24/2023-03-31/,1059.19,1.0
+Verona,Itália,1065.0,923.86,Lufthansa,VRN,2023-04-24,2023-05-01,http://kayak.com/flights/DEN-VRN/2023-04-24/2023-05-01/,923.86,1.0
+Insbruque,Áustria,1040.0,2149.4,Lufthansa,INN,2023-03-26,2023-04-02,http://kayak.com/flights/DEN-INN/2023-03-26/2023-04-02/,2149.4,1.0
+Kailua-Kona,Estados Unidos,2493.0,369.36,Várias companhias aéreas,KOA,2023-05-14,2023-05-19,http://kayak.com/flights/DEN-KOA/2023-05-14/2023-05-19/,369.36,1.0
+Assunção,Paraguai,1319.0,972.73,Copa Airlines,ASU,2023-05-10,2023-05-17,http://kayak.com/flights/DEN-ASU/2023-05-10/2023-05-17/,972.73,1.0
+Tânger,Marrocos,1680.0,1515.95,Várias companhias aéreas,TNG,2023-04-21,2023-04-27,http://kayak.com/flights/DEN-TNG/2023-04-21/2023-04-27/,1515.95,1.0
+Bridgetown,Barbados,1675.0,860.89,Air Canada,BGI,2023-06-10,2023-06-17,http://kayak.com/flights/DEN-BGI/2023-06-10/2023-06-17/,860.89,1.0
+Barranquilla,Colômbia,1493.0,515.97,Copa Airlines,BAQ,2023-04-19,2023-04-25,http://kayak.com/flights/DEN-BAQ/2023-04-19/2023-04-25/,515.97,1.0
+Santiago,República Dominicana,1595.0,672.92,American Airlines,STI,2023-06-14,2023-06-21,http://kayak.com/flights/DEN-STI/2023-06-14/2023-06-21/,672.92,1.0
+Des Moines,Estados Unidos,121.0,131.58,Frontier,DSM,2023-03-21,2023-03-28,http://kayak.com/flights/DEN-DSM/2023-03-21/2023-03-28/,131.58,1.0
+Fresno,Estados Unidos,145.0,276.32,United Airlines,FAT,2023-10-24,2023-10-29,http://kayak.com/flights/DEN-FAT/2023-10-24/2023-10-29/,276.32,1.0
+Chiang Mai,Tailândia,2024.0,2357.1,Várias companhias aéreas,CNX,2023-04-03,2023-04-09,http://kayak.com/flights/DEN-CNX/2023-04-03/2023-04-09/,2357.1,1.0
+Angeles City,Filipinas,1735.0,975.55,Várias companhias aéreas,CRK,2023-11-06,2023-11-13,http://kayak.com/flights/DEN-CRK/2023-11-06/2023-11-13/,975.55,1.0
+Florianópolis,Brasil,1820.0,824.24,Várias companhias aéreas,FLN,2023-04-22,2023-04-28,http://kayak.com/flights/DEN-FLN/2023-04-22/2023-04-28/,824.24,1.0
+Santa Cruz da Serra,Bolívia,1547.0,843.97,Várias companhias aéreas,VVI,2023-03-28,2023-04-02,http://kayak.com/flights/DEN-VVI/2023-03-28/2023-04-02/,843.97,1.0
+Lagos,Nigéria,1352.0,1277.23,Delta,LOS,2023-04-09,2023-04-16,http://kayak.com/flights/DEN-LOS/2023-04-09/2023-04-16/,1277.23,1.0
+Zadar,Croácia,2179.0,1643.77,Várias companhias aéreas,ZAD,2023-06-13,2023-06-20,http://kayak.com/flights/DEN-ZAD/2023-06-13/2023-06-20/,1643.77,1.0
+Chania,Grécia,2345.0,2074.21,Brussels Airlines,CHQ,2023-07-17,2023-07-22,http://kayak.com/flights/DEN-CHQ/2023-07-17/2023-07-22/,2074.21,1.0
+Burlington,Estados Unidos,555.0,166.35,JetBlue,BTV,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-BTV/2023-04-10/2023-04-17/,166.35,1.0
+Albany,Estados Unidos,1053.0,275.38,Várias companhias aéreas,ALB,2023-03-30,2023-04-03,http://kayak.com/flights/DEN-ALB/2023-03-30/2023-04-03/,275.38,1.0
+Santa Marta,Colômbia,1289.0,945.47,Várias companhias aéreas,SMR,2023-05-25,2023-05-29,http://kayak.com/flights/DEN-SMR/2023-05-25/2023-05-29/,945.47,1.0
+Pequim,China,2939.0,1698.28,China Airlines,BJS,2023-07-10,2023-07-17,http://kayak.com/flights/DEN-BJS/2023-07-10/2023-07-17/,1698.28,1.0
+Phnom Penh,Cambodja,2759.0,2315.75,Singapore Airlines,PNH,2023-03-21,2023-03-26,http://kayak.com/flights/DEN-PNH/2023-03-21/2023-03-26/,2315.75,1.0
+Cluj,Roménia,2804.0,834.57,Várias companhias aéreas,CLJ,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-CLJ/2023-04-10/2023-04-17/,834.57,1.0
+Lihue,Estados Unidos,1438.0,377.82,Várias companhias aéreas,LIH,2023-04-26,2023-05-01,http://kayak.com/flights/DEN-LIH/2023-04-26/2023-05-01/,377.82,1.0
+Libéria,Costa Rica,1722.0,343.98,American Airlines,LIR,2023-10-04,2023-10-09,http://kayak.com/flights/DEN-LIR/2023-10-04/2023-10-09/,343.98,1.0
+Madison,Estados Unidos,148.0,167.29,Frontier,MSN,2023-04-09,2023-04-16,http://kayak.com/flights/DEN-MSN/2023-04-09/2023-04-16/,167.29,1.0
+Saint Thomas Island,Ilhas Virgens Americanas,504.0,375.94,Spirit Airlines,STT,2023-05-11,2023-05-17,http://kayak.com/flights/DEN-STT/2023-05-11/2023-05-17/,375.94,1.0
+Birmingham,Estados Unidos,193.0,201.13,United Airlines,BHM,2023-04-12,2023-04-18,http://kayak.com/flights/DEN-BHM/2023-04-12/2023-04-18/,201.13,1.0
+San Pedro,Honduras,2194.0,503.75,Spirit Airlines,SAP,2023-04-09,2023-04-16,http://kayak.com/flights/DEN-SAP/2023-04-09/2023-04-16/,503.75,1.0
+Pereira,Colômbia,982.0,622.17,Várias companhias aéreas,PEI,2023-04-12,2023-04-18,http://kayak.com/flights/DEN-PEI/2023-04-12/2023-04-18/,622.17,1.0
+Koh Samui,Tailândia,2481.0,1878.73,Várias companhias aéreas,USM,2023-05-01,2023-05-08,http://kayak.com/flights/DEN-USM/2023-05-01/2023-05-08/,1878.73,1.0
+Sapporo,Japão,2865.0,2568.56,Várias companhias aéreas,CTS,2023-03-16,2023-03-23,http://kayak.com/flights/DEN-CTS/2023-03-16/2023-03-23/,2568.56,1.0
+Quebec,Canadá,607.0,445.48,Air Canada,YQB,2023-10-01,2023-10-07,http://kayak.com/flights/DEN-YQB/2023-10-01/2023-10-07/,445.48,1.0
+Liverpool,Reino Unido,1995.0,882.51,Lufthansa,LPL,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-LPL/2023-04-10/2023-04-17/,882.51,1.0
+Vaitape,Polinésia Francesa,1935.0,1688.88,Várias companhias aéreas,BOB,2023-04-11,2023-04-18,http://kayak.com/flights/DEN-BOB/2023-04-11/2023-04-18/,1688.88,1.0
+Belo Horizonte,Brasil,2036.0,1109.94,Copa Airlines,BHZ,2023-05-02,2023-05-09,http://kayak.com/flights/DEN-BHZ/2023-05-02/2023-05-09/,1109.94,1.0
+Goiânia,Brasil,2775.0,1953.91,Várias companhias aéreas,GYN,2023-12-15,2023-12-22,http://kayak.com/flights/DEN-GYN/2023-12-15/2023-12-22/,1953.91,1.0
+Escópia,Macedónia do Norte,2220.0,1048.86,Austrian Airlines,SKP,2024-02-01,2024-02-05,http://kayak.com/flights/DEN-SKP/2024-02-01/2024-02-05/,1048.86,1.0
+Podgorica,Montenegro,2270.0,1005.62,Lufthansa,TGD,2023-11-03,2023-11-10,http://kayak.com/flights/DEN-TGD/2023-11-03/2023-11-10/,1005.62,1.0
+Pristina,Kosovo,2055.0,1055.43,Lufthansa,PRN,2023-05-03,2023-05-10,http://kayak.com/flights/DEN-PRN/2023-05-03/2023-05-10/,1055.43,1.0
+Sharjah,Emirados Árabes Unidos,1952.0,1108.06,Várias companhias aéreas,SHJ,2023-04-20,2023-04-27,http://kayak.com/flights/DEN-SHJ/2023-04-20/2023-04-27/,1108.06,1.0
+Dammam,Arábia Saudita,3890.0,1621.21,Lufthansa,DMM,2023-04-14,2023-04-21,http://kayak.com/flights/DEN-DMM/2023-04-14/2023-04-21/,1621.21,1.0
+Key West,Estados Unidos,1112.0,246.24,Várias companhias aéreas,EYW,2023-03-19,2023-03-24,http://kayak.com/flights/DEN-EYW/2023-03-19/2023-03-24/,246.24,1.0
+Greenville,Estados Unidos,531.0,232.14,Delta,GSP,2023-04-28,2023-05-02,http://kayak.com/flights/DEN-GSP/2023-04-28/2023-05-02/,232.14,1.0
+Asheville,Estados Unidos,987.0,290.41,Várias companhias aéreas,AVL,2023-03-30,2023-04-03,http://kayak.com/flights/DEN-AVL/2023-03-30/2023-04-03/,290.41,1.0
+Wichita,Estados Unidos,512.0,235.9,Delta,ICT,2023-04-11,2023-04-15,http://kayak.com/flights/DEN-ICT/2023-04-11/2023-04-15/,235.9,1.0
+El Paso,Estados Unidos,114.0,122.18,United Airlines,ELP,2023-04-14,2023-04-18,http://kayak.com/flights/DEN-ELP/2023-04-14/2023-04-18/,122.18,1.0
+Eugene,Estados Unidos,927.0,177.63,Várias companhias aéreas,EUG,2023-03-27,2023-04-03,http://kayak.com/flights/DEN-EUG/2023-03-27/2023-04-03/,177.63,1.0
+Tromsø,Noruega,1175.0,1247.16,Scandinavian Airlines,TOS,2023-09-27,2023-10-03,http://kayak.com/flights/DEN-TOS/2023-09-27/2023-10-03/,1247.16,1.0
+Cuzco,Perú,1034.0,738.71,LATAM Airlines,CUZ,2023-03-20,2023-03-25,http://kayak.com/flights/DEN-CUZ/2023-03-20/2023-03-25/,738.71,1.0
+Granada,Espanha,1892.0,1614.63,Várias companhias aéreas,GRX,2023-05-23,2023-05-29,http://kayak.com/flights/DEN-GRX/2023-05-23/2023-05-29/,1614.63,1.0
+Saraievo,Bósnia-Herzegóvina,1243.0,1037.58,Várias companhias aéreas,SJJ,2023-04-07,2023-04-12,http://kayak.com/flights/DEN-SJJ/2023-04-07/2023-04-12/,1037.58,1.0
+Lamezia Terme,Itália,2375.0,1269.72,ITA Airways,SUF,2023-04-02,2023-04-09,http://kayak.com/flights/DEN-SUF/2023-04-02/2023-04-09/,1269.72,1.0
+Cidade de Belize,Belize,1044.0,298.87,American Airlines,BZE,2023-09-07,2023-09-13,http://kayak.com/flights/DEN-BZE/2023-09-07/2023-09-13/,298.87,1.0
+Providenciales,Ilhas Turcas e Caicos,1164.0,415.41,Delta,PLS,2023-04-22,2023-04-29,http://kayak.com/flights/DEN-PLS/2023-04-22/2023-04-29/,415.41,1.0
+Greensboro,Estados Unidos,395.0,295.11,American Airlines,GSO,2023-04-07,2023-04-13,http://kayak.com/flights/DEN-GSO/2023-04-07/2023-04-13/,295.11,1.0
+Simpson Bay,São Martinho (Sint Maarten),1805.0,621.23,Várias companhias aéreas,SXM,2023-04-07,2023-04-14,http://kayak.com/flights/DEN-SXM/2023-04-07/2023-04-14/,621.23,1.0
+White Plains,Estados Unidos,537.0,284.77,American Airlines,HPN,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-HPN/2023-04-10/2023-04-17/,284.77,1.0
+San Andrés,Colômbia,1293.0,1761.25,Delta,ADZ,2023-04-01,2023-04-07,http://kayak.com/flights/DEN-ADZ/2023-04-01/2023-04-07/,1761.25,1.0
+Tulsa,Estados Unidos,117.0,148.5,United Airlines,TUL,2023-04-08,2023-04-15,http://kayak.com/flights/DEN-TUL/2023-04-08/2023-04-15/,148.5,1.0
+Redmond,Estados Unidos,155.0,176.69,United Airlines,RDM,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-RDM/2023-04-10/2023-04-17/,176.69,1.0
+Dar Es Salaam,Tanzânia,2805.0,1624.97,Várias companhias aéreas,DAR,2023-08-01,2023-08-08,http://kayak.com/flights/DEN-DAR/2023-08-01/2023-08-08/,1624.97,1.0
+Newcastle upon Tyne,Reino Unido,1045.0,744.35,Delta,NCL,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-NCL/2023-04-10/2023-04-17/,744.35,1.0
+Saint-Denis,Ilha da Reunião,2538.0,2773.44,Air France,RUN,2023-08-02,2023-08-09,http://kayak.com/flights/DEN-RUN/2023-08-02/2023-08-09/,2773.44,1.0
+Vigo,Espanha,1915.0,1600.54,Iberia,VGO,2023-06-21,2023-06-26,http://kayak.com/flights/DEN-VGO/2023-06-21/2023-06-26/,1600.54,1.0
+Génova,Itália,1123.0,1420.09,Várias companhias aéreas,GOA,2023-09-14,2023-09-21,http://kayak.com/flights/DEN-GOA/2023-09-14/2023-09-21/,1420.09,1.0
+Varna,Bulgária,2050.0,1492.46,Lufthansa,VAR,2023-08-10,2023-08-16,http://kayak.com/flights/DEN-VAR/2023-08-10/2023-08-16/,1492.46,1.0
+Manama,Bahrain,1565.0,1245.28,British Airways,BAH,2023-05-10,2023-05-16,http://kayak.com/flights/DEN-BAH/2023-05-10/2023-05-16/,1245.28,1.0
+Christchurch,Nova Zelândia,2104.0,1431.37,Qantas Airways,CHC,2023-09-13,2023-09-20,http://kayak.com/flights/DEN-CHC/2023-09-13/2023-09-20/,1431.37,1.0
+Aguadilla,Porto Rico,1031.0,207.71,Frontier,BQN,2023-04-25,2023-05-02,http://kayak.com/flights/DEN-BQN/2023-04-25/2023-05-02/,207.71,1.0
+Panama City,Estados Unidos,480.0,250.94,Delta,ECP,2023-04-22,2023-04-29,http://kayak.com/flights/DEN-ECP/2023-04-22/2023-04-29/,250.94,1.0
+Fort-de-France,Martinica,1270.0,1187.01,Air Canada,FDF,2023-04-08,2023-04-15,http://kayak.com/flights/DEN-FDF/2023-04-08/2023-04-15/,1187.01,1.0
+Kalispell,Estados Unidos,716.0,207.71,Várias companhias aéreas,FCA,2023-04-09,2023-04-16,http://kayak.com/flights/DEN-FCA/2023-04-09/2023-04-16/,207.71,1.0
+Missoula,Estados Unidos,121.0,176.69,United Airlines,MSO,2023-04-12,2023-04-18,http://kayak.com/flights/DEN-MSO/2023-04-12/2023-04-18/,176.69,1.0
+Vitória,Canadá,872.0,567.66,Air Canada,YYJ,2023-05-31,2023-06-06,http://kayak.com/flights/DEN-YYJ/2023-05-31/2023-06-06/,567.66,1.0
+Medford,Estados Unidos,164.0,195.49,United Airlines,MFR,2023-05-10,2023-05-14,http://kayak.com/flights/DEN-MFR/2023-05-10/2023-05-14/,195.49,1.0
+León,México,1885.0,492.48,Várias companhias aéreas,BJX,2023-05-26,2023-05-30,http://kayak.com/flights/DEN-BJX/2023-05-26/2023-05-30/,492.48,1.0
+Little Rock,Estados Unidos,147.0,106.21,Frontier,LIT,2023-03-18,2023-03-25,http://kayak.com/flights/DEN-LIT/2023-03-18/2023-03-25/,106.21,1.0
+Colorado Springs,Estados Unidos,55.0,333.64,United Airlines,COS,2023-06-01,2023-06-08,http://kayak.com/flights/DEN-COS/2023-06-01/2023-06-08/,333.64,1.0
+Shannon,Irlanda,955.0,696.42,United Airlines,SNN,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-SNN/2023-04-10/2023-04-17/,696.42,1.0
+Papete,Polinésia Francesa,2079.0,931.38,Várias companhias aéreas,PPT,2023-04-20,2023-04-26,http://kayak.com/flights/DEN-PPT/2023-04-20/2023-04-26/,931.38,1.0
+La Corunha,Espanha,1434.0,1482.12,Várias companhias aéreas,LCG,2023-04-09,2023-04-13,http://kayak.com/flights/DEN-LCG/2023-04-09/2023-04-13/,1482.12,1.0
+Entebbe,Uganda,2545.0,1864.63,Qatar Airways,EBB,2023-05-17,2023-05-22,http://kayak.com/flights/DEN-EBB/2023-05-17/2023-05-22/,1864.63,1.0
+Nadi,Fiji,1228.0,1102.43,American Airlines,NAN,2023-09-09,2023-09-15,http://kayak.com/flights/DEN-NAN/2023-09-09/2023-09-15/,1102.43,1.0
+Coolangatta,Austrália,1521.0,2449.2,Várias companhias aéreas,OOL,2023-05-03,2023-05-10,http://kayak.com/flights/DEN-OOL/2023-05-03/2023-05-10/,2449.2,1.0
+Manchester,Estados Unidos,739.0,423.87,United Airlines,MHT,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-MHT/2023-04-10/2023-04-17/,423.87,1.0
+Willemstad,Curaçao,1267.0,383.46,American Airlines,CUR,2023-10-23,2023-10-30,http://kayak.com/flights/DEN-CUR/2023-10-23/2023-10-30/,383.46,1.0
+Harrisburg,Estados Unidos,1719.0,246.24,Várias companhias aéreas,MDT,2023-03-20,2023-03-24,http://kayak.com/flights/DEN-MDT/2023-03-20/2023-03-24/,246.24,1.0
+Wilmington,Estados Unidos,443.0,513.15,American Airlines,ILM,2023-09-25,2023-10-01,http://kayak.com/flights/DEN-ILM/2023-09-25/2023-10-01/,513.15,1.0
+Mérida,México,563.0,470.86,American Airlines,MID,2023-08-09,2023-08-13,http://kayak.com/flights/DEN-MID/2023-08-09/2023-08-13/,470.86,1.0
+Dayton,Estados Unidos,364.0,367.48,American Airlines,DAY,2023-04-10,2023-04-15,http://kayak.com/flights/DEN-DAY/2023-04-10/2023-04-15/,367.48,1.0
+Grande Caimão,Ilhas Cayman,1805.0,411.65,Várias companhias aéreas,GCM,2023-05-01,2023-05-05,http://kayak.com/flights/DEN-GCM/2023-05-01/2023-05-05/,411.65,1.0
+Porto Plata,República Dominicana,1196.0,571.42,American Airlines,POP,2023-06-17,2023-06-24,http://kayak.com/flights/DEN-POP/2023-06-17/2023-06-24/,571.42,1.0
+Georgetown,Guiana,1625.0,683.26,Várias companhias aéreas,GEO,2023-04-08,2023-04-15,http://kayak.com/flights/DEN-GEO/2023-04-08/2023-04-15/,683.26,1.0
+Cúcuta,Colômbia,1472.0,524.43,Várias companhias aéreas,CUC,2023-05-09,2023-05-14,http://kayak.com/flights/DEN-CUC/2023-05-09/2023-05-14/,524.43,1.0
+New Windsor,Estados Unidos,749.0,976.49,Frontier,SWF,2023-06-07,2023-06-11,http://kayak.com/flights/DEN-SWF/2023-06-07/2023-06-11/,976.49,1.0
+Bucaramanga,Colômbia,1837.0,544.17,Várias companhias aéreas,BGA,2023-04-09,2023-04-16,http://kayak.com/flights/DEN-BGA/2023-04-09/2023-04-16/,544.17,1.0
+Billings,Estados Unidos,333.0,421.05,Delta,BIL,2023-03-20,2023-03-25,http://kayak.com/flights/DEN-BIL/2023-03-20/2023-03-25/,421.05,1.0
+Kelowna,Canadá,1274.0,531.95,United Airlines,YLW,2023-04-15,2023-04-22,http://kayak.com/flights/DEN-YLW/2023-04-15/2023-04-22/,531.95,1.0
+Saskatoon,Canadá,961.0,567.66,Air Canada,YXE,2023-04-30,2023-05-06,http://kayak.com/flights/DEN-YXE/2023-04-30/2023-05-06/,567.66,1.0
+Fayetteville,Estados Unidos,123.0,103.39,Frontier,XNA,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-XNA/2023-04-10/2023-04-17/,103.39,1.0
+Cedar Rapids,Estados Unidos,134.0,176.69,United Airlines,CID,2023-05-06,2023-05-12,http://kayak.com/flights/DEN-CID/2023-05-06/2023-05-12/,176.69,1.0
+Mombaça,Quénia,1960.0,1593.96,United Airlines,MBA,2023-03-18,2023-03-25,http://kayak.com/flights/DEN-MBA/2023-03-18/2023-03-25/,1593.96,1.0
+St John's,Canadá,1245.0,926.68,Várias companhias aéreas,YYT,2023-03-22,2023-03-27,http://kayak.com/flights/DEN-YYT/2023-03-22/2023-03-27/,926.68,1.0
+Leeds,Reino Unido,1315.0,796.98,KLM,LBA,2023-03-31,2023-04-04,http://kayak.com/flights/DEN-LBA/2023-03-31/2023-04-04/,796.98,1.0
+Antananarivo,Madagáscar,1850.0,1979.29,Kenya Airways,TNR,2023-08-02,2023-08-07,http://kayak.com/flights/DEN-TNR/2023-08-02/2023-08-07/,1979.29,1.0
+Trieste,Itália,1005.0,1497.15,Lufthansa,TRS,2023-05-10,2023-05-15,http://kayak.com/flights/DEN-TRS/2023-05-10/2023-05-15/,1497.15,1.0
+Jerez de la Frontera,Espanha,1745.0,4292.21,Várias companhias aéreas,XRY,2023-10-03,2023-10-10,http://kayak.com/flights/DEN-XRY/2023-10-03/2023-10-10/,4292.21,1.0
+Ancara,Turquia,1970.0,1263.14,Várias companhias aéreas,ANK,2023-04-09,2023-04-16,http://kayak.com/flights/DEN-ANK/2023-04-09/2023-04-16/,1263.14,1.0
+Baku,Azerbeijão,1796.0,1099.61,Várias companhias aéreas,GYD,2023-04-10,2023-04-16,http://kayak.com/flights/DEN-GYD/2023-04-10/2023-04-16/,1099.61,1.0
+Fairbanks,Estados Unidos,472.0,437.97,Delta,FAI,2023-10-17,2023-10-21,http://kayak.com/flights/DEN-FAI/2023-10-17/2023-10-21/,437.97,1.0
+Valparaíso,Estados Unidos,831.0,203.01,Várias companhias aéreas,VPS,2023-04-03,2023-04-07,http://kayak.com/flights/DEN-VPS/2023-04-03/2023-04-07/,203.01,1.0
+Daytona Beach,Estados Unidos,492.0,362.78,American Airlines,DAB,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-DAB/2023-04-10/2023-04-17/,362.78,1.0
+Huntsville,Estados Unidos,354.0,213.35,Delta,HSV,2023-08-08,2023-08-14,http://kayak.com/flights/DEN-HSV/2023-08-08/2023-08-14/,213.35,1.0
+Comayagua,Honduras,1135.0,520.67,Spirit Airlines,XPL,2023-05-19,2023-05-26,http://kayak.com/flights/DEN-XPL/2023-05-19/2023-05-26/,520.67,1.0
+Lexington,Estados Unidos,449.0,416.35,United Airlines,LEX,2023-04-27,2023-05-01,http://kayak.com/flights/DEN-LEX/2023-04-27/2023-05-01/,416.35,1.0
+Saint George.s,Granada,1397.0,500.93,American Airlines,GND,2023-11-04,2023-11-11,http://kayak.com/flights/DEN-GND/2023-11-04/2023-11-11/,500.93,1.0
+Pasco,Estados Unidos,858.0,315.79,Várias companhias aéreas,PSC,2023-04-09,2023-04-16,http://kayak.com/flights/DEN-PSC/2023-04-09/2023-04-16/,315.79,1.0
+Santa Barbara,Estados Unidos,157.0,234.02,United Airlines,SBA,2023-04-09,2023-04-16,http://kayak.com/flights/DEN-SBA/2023-04-09/2023-04-16/,234.02,1.0
+Sioux Falls,Estados Unidos,104.0,157.9,United Airlines,FSD,2023-05-07,2023-05-12,http://kayak.com/flights/DEN-FSD/2023-05-07/2023-05-12/,157.9,1.0
+Long Beach,Estados Unidos,312.0,420.11,Delta,LGB,2023-03-19,2023-03-24,http://kayak.com/flights/DEN-LGB/2023-03-19/2023-03-24/,420.11,1.0
+Santa Rosa,Estados Unidos,1170.0,468.98,American Airlines,STS,2023-06-08,2023-06-13,http://kayak.com/flights/DEN-STS/2023-06-08/2023-06-13/,468.98,1.0
+Krabi,Tailândia,2010.0,1821.4,Várias companhias aéreas,KBV,2023-09-11,2023-09-15,http://kayak.com/flights/DEN-KBV/2023-09-11/2023-09-15/,1821.4,1.0
+Cork,Irlanda,1242.0,817.66,Delta,ORK,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-ORK/2023-04-10/2023-04-17/,817.66,1.0
+Banjul,Gâmbia,3825.0,5011.18,Várias companhias aéreas,BJL,2023-05-09,2023-05-16,http://kayak.com/flights/DEN-BJL/2023-05-09/2023-05-16/,5011.18,1.0
+Dalaman,Turquia,2685.0,1206.75,British Airways,DLM,2023-04-13,2023-04-18,http://kayak.com/flights/DEN-DLM/2023-04-13/2023-04-18/,1206.75,1.0
+Jaipur,Índia,1960.0,1697.34,Várias companhias aéreas,JAI,2023-12-18,2023-12-25,http://kayak.com/flights/DEN-JAI/2023-12-18/2023-12-25/,1697.34,1.0
+Cairns,Austrália,2200.0,2164.43,Várias companhias aéreas,CNS,2023-04-13,2023-04-20,http://kayak.com/flights/DEN-CNS/2023-04-13/2023-04-20/,2164.43,1.0
+Allentown,Estados Unidos,490.0,544.17,Delta,ABE,2023-06-13,2023-06-20,http://kayak.com/flights/DEN-ABE/2023-06-13/2023-06-20/,544.17,1.0
+Bangor,Estados Unidos,647.0,464.28,Delta,BGR,2023-05-09,2023-05-15,http://kayak.com/flights/DEN-BGR/2023-05-09/2023-05-15/,464.28,1.0
+Saint John's,Antígua e Barbuda,2828.0,890.02,American Airlines,ANU,2023-03-13,2023-03-19,http://kayak.com/flights/DEN-ANU/2023-03-13/2023-03-19/,890.02,1.0
+Chattanooga,Estados Unidos,517.0,320.49,American Airlines,CHA,2023-04-17,2023-04-24,http://kayak.com/flights/DEN-CHA/2023-04-17/2023-04-24/,320.49,1.0
+Akron,Estados Unidos,480.0,288.53,United Airlines,CAK,2023-04-20,2023-04-27,http://kayak.com/flights/DEN-CAK/2023-04-20/2023-04-27/,288.53,1.0
+Tallahassee,Estados Unidos,433.0,440.79,Delta,TLH,2023-05-12,2023-05-16,http://kayak.com/flights/DEN-TLH/2023-05-12/2023-05-16/,440.79,1.0
+Pasto,Colômbia,1350.0,557.32,Várias companhias aéreas,PSO,2023-04-18,2023-04-25,http://kayak.com/flights/DEN-PSO/2023-04-18/2023-04-25/,557.32,1.0
+Fargo,Estados Unidos,829.0,203.95,Várias companhias aéreas,FAR,2023-05-03,2023-05-07,http://kayak.com/flights/DEN-FAR/2023-05-03/2023-05-07/,203.95,1.0
+Bellingham,Estados Unidos,1257.0,562.02,Várias companhias aéreas,BLI,2023-03-24,2023-03-29,http://kayak.com/flights/DEN-BLI/2023-03-24/2023-03-29/,562.02,1.0
+Mazatlán,México,1544.0,468.98,Várias companhias aéreas,MZT,2023-03-29,2023-04-05,http://kayak.com/flights/DEN-MZT/2023-03-29/2023-04-05/,468.98,1.0
+Oaxaca,México,1710.0,437.03,Várias companhias aéreas,OAX,2023-05-17,2023-05-24,http://kayak.com/flights/DEN-OAX/2023-05-17/2023-05-24/,437.03,1.0
+Jackson,Estados Unidos,419.0,243.42,American Airlines,JAN,2023-04-18,2023-04-22,http://kayak.com/flights/DEN-JAN/2023-04-18/2023-04-22/,243.42,1.0
+San Luis Obispo,Estados Unidos,348.0,349.62,United Airlines,SBP,2023-08-31,2023-09-04,http://kayak.com/flights/DEN-SBP/2023-08-31/2023-09-04/,349.62,1.0
+Querétaro,México,762.0,581.76,American Airlines,QRO,2023-05-18,2023-05-22,http://kayak.com/flights/DEN-QRO/2023-05-18/2023-05-22/,581.76,1.0
+Boracay,Filipinas,1975.0,3557.26,Várias companhias aéreas,MPH,2023-11-04,2023-11-11,http://kayak.com/flights/DEN-MPH/2023-11-04/2023-11-11/,3557.26,1.0
+Luleå,Suécia,1675.0,1233.06,Scandinavian Airlines,LLA,2023-04-07,2023-04-12,http://kayak.com/flights/DEN-LLA/2023-04-07/2023-04-12/,1233.06,1.0
+Cartum,Sudão,2091.0,1362.76,Várias companhias aéreas,KRT,2023-03-17,2023-03-23,http://kayak.com/flights/DEN-KRT/2023-03-17/2023-03-23/,1362.76,1.0
+Pula,Croácia,2390.0,1515.01,Várias companhias aéreas,PUY,2023-06-13,2023-06-20,http://kayak.com/flights/DEN-PUY/2023-06-13/2023-06-20/,1515.01,1.0
+Préveza,Grécia,1800.0,1511.25,Várias companhias aéreas,PVK,2023-08-23,2023-08-28,http://kayak.com/flights/DEN-PVK/2023-08-23/2023-08-28/,1511.25,1.0
+Traverse City,Estados Unidos,1275.0,267.86,American Airlines,TVC,2023-08-25,2023-08-29,http://kayak.com/flights/DEN-TVC/2023-08-25/2023-08-29/,267.86,1.0
+Cozumel,México,616.0,391.91,American Airlines,CZM,2023-08-14,2023-08-18,http://kayak.com/flights/DEN-CZM/2023-08-14/2023-08-18/,391.91,1.0
+Melbourne,Estados Unidos,1121.0,307.33,American Airlines,MLB,2023-04-29,2023-05-06,http://kayak.com/flights/DEN-MLB/2023-04-29/2023-05-06/,307.33,1.0
+Flint,Estados Unidos,1075.0,239.66,Várias companhias aéreas,FNT,2023-05-03,2023-05-10,http://kayak.com/flights/DEN-FNT/2023-05-03/2023-05-10/,239.66,1.0
+Roanoke,Estados Unidos,493.0,280.07,American Airlines,ROA,2023-04-26,2023-05-02,http://kayak.com/flights/DEN-ROA/2023-04-26/2023-05-02/,280.07,1.0
+Gainesville,Estados Unidos,491.0,307.33,American Airlines,GNV,2023-04-08,2023-04-15,http://kayak.com/flights/DEN-GNV/2023-04-08/2023-04-15/,307.33,1.0
+Green Bay,Estados Unidos,1420.0,357.14,United Airlines,GRB,2023-04-24,2023-04-28,http://kayak.com/flights/DEN-GRB/2023-04-24/2023-04-28/,357.14,1.0
+Appleton,Estados Unidos,608.0,246.24,Delta,ATW,2023-03-30,2023-04-04,http://kayak.com/flights/DEN-ATW/2023-03-30/2023-04-04/,246.24,1.0
+Charlottesville,Estados Unidos,584.0,271.62,American Airlines,CHO,2023-04-26,2023-05-02,http://kayak.com/flights/DEN-CHO/2023-04-26/2023-05-02/,271.62,1.0
+Worcester,Estados Unidos,519.0,502.81,JetBlue,ORH,2023-06-22,2023-06-28,http://kayak.com/flights/DEN-ORH/2023-06-22/2023-06-28/,502.81,1.0
+Mobile,Estados Unidos,467.0,326.13,United Airlines,MOB,2023-04-08,2023-04-15,http://kayak.com/flights/DEN-MOB/2023-04-08/2023-04-15/,326.13,1.0
+Atlantic City,Estados Unidos,565.0,598.68,Várias companhias aéreas,ACY,2023-05-26,2023-05-30,http://kayak.com/flights/DEN-ACY/2023-05-26/2023-05-30/,598.68,1.0
+South Bend,Estados Unidos,517.0,663.52,Delta,SBN,2023-03-22,2023-03-26,http://kayak.com/flights/DEN-SBN/2023-03-22/2023-03-26/,663.52,1.0
+Fort Wayne,Estados Unidos,582.0,652.25,Delta,FWA,2023-03-16,2023-03-20,http://kayak.com/flights/DEN-FWA/2023-03-16/2023-03-20/,652.25,1.0
+New Haven,Estados Unidos,1773.0,296.99,Várias companhias aéreas,HVN,2023-04-20,2023-04-24,http://kayak.com/flights/DEN-HVN/2023-04-20/2023-04-24/,296.99,1.0
+Punta Gorda,Estados Unidos,913.0,215.23,Várias companhias aéreas,PGD,2023-04-24,2023-04-28,http://kayak.com/flights/DEN-PGD/2023-04-24/2023-04-28/,215.23,1.0
+Islip,Estados Unidos,1354.0,284.77,Várias companhias aéreas,ISP,2023-04-21,2023-04-26,http://kayak.com/flights/DEN-ISP/2023-04-21/2023-04-26/,284.77,1.0
+Juneau,Estados Unidos,667.0,401.31,Alaska Airlines,JNU,2023-06-05,2023-06-09,http://kayak.com/flights/DEN-JNU/2023-06-05/2023-06-09/,401.31,1.0
+Aspen,Estados Unidos,70.0,370.3,United Airlines,ASE,2023-06-20,2023-06-24,http://kayak.com/flights/DEN-ASE/2023-06-20/2023-06-24/,370.3,1.0
+Chihuahua,México,135.0,219.93,Volaris,CUU,2023-11-07,2023-11-14,http://kayak.com/flights/DEN-CUU/2023-11-07/2023-11-14/,219.93,1.0
+Rapid City,Estados Unidos,89.0,200.19,United Airlines,RAP,2023-04-29,2023-05-05,http://kayak.com/flights/DEN-RAP/2023-04-29/2023-05-05/,200.19,1.0
+Mcallen,Estados Unidos,839.0,449.24,Várias companhias aéreas,MFE,2023-03-20,2023-03-25,http://kayak.com/flights/DEN-MFE/2023-03-20/2023-03-25/,449.24,1.0
+Ciudad Juárez,México,1004.0,493.42,Várias companhias aéreas,CJS,2023-04-06,2023-04-11,http://kayak.com/flights/DEN-CJS/2023-04-06/2023-04-11/,493.42,1.0
+Aguascalientes,México,928.0,586.46,United Airlines,AGU,2023-05-01,2023-05-07,http://kayak.com/flights/DEN-AGU/2023-05-01/2023-05-07/,586.46,1.0
+Acapulco,México,1544.0,608.08,Várias companhias aéreas,ACA,2023-04-07,2023-04-14,http://kayak.com/flights/DEN-ACA/2023-04-07/2023-04-14/,608.08,1.0
+Veracruz,México,1725.0,412.59,Várias companhias aéreas,VER,2023-05-03,2023-05-08,http://kayak.com/flights/DEN-VER/2023-05-03/2023-05-08/,412.59,1.0
+Baton Rouge,Estados Unidos,865.0,314.85,United Airlines,BTR,2023-04-12,2023-04-18,http://kayak.com/flights/DEN-BTR/2023-04-12/2023-04-18/,314.85,1.0
+Morelia,México,840.0,595.86,United Airlines,MLM,2024-02-01,2024-02-06,http://kayak.com/flights/DEN-MLM/2024-02-01/2024-02-06/,595.86,1.0
+Cataratas Vitória,Zimbábue,2020.0,1777.22,Lufthansa,VFA,2024-02-26,2024-03-03,http://kayak.com/flights/DEN-VFA/2024-02-26/2024-03-03/,1777.22,1.0
+Gaborone,Botsuana,2325.0,1842.07,Várias companhias aéreas,GBE,2023-03-28,2023-04-04,http://kayak.com/flights/DEN-GBE/2023-03-28/2023-04-04/,1842.07,1.0
+Sibiu,Roménia,1055.0,1926.66,Lufthansa,SBZ,2023-03-16,2023-03-23,http://kayak.com/flights/DEN-SBZ/2023-03-16/2023-03-23/,1926.66,1.0
+Camberra,Austrália,1682.0,2269.69,Air New Zealand,CBR,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-CBR/2023-04-10/2023-04-17/,2269.69,1.0
+Whitehorse,Canadá,1073.0,802.62,Várias companhias aéreas,YXY,2023-09-13,2023-09-20,http://kayak.com/flights/DEN-YXY/2023-09-13/2023-09-20/,802.62,1.0
+Christiansted,Ilhas Virgens Americanas,521.0,313.91,Spirit Airlines,STX,2023-04-22,2023-04-28,http://kayak.com/flights/DEN-STX/2023-04-22/2023-04-28/,313.91,1.0
+Coxen Hole,Honduras,750.0,679.5,American Airlines,RTB,2024-01-07,2024-01-13,http://kayak.com/flights/DEN-RTB/2024-01-07/2024-01-13/,679.5,1.0
+Castries,Santa Lúcia,1327.0,1125.92,American Airlines,UVF,2023-07-10,2023-07-17,http://kayak.com/flights/DEN-UVF/2023-07-10/2023-07-17/,1125.92,1.0
+Hilton Head Island,Estados Unidos,509.0,447.36,American Airlines,HHH,2023-09-02,2023-09-09,http://kayak.com/flights/DEN-HHH/2023-09-02/2023-09-09/,447.36,1.0
+Trenton,Estados Unidos,846.0,666.34,Frontier,TTN,2023-06-09,2023-06-16,http://kayak.com/flights/DEN-TTN/2023-06-09/2023-06-16/,666.34,1.0
+Augusta,Estados Unidos,354.0,397.55,American Airlines,AGS,2023-04-15,2023-04-19,http://kayak.com/flights/DEN-AGS/2023-04-15/2023-04-19/,397.55,1.0
+Scranton,Estados Unidos,1186.0,446.42,United Airlines,AVP,2023-09-21,2023-09-26,http://kayak.com/flights/DEN-AVP/2023-09-21/2023-09-26/,446.42,1.0
+Peoria,Estados Unidos,732.0,368.42,United Airlines,PIA,2023-04-06,2023-04-13,http://kayak.com/flights/DEN-PIA/2023-04-06/2023-04-13/,368.42,1.0
+Blountville,Estados Unidos,859.0,469.92,Várias companhias aéreas,TRI,2023-06-22,2023-06-26,http://kayak.com/flights/DEN-TRI/2023-06-22/2023-06-26/,469.92,1.0
+Gulfport,Estados Unidos,489.0,388.15,American Airlines,GPT,2023-09-11,2023-09-15,http://kayak.com/flights/DEN-GPT/2023-09-11/2023-09-15/,388.15,1.0
+Ponce,Porto Rico,624.0,390.03,JetBlue,PSE,2023-10-20,2023-10-27,http://kayak.com/flights/DEN-PSE/2023-10-20/2023-10-27/,390.03,1.0
+Road Town,Ilhas Virgens Britânicas,1960.0,705.82,American Airlines,EIS,2023-10-21,2023-10-28,http://kayak.com/flights/DEN-EIS/2023-10-21/2023-10-28/,705.82,1.0
+Nantucket,Estados Unidos,511.0,396.61,Delta,ACK,2023-06-13,2023-06-20,http://kayak.com/flights/DEN-ACK/2023-06-13/2023-06-20/,396.61,1.0
+Hamilton,Canadá,1412.0,451.12,WestJet,YHM,2023-06-30,2023-07-05,http://kayak.com/flights/DEN-YHM/2023-06-30/2023-07-05/,451.12,1.0
+Great Falls,Estados Unidos,122.0,168.23,United Airlines,GTF,2023-04-05,2023-04-12,http://kayak.com/flights/DEN-GTF/2023-04-05/2023-04-12/,168.23,1.0
+Everett,Estados Unidos,621.0,676.68,Várias companhias aéreas,PAE,2023-07-05,2023-07-09,http://kayak.com/flights/DEN-PAE/2023-07-05/2023-07-09/,676.68,1.0
+Abbotsford,Canadá,1305.0,371.24,WestJet,YXX,2023-05-23,2023-05-27,http://kayak.com/flights/DEN-YXX/2023-05-23/2023-05-27/,371.24,1.0
+Helena,Estados Unidos,1180.0,369.36,Várias companhias aéreas,HLN,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-HLN/2023-04-10/2023-04-17/,369.36,1.0
+Pullman,Estados Unidos,1724.0,685.14,Várias companhias aéreas,PUW,2023-05-08,2023-05-15,http://kayak.com/flights/DEN-PUW/2023-05-08/2023-05-15/,685.14,1.0
+Nanaimo,Canadá,1109.0,453.0,WestJet,YCD,2023-08-26,2023-08-30,http://kayak.com/flights/DEN-YCD/2023-08-26/2023-08-30/,453.0,1.0
+Grand Junction,Estados Unidos,649.0,252.82,Várias companhias aéreas,GJT,2023-03-20,2023-03-24,http://kayak.com/flights/DEN-GJT/2023-03-20/2023-03-24/,252.82,1.0
+Flagstaff,Estados Unidos,801.0,734.95,American Airlines,FLG,2023-10-20,2023-10-24,http://kayak.com/flights/DEN-FLG/2023-10-20/2023-10-24/,734.95,1.0
+Santa Fé,Estados Unidos,90.0,299.81,United Airlines,SAF,2023-06-21,2023-06-28,http://kayak.com/flights/DEN-SAF/2023-06-21/2023-06-28/,299.81,1.0
+Moline,Estados Unidos,144.0,280.07,United Airlines,MLI,2023-05-06,2023-05-12,http://kayak.com/flights/DEN-MLI/2023-05-06/2023-05-12/,280.07,1.0
+Corpus Christi,Estados Unidos,322.0,305.45,American Airlines,CRP,2023-04-22,2023-04-29,http://kayak.com/flights/DEN-CRP/2023-04-22/2023-04-29/,305.45,1.0
+Puerto Escondido,México,780.0,451.12,Várias companhias aéreas,PXM,2023-06-11,2023-06-17,http://kayak.com/flights/DEN-PXM/2023-06-11/2023-06-17/,451.12,1.0
+Shreveport,Estados Unidos,494.0,194.55,Delta,SHV,2023-04-04,2023-04-08,http://kayak.com/flights/DEN-SHV/2023-04-04/2023-04-08/,194.55,1.0
+La Paz,México,1704.0,474.62,Várias companhias aéreas,LAP,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-LAP/2023-04-10/2023-04-17/,474.62,1.0
+Midland,Estados Unidos,270.0,402.25,American Airlines,MAF,2023-03-20,2023-03-25,http://kayak.com/flights/DEN-MAF/2023-03-20/2023-03-25/,402.25,1.0
+Santa Maria Huatulco,México,1893.0,636.27,Aeromexico,HUX,2023-05-31,2023-06-06,http://kayak.com/flights/DEN-HUX/2023-05-31/2023-06-06/,636.27,1.0
+Monterey,Estados Unidos,1504.0,156.96,Várias companhias aéreas,MRY,2023-04-24,2023-05-01,http://kayak.com/flights/DEN-MRY/2023-04-24/2023-05-01/,156.96,1.0
+Lubbock,Estados Unidos,769.0,703.94,United Airlines,LBB,2023-03-12,2023-03-16,http://kayak.com/flights/DEN-LBB/2023-03-12/2023-03-16/,703.94,1.0
+Durango,Estados Unidos,86.0,355.26,United Airlines,DRO,2023-07-16,2023-07-22,http://kayak.com/flights/DEN-DRO/2023-07-16/2023-07-22/,355.26,1.0
+Ixtapa,México,1913.0,583.64,Aeromexico,ZIH,2023-11-07,2023-11-14,http://kayak.com/flights/DEN-ZIH/2023-11-07/2023-11-14/,583.64,1.0
+Idaho Falls,Estados Unidos,103.0,496.24,United Airlines,IDA,2023-05-31,2023-06-04,http://kayak.com/flights/DEN-IDA/2023-05-31/2023-06-04/,496.24,1.0
+Hermosillo,México,1429.0,457.7,Várias companhias aéreas,HMO,2023-04-19,2023-04-26,http://kayak.com/flights/DEN-HMO/2023-04-19/2023-04-26/,457.7,1.0
+Tuxtla Gutiérrez,México,1168.0,1013.14,Aeromexico,TGZ,2023-03-13,2023-03-17,http://kayak.com/flights/DEN-TGZ/2023-03-13/2023-03-17/,1013.14,1.0
+Vail,Estados Unidos,56.0,351.5,United Airlines,EGE,2023-12-10,2023-12-14,http://kayak.com/flights/DEN-EGE/2023-12-10/2023-12-14/,351.5,1.0
+San Luis Potosí,México,769.0,584.58,United Airlines,SLP,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-SLP/2023-04-10/2023-04-17/,584.58,1.0
+Puebla,México,1342.0,647.55,United Airlines,PBC,2023-03-24,2023-03-31,http://kayak.com/flights/DEN-PBC/2023-03-24/2023-03-31/,647.55,1.0
+Taipé,Taiwan,2255.0,1499.97,Japan Airlines,TSA,2023-05-22,2023-05-29,http://kayak.com/flights/DEN-TSA/2023-05-22/2023-05-29/,1499.97,1.0
+Kigali,Ruanda,3205.0,1637.19,Várias companhias aéreas,KGL,2023-04-16,2023-04-21,http://kayak.com/flights/DEN-KGL/2023-04-16/2023-04-21/,1637.19,1.0
+Moncton,Canadá,1055.0,744.35,United Airlines,YQM,2023-07-10,2023-07-17,http://kayak.com/flights/DEN-YQM/2023-07-10/2023-07-17/,744.35,1.0
+Thunder Bay,Canadá,1380.0,663.52,Várias companhias aéreas,YQT,2023-04-09,2023-04-16,http://kayak.com/flights/DEN-YQT/2023-04-09/2023-04-16/,663.52,1.0
+Inverness,Reino Unido,1420.0,586.46,KLM,INV,2023-09-20,2023-09-25,http://kayak.com/flights/DEN-INV/2023-09-20/2023-09-25/,586.46,1.0
+Southampton,Reino Unido,1725.0,1634.37,British Airways,SOU,2023-07-12,2023-07-18,http://kayak.com/flights/DEN-SOU/2023-07-12/2023-07-18/,1634.37,1.0
+Paderborn,Alemanha,2515.0,2111.8,Várias companhias aéreas,PAD,2023-04-08,2023-04-15,http://kayak.com/flights/DEN-PAD/2023-04-08/2023-04-15/,2111.8,1.0
+Rovaniemi,Finlândia,1967.0,1313.89,Finnair,RVN,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-RVN/2023-04-10/2023-04-17/,1313.89,1.0
+Baltra,Equador,2100.0,1126.86,Várias companhias aéreas,GPS,2023-05-08,2023-05-15,http://kayak.com/flights/DEN-GPS/2023-05-08/2023-05-15/,1126.86,1.0
+Hilo,Estados Unidos,1479.0,787.58,United Airlines,ITO,2023-05-05,2023-05-12,http://kayak.com/flights/DEN-ITO/2023-05-05/2023-05-12/,787.58,1.0
+Iquitos,Perú,2225.0,592.1,LATAM Airlines,IQT,2023-04-09,2023-04-16,http://kayak.com/flights/DEN-IQT/2023-04-09/2023-04-16/,592.1,1.0
+Tarapoto,Perú,3166.0,656.95,LATAM Airlines,TPP,2023-08-28,2023-09-03,http://kayak.com/flights/DEN-TPP/2023-08-28/2023-09-03/,656.95,1.0
+Lajes,Portugal,2476.0,1687.94,Várias companhias aéreas,TER,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-TER/2023-04-10/2023-04-17/,1687.94,1.0
+Iaundé,Camarões,3239.0,997.16,Várias companhias aéreas,NSI,2023-04-24,2023-04-30,http://kayak.com/flights/DEN-NSI/2023-04-24/2023-04-30/,997.16,1.0
+Bagdogra,Índia,3050.0,2009.36,Várias companhias aéreas,IXB,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-IXB/2023-04-10/2023-04-17/,2009.36,1.0
+Kodiak,Estados Unidos,2133.0,775.36,Alaska Airlines,ADQ,2023-07-24,2023-07-29,http://kayak.com/flights/DEN-ADQ/2023-07-24/2023-07-29/,775.36,1.0
+Bloomington,Estados Unidos,419.0,473.68,American Airlines,BMI,2023-04-27,2023-05-02,http://kayak.com/flights/DEN-BMI/2023-04-27/2023-05-02/,473.68,1.0
+Lansing,Estados Unidos,402.0,250.94,American Airlines,LAN,2023-04-05,2023-04-09,http://kayak.com/flights/DEN-LAN/2023-04-05/2023-04-09/,250.94,1.0
+Basseterre,São Cristóvão e Neves,1415.0,1083.63,American Airlines,SKB,2023-04-12,2023-04-16,http://kayak.com/flights/DEN-SKB/2023-04-12/2023-04-16/,1083.63,1.0
+State College,Estados Unidos,604.0,453.0,United Airlines,SCE,2023-04-07,2023-04-14,http://kayak.com/flights/DEN-SCE/2023-04-07/2023-04-14/,453.0,1.0
+Montgomery,Estados Unidos,434.0,447.36,Delta,MGM,2023-05-24,2023-05-30,http://kayak.com/flights/DEN-MGM/2023-05-24/2023-05-30/,447.36,1.0
+Lynchburg,Estados Unidos,520.0,714.28,American Airlines,LYH,2023-07-02,2023-07-08,http://kayak.com/flights/DEN-LYH/2023-07-02/2023-07-08/,714.28,1.0
+Elmira,Estados Unidos,618.0,515.97,Delta,ELM,2023-04-01,2023-04-08,http://kayak.com/flights/DEN-ELM/2023-04-01/2023-04-08/,515.97,1.0
+Wausau,Estados Unidos,1303.0,515.97,American Airlines,CWA,2023-04-24,2023-04-28,http://kayak.com/flights/DEN-CWA/2023-04-24/2023-04-28/,515.97,1.0
+Freeport,Bahamas,1114.0,937.96,Várias companhias aéreas,FPO,2023-07-14,2023-07-20,http://kayak.com/flights/DEN-FPO/2023-07-14/2023-07-20/,937.96,1.0
+Plattsburgh,Estados Unidos,1079.0,357.14,Várias companhias aéreas,PBG,2023-04-10,2023-04-14,http://kayak.com/flights/DEN-PBG/2023-04-10/2023-04-14/,357.14,1.0
+Evansville,Estados Unidos,489.0,497.18,Delta,EVV,2023-08-03,2023-08-07,http://kayak.com/flights/DEN-EVV/2023-08-03/2023-08-07/,497.18,1.0
+Saranac Lake,Estados Unidos,490.0,742.47,JetBlue,SLK,2023-03-13,2023-03-18,http://kayak.com/flights/DEN-SLK/2023-03-13/2023-03-18/,742.47,1.0
+Flores,Guatemala,1535.0,934.2,Várias companhias aéreas,FRS,2023-03-26,2023-04-01,http://kayak.com/flights/DEN-FRS/2023-03-26/2023-04-01/,934.2,1.0
+Ítaca,Estados Unidos,696.0,445.48,Delta,ITH,2023-04-25,2023-04-29,http://kayak.com/flights/DEN-ITH/2023-04-25/2023-04-29/,445.48,1.0
+Scarborough,Trinidad e Tobago,1846.0,2780.02,Várias companhias aéreas,TAB,2024-02-10,2024-02-17,http://kayak.com/flights/DEN-TAB/2024-02-10/2024-02-17/,2780.02,1.0
+George Town,Bahamas,1264.0,704.88,Várias companhias aéreas,GGT,2023-05-12,2023-05-19,http://kayak.com/flights/DEN-GGT/2023-05-12/2023-05-19/,704.88,1.0
+Kalamazoo,Estados Unidos,683.0,332.7,American Airlines,AZO,2023-04-05,2023-04-09,http://kayak.com/flights/DEN-AZO/2023-04-05/2023-04-09/,332.7,1.0
+Erie,Estados Unidos,1668.0,400.37,American Airlines,ERI,2023-06-14,2023-06-18,http://kayak.com/flights/DEN-ERI/2023-06-14/2023-06-18/,400.37,1.0
+Rutland,Estados Unidos,781.0,468.98,Várias companhias aéreas,RUT,2023-03-20,2023-03-27,http://kayak.com/flights/DEN-RUT/2023-03-20/2023-03-27/,468.98,1.0
+West Tisbury,Estados Unidos,620.0,610.89,JetBlue,MVY,2023-06-17,2023-06-23,http://kayak.com/flights/DEN-MVY/2023-06-17/2023-06-23/,610.89,1.0
+Bar Harbor,Estados Unidos,820.0,558.26,Várias companhias aéreas,BHB,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-BHB/2023-04-10/2023-04-17/,558.26,1.0
+Kingstown,São Vicente e Granadinas,1229.0,457.7,American Airlines,SVD,2023-05-10,2023-05-17,http://kayak.com/flights/DEN-SVD/2023-05-10/2023-05-17/,457.7,1.0
+Newport News,Estados Unidos,371.0,501.87,American Airlines,PHF,2023-04-22,2023-04-26,http://kayak.com/flights/DEN-PHF/2023-04-22/2023-04-26/,501.87,1.0
+Paramaribo,Suriname,2152.0,1273.47,Várias companhias aéreas,PBM,2023-03-20,2023-03-27,http://kayak.com/flights/DEN-PBM/2023-03-20/2023-03-27/,1273.47,1.0
+Bismarck,Estados Unidos,111.0,242.48,United Airlines,BIS,2023-03-23,2023-03-27,http://kayak.com/flights/DEN-BIS/2023-03-23/2023-03-27/,242.48,1.0
+Duluth,Estados Unidos,597.0,315.79,Sun Country Air,DLH,2023-06-07,2023-06-14,http://kayak.com/flights/DEN-DLH/2023-06-07/2023-06-14/,315.79,1.0
+Ketchikan,Estados Unidos,1181.0,548.87,Alaska Airlines,KTN,2023-07-24,2023-07-28,http://kayak.com/flights/DEN-KTN/2023-07-24/2023-07-28/,548.87,1.0
+Minot,Estados Unidos,119.0,501.87,United Airlines,MOT,2023-04-27,2023-05-01,http://kayak.com/flights/DEN-MOT/2023-04-27/2023-05-01/,501.87,1.0
+Arcata,Estados Unidos,307.0,397.55,United Airlines,ACV,2023-07-15,2023-07-20,http://kayak.com/flights/DEN-ACV/2023-07-15/2023-07-20/,397.55,1.0
+Saint George,Estados Unidos,369.0,265.98,Delta,SGU,2023-04-05,2023-04-09,http://kayak.com/flights/DEN-SGU/2023-04-05/2023-04-09/,265.98,1.0
+Bakersfield,Estados Unidos,400.0,288.53,American Airlines,BFL,2023-05-28,2023-06-03,http://kayak.com/flights/DEN-BFL/2023-05-28/2023-06-03/,288.53,1.0
+Montrose,Estados Unidos,1398.0,459.58,American Airlines,MTJ,2023-03-25,2023-03-29,http://kayak.com/flights/DEN-MTJ/2023-03-25/2023-03-29/,459.58,1.0
+Hailey,Estados Unidos,125.0,470.86,United Airlines,SUN,2023-03-19,2023-03-23,http://kayak.com/flights/DEN-SUN/2023-03-19/2023-03-23/,470.86,1.0
+Mexicali,México,722.0,324.25,Volaris,MXL,2023-06-25,2023-07-01,http://kayak.com/flights/DEN-MXL/2023-06-25/2023-07-01/,324.25,1.0
+Brownsville,Estados Unidos,307.0,337.4,American Airlines,BRO,2023-04-05,2023-04-10,http://kayak.com/flights/DEN-BRO/2023-04-05/2023-04-10/,337.4,1.0
+Yuma,Estados Unidos,325.0,512.21,American Airlines,YUM,2023-04-14,2023-04-20,http://kayak.com/flights/DEN-YUM/2023-04-14/2023-04-20/,512.21,1.0
+Lincoln,Estados Unidos,107.0,157.9,United Airlines,LNK,2023-04-05,2023-04-10,http://kayak.com/flights/DEN-LNK/2023-04-05/2023-04-10/,157.9,1.0
+Amarillo,Estados Unidos,82.0,126.88,United Airlines,AMA,2023-04-06,2023-04-11,http://kayak.com/flights/DEN-AMA/2023-04-06/2023-04-11/,126.88,1.0
+Tampico,México,857.0,591.16,Aeromexico,TAM,2023-12-13,2023-12-20,http://kayak.com/flights/DEN-TAM/2023-12-13/2023-12-20/,591.16,1.0
+Harlingen,Estados Unidos,881.0,335.52,American Airlines,HRL,2023-04-05,2023-04-09,http://kayak.com/flights/DEN-HRL/2023-04-05/2023-04-09/,335.52,1.0
+Columbia,Estados Unidos,380.0,342.1,American Airlines,COU,2023-03-31,2023-04-04,http://kayak.com/flights/DEN-COU/2023-03-31/2023-04-04/,342.1,1.0
+Torreón,México,1416.0,586.46,Várias companhias aéreas,TRC,2023-05-11,2023-05-15,http://kayak.com/flights/DEN-TRC/2023-05-11/2023-05-15/,586.46,1.0
+Zacatecas,México,1277.0,512.21,Várias companhias aéreas,ZCL,2023-04-23,2023-04-30,http://kayak.com/flights/DEN-ZCL/2023-04-23/2023-04-30/,512.21,1.0
+Hayden,Estados Unidos,74.0,223.68,United Airlines,HDN,2023-04-11,2023-04-18,http://kayak.com/flights/DEN-HDN/2023-04-11/2023-04-18/,223.68,1.0
+Lafayette,Estados Unidos,332.0,421.99,American Airlines,LFT,2023-04-26,2023-04-30,http://kayak.com/flights/DEN-LFT/2023-04-26/2023-04-30/,421.99,1.0
+Redding,Estados Unidos,1292.0,414.47,United Airlines,RDD,2023-04-18,2023-04-23,http://kayak.com/flights/DEN-RDD/2023-04-18/2023-04-23/,414.47,1.0
+Provo,Estados Unidos,528.0,185.15,Várias companhias aéreas,PVU,2023-05-04,2023-05-08,http://kayak.com/flights/DEN-PVU/2023-05-04/2023-05-08/,185.15,1.0
+Killeen,Estados Unidos,278.0,401.31,American Airlines,GRK,2023-06-06,2023-06-10,http://kayak.com/flights/DEN-GRK/2023-06-06/2023-06-10/,401.31,1.0
+Chengdu,China,3655.0,2910.66,Várias companhias aéreas,CTU,2023-05-01,2023-05-08,http://kayak.com/flights/DEN-CTU/2023-05-01/2023-05-08/,2910.66,1.0
+Queenstown,Nova Zelândia,3459.0,2868.37,Várias companhias aéreas,ZQN,2023-06-02,2023-06-07,http://kayak.com/flights/DEN-ZQN/2023-06-02/2023-06-07/,2868.37,1.0
+Darwin,Austrália,3579.0,2407.85,Qantas Airways,DRW,2023-04-09,2023-04-15,http://kayak.com/flights/DEN-DRW/2023-04-09/2023-04-15/,2407.85,1.0
+Hoedspruit,África do Sul,2170.0,1780.98,Várias companhias aéreas,HDS,2023-05-10,2023-05-17,http://kayak.com/flights/DEN-HDS/2023-05-10/2023-05-17/,1780.98,1.0
+Charlottetown,Canadá,1500.0,625.93,Várias companhias aéreas,YYG,2023-04-09,2023-04-16,http://kayak.com/flights/DEN-YYG/2023-04-09/2023-04-16/,625.93,1.0
+Exeter,Reino Unido,1920.0,1796.96,Várias companhias aéreas,EXT,2023-03-16,2023-03-23,http://kayak.com/flights/DEN-EXT/2023-03-16/2023-03-23/,1796.96,1.0
+Sørvágur,Ilhas Faroe,2195.0,1376.86,Várias companhias aéreas,FAE,2023-06-06,2023-06-13,http://kayak.com/flights/DEN-FAE/2023-06-06/2023-06-13/,1376.86,1.0
+Longyearbyen,Noruega,2294.0,1469.9,Scandinavian Airlines,LYR,2023-04-21,2023-04-28,http://kayak.com/flights/DEN-LYR/2023-04-21/2023-04-28/,1469.9,1.0
+Skellefteå,Suécia,2231.0,1296.03,Scandinavian Airlines,SFT,2023-04-07,2023-04-12,http://kayak.com/flights/DEN-SFT/2023-04-07/2023-04-12/,1296.03,1.0
+Narvik,Noruega,2080.0,1796.96,Várias companhias aéreas,EVE,2023-07-10,2023-07-16,http://kayak.com/flights/DEN-EVE/2023-07-10/2023-07-16/,1796.96,1.0
+Haugesund,Noruega,2423.0,1906.92,Scandinavian Airlines,HAU,2023-06-27,2023-07-04,http://kayak.com/flights/DEN-HAU/2023-06-27/2023-07-04/,1906.92,1.0
+Kiruna,Suécia,3480.0,1333.62,Scandinavian Airlines,KRN,2023-04-07,2023-04-12,http://kayak.com/flights/DEN-KRN/2023-04-07/2023-04-12/,1333.62,1.0
+Rijeka,Croácia,2055.0,2630.59,Várias companhias aéreas,RJK,2023-08-28,2023-09-04,http://kayak.com/flights/DEN-RJK/2023-08-28/2023-09-04/,2630.59,1.0
+Apia,Samoa,2835.0,2536.61,Air New Zealand,APW,2023-06-26,2023-07-01,http://kayak.com/flights/DEN-APW/2023-06-26/2023-07-01/,2536.61,1.0
+Ilha de Páscoa,Chile,2605.0,2473.64,Várias companhias aéreas,IPC,2023-07-15,2023-07-22,http://kayak.com/flights/DEN-IPC/2023-07-15/2023-07-22/,2473.64,1.0
+Hana,Estados Unidos,2298.0,916.34,Várias companhias aéreas,HNM,2023-11-09,2023-11-14,http://kayak.com/flights/DEN-HNM/2023-11-09/2023-11-14/,916.34,1.0
+Kapalua,Estados Unidos,1169.0,963.33,Várias companhias aéreas,JHM,2023-08-28,2023-09-04,http://kayak.com/flights/DEN-JHM/2023-08-28/2023-09-04/,963.33,1.0
+Hoolehua,Estados Unidos,917.0,965.21,Várias companhias aéreas,MKK,2023-09-19,2023-09-26,http://kayak.com/flights/DEN-MKK/2023-09-19/2023-09-26/,965.21,1.0
+Ushuaia,Argentina,2872.0,2162.55,Várias companhias aéreas,USH,2023-05-07,2023-05-13,http://kayak.com/flights/DEN-USH/2023-05-07/2023-05-13/,2162.55,1.0
+Punta Arenas,Chile,2341.0,1365.58,LATAM Airlines,PUQ,2024-01-26,2024-02-02,http://kayak.com/flights/DEN-PUQ/2024-01-26/2024-02-02/,1365.58,1.0
+Manta,Equador,2249.0,769.73,LATAM Airlines,MEC,2023-08-22,2023-08-29,http://kayak.com/flights/DEN-MEC/2023-08-22/2023-08-29/,769.73,1.0
+Puerto Montt,Chile,1919.0,1747.15,LATAM Airlines,PMC,2023-03-25,2023-04-01,http://kayak.com/flights/DEN-PMC/2023-03-25/2023-04-01/,1747.15,1.0
+San Cristobal,Equador,2870.0,1174.79,Várias companhias aéreas,SCY,2023-09-13,2023-09-20,http://kayak.com/flights/DEN-SCY/2023-09-13/2023-09-20/,1174.79,1.0
+Gibraltar,Gibraltar,2102.0,1344.9,British Airways,GIB,2023-04-09,2023-04-16,http://kayak.com/flights/DEN-GIB/2023-04-09/2023-04-16/,1344.9,1.0
+Horta,Portugal,2122.0,1174.79,Várias companhias aéreas,HOR,2023-09-30,2023-10-07,http://kayak.com/flights/DEN-HOR/2023-09-30/2023-10-07/,1174.79,1.0
+Ilha do Pico,Portugal,2150.0,1310.13,Várias companhias aéreas,PIX,2023-05-23,2023-05-30,http://kayak.com/flights/DEN-PIX/2023-05-23/2023-05-30/,1310.13,1.0
+Porto Santo,Portugal,2329.0,2388.11,Várias companhias aéreas,PXO,2023-04-09,2023-04-16,http://kayak.com/flights/DEN-PXO/2023-04-09/2023-04-16/,2388.11,1.0
+Cotonou,Benin,2265.0,1720.83,Delta,COO,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-COO/2023-04-10/2023-04-17/,1720.83,1.0
+Niamey,Níger,2606.0,1802.6,Várias companhias aéreas,NIM,2023-03-12,2023-03-19,http://kayak.com/flights/DEN-NIM/2023-03-12/2023-03-19/,1802.6,1.0
+Sitka,Estados Unidos,1704.0,424.81,Alaska Airlines,SIT,2023-08-08,2023-08-14,http://kayak.com/flights/DEN-SIT/2023-08-08/2023-08-14/,424.81,1.0
+Homer,Estados Unidos,1320.0,925.74,Várias companhias aéreas,HOM,2023-08-18,2023-08-24,http://kayak.com/flights/DEN-HOM/2023-08-18/2023-08-24/,925.74,1.0
+Springfield,Estados Unidos,275.0,150.38,Frontier,SFY,2023-03-21,2023-03-28,http://kayak.com/flights/DEN-SFY/2023-03-21/2023-03-28/,150.38,1.0
+Marion,Estados Unidos,792.0,281.95,Várias companhias aéreas,MWA,2023-04-13,2023-04-20,http://kayak.com/flights/DEN-MWA/2023-04-13/2023-04-20/,281.95,1.0
+Valdosta,Estados Unidos,751.0,969.91,Delta,VLD,2023-04-19,2023-04-23,http://kayak.com/flights/DEN-VLD/2023-04-19/2023-04-23/,969.91,1.0
+Florença,Estados Unidos,1072.0,271.62,American Airlines,FLO,2023-04-29,2023-05-06,http://kayak.com/flights/DEN-FLO/2023-04-29/2023-05-06/,271.62,1.0
+Marsh Harbour,Bahamas,767.0,738.71,American Airlines,MHH,2023-10-31,2023-11-07,http://kayak.com/flights/DEN-MHH/2023-10-31/2023-11-07/,738.71,1.0
+Gregory Town,Bahamas,1730.0,777.24,Várias companhias aéreas,ELH,2023-03-20,2023-03-27,http://kayak.com/flights/DEN-ELH/2023-03-20/2023-03-27/,777.24,1.0
+Port Royal,Bahamas,1740.0,972.73,Várias companhias aéreas,BIM,2023-03-25,2023-04-01,http://kayak.com/flights/DEN-BIM/2023-03-25/2023-04-01/,972.73,1.0
+Ibagué,Colômbia,1406.0,1496.21,Avianca,IBE,2023-05-13,2023-05-18,http://kayak.com/flights/DEN-IBE/2023-05-13/2023-05-18/,1496.21,1.0
+Cayman Brac,Ilhas Cayman,1670.0,812.02,Várias companhias aéreas,CYB,2023-07-04,2023-07-08,http://kayak.com/flights/DEN-CYB/2023-07-04/2023-07-08/,812.02,1.0
+Mayagüez,Porto Rico,866.0,501.87,United Airlines,MAZ,2023-10-03,2023-10-10,http://kayak.com/flights/DEN-MAZ/2023-10-03/2023-10-10/,501.87,1.0
+Binghamton,Estados Unidos,675.0,527.25,Delta,BGM,2023-05-09,2023-05-13,http://kayak.com/flights/DEN-BGM/2023-05-09/2023-05-13/,527.25,1.0
+Owensboro,Estados Unidos,646.0,853.37,American Airlines,OWB,2023-07-01,2023-07-08,http://kayak.com/flights/DEN-OWB/2023-07-01/2023-07-08/,853.37,1.0
+Grand-Case,São Martinho (Saint-Martin),1945.0,1568.58,Várias companhias aéreas,SFG,2023-07-13,2023-07-19,http://kayak.com/flights/DEN-SFG/2023-07-13/2023-07-19/,1568.58,1.0
+Belleville,Estados Unidos,1895.0,421.05,Várias companhias aéreas,BLV,2023-04-13,2023-04-20,http://kayak.com/flights/DEN-BLV/2023-04-13/2023-04-20/,421.05,1.0
+Bay City,Estados Unidos,627.0,1003.74,Delta,MBS,2023-05-25,2023-05-29,http://kayak.com/flights/DEN-MBS/2023-05-25/2023-05-29/,1003.74,1.0
+Brunswick,Estados Unidos,474.0,478.38,Delta,BQK,2023-05-01,2023-05-06,http://kayak.com/flights/DEN-BQK/2023-05-01/2023-05-06/,478.38,1.0
+Salisbury,Estados Unidos,626.0,494.36,American Airlines,SBY,2023-06-03,2023-06-10,http://kayak.com/flights/DEN-SBY/2023-06-03/2023-06-10/,494.36,1.0
+Roseau,Dominica,1712.0,1419.15,American Airlines,DOM,2023-04-09,2023-04-16,http://kayak.com/flights/DEN-DOM/2023-04-09/2023-04-16/,1419.15,1.0
+Dothan,Estados Unidos,466.0,675.74,Delta,DHN,2023-05-24,2023-05-30,http://kayak.com/flights/DEN-DHN/2023-05-24/2023-05-30/,675.74,1.0
+David,Panamá,1568.0,1012.2,United Airlines,DAV,2023-03-28,2023-04-04,http://kayak.com/flights/DEN-DAV/2023-03-28/2023-04-04/,1012.2,1.0
+Kralendijk,Países Baixos Caribenhos,2333.0,1094.91,American Airlines,BON,2023-07-15,2023-07-22,http://kayak.com/flights/DEN-BON/2023-07-15/2023-07-22/,1094.91,1.0
+New Bern,Estados Unidos,319.0,522.55,American Airlines,EWN,2023-09-01,2023-09-06,http://kayak.com/flights/DEN-EWN/2023-09-01/2023-09-06/,522.55,1.0
+Meridian,Estados Unidos,513.0,371.24,United Airlines,MEI,2023-04-08,2023-04-15,http://kayak.com/flights/DEN-MEI/2023-04-08/2023-04-15/,371.24,1.0
+Chetumal,México,1207.0,929.5,Aeromexico,CTM,2023-04-07,2023-04-14,http://kayak.com/flights/DEN-CTM/2023-04-07/2023-04-14/,929.5,1.0
+Manistee,Estados Unidos,460.0,476.5,American Airlines,MBL,2023-06-01,2023-06-05,http://kayak.com/flights/DEN-MBL/2023-06-01/2023-06-05/,476.5,1.0
+Rockland,Estados Unidos,650.0,901.3,JetBlue,RKD,2023-07-17,2023-07-22,http://kayak.com/flights/DEN-RKD/2023-07-17/2023-07-22/,901.3,1.0
+Champaign,Estados Unidos,748.0,1324.23,American Airlines,CMI,2023-03-20,2023-03-24,http://kayak.com/flights/DEN-CMI/2023-03-20/2023-03-24/,1324.23,1.0
+Grand Forks,Estados Unidos,266.0,534.77,Delta,GFK,2023-11-23,2023-11-27,http://kayak.com/flights/DEN-GFK/2023-11-23/2023-11-27/,534.77,1.0
+Williston,Estados Unidos,484.0,180.45,Delta,XWA,2023-10-07,2023-10-11,http://kayak.com/flights/DEN-XWA/2023-10-07/2023-10-11/,180.45,1.0
+Aberdeen,Estados Unidos,370.0,455.82,Delta,ABR,2023-03-17,2023-03-24,http://kayak.com/flights/DEN-ABR/2023-03-17/2023-03-24/,455.82,1.0
+Brainerd,Estados Unidos,391.0,390.03,Delta,BRD,2023-08-09,2023-08-15,http://kayak.com/flights/DEN-BRD/2023-08-09/2023-08-15/,390.03,1.0
+Dickinson,Estados Unidos,110.0,204.89,United Airlines,DIK,2023-08-25,2023-09-01,http://kayak.com/flights/DEN-DIK/2023-08-25/2023-09-01/,204.89,1.0
+International Falls,Estados Unidos,387.0,601.5,Delta,INL,2023-06-23,2023-06-27,http://kayak.com/flights/DEN-INL/2023-06-23/2023-06-27/,601.5,1.0
+Ironwood,Estados Unidos,1652.0,489.66,Várias companhias aéreas,IWD,2023-07-30,2023-08-06,http://kayak.com/flights/DEN-IWD/2023-07-30/2023-08-06/,489.66,1.0
+Penticton,Canadá,2278.0,564.84,WestJet,YYF,2023-06-21,2023-06-26,http://kayak.com/flights/DEN-YYF/2023-06-21/2023-06-26/,564.84,1.0
+Petersburg,Estados Unidos,1921.0,815.78,Alaska Airlines,PSG,2023-07-23,2023-07-30,http://kayak.com/flights/DEN-PSG/2023-07-23/2023-07-30/,815.78,1.0
+Walla Walla,Estados Unidos,2235.0,1297.91,American Airlines,ALW,2023-03-24,2023-03-28,http://kayak.com/flights/DEN-ALW/2023-03-24/2023-03-28/,1297.91,1.0
+Devils Lake,Estados Unidos,217.0,248.12,United Airlines,DVL,2023-04-20,2023-04-24,http://kayak.com/flights/DEN-DVL/2023-04-20/2023-04-24/,248.12,1.0
+Butte,Estados Unidos,345.0,436.09,Delta,BTM,2023-07-02,2023-07-07,http://kayak.com/flights/DEN-BTM/2023-07-02/2023-07-07/,436.09,1.0
+Hibbing,Estados Unidos,681.0,501.87,Delta,HIB,2023-09-27,2023-10-01,http://kayak.com/flights/DEN-HIB/2023-09-27/2023-10-01/,501.87,1.0
+Sandspit,Canadá,1253.0,888.14,Várias companhias aéreas,YZP,2023-06-17,2023-06-24,http://kayak.com/flights/DEN-YZP/2023-06-17/2023-06-24/,888.14,1.0
+Yellowknife,Canadá,2535.0,1069.53,WestJet,YZF,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-YZF/2023-04-10/2023-04-17/,1069.53,1.0
+Bemidji,Estados Unidos,341.0,672.92,Delta,BJI,2023-07-01,2023-07-08,http://kayak.com/flights/DEN-BJI/2023-07-01/2023-07-08/,672.92,1.0
+Waco,Estados Unidos,261.0,143.8,American Airlines,ACT,2023-04-25,2023-04-29,http://kayak.com/flights/DEN-ACT/2023-04-25/2023-04-29/,143.8,1.0
+Bishop,Estados Unidos,1114.0,521.61,United Airlines,BIH,2023-03-21,2023-03-25,http://kayak.com/flights/DEN-BIH/2023-03-21/2023-03-25/,521.61,1.0
+Hot Springs,Estados Unidos,1089.0,265.98,Várias companhias aéreas,HOT,2023-05-13,2023-05-17,http://kayak.com/flights/DEN-HOT/2023-05-13/2023-05-17/,265.98,1.0
+Stockton,Estados Unidos,778.0,379.7,Várias companhias aéreas,SCK,2023-03-24,2023-03-30,http://kayak.com/flights/DEN-SCK/2023-03-24/2023-03-30/,379.7,1.0
+Telluride,Estados Unidos,60.0,421.05,Denver Air Connection,TEX,2023-09-13,2023-09-17,http://kayak.com/flights/DEN-TEX/2023-09-13/2023-09-17/,421.05,1.0
+North Bend,Estados Unidos,557.0,493.42,United Airlines,OTH,2023-05-19,2023-05-25,http://kayak.com/flights/DEN-OTH/2023-05-19/2023-05-25/,493.42,1.0
+Alexandria,Estados Unidos,444.0,638.15,Delta,AEX,2023-03-15,2023-03-20,http://kayak.com/flights/DEN-AEX/2023-03-15/2023-03-20/,638.15,1.0
+Fort Smith,Estados Unidos,1932.0,719.91,American Airlines,FSM,2023-03-27,2023-03-31,http://kayak.com/flights/DEN-FSM/2023-03-27/2023-03-31/,719.91,1.0
+Laredo,Estados Unidos,377.0,528.19,American Airlines,LRD,2023-03-23,2023-03-27,http://kayak.com/flights/DEN-LRD/2023-03-23/2023-03-27/,528.19,1.0
+Abilene,Estados Unidos,347.0,297.93,American Airlines,ABI,2023-05-17,2023-05-21,http://kayak.com/flights/DEN-ABI/2023-05-17/2023-05-21/,297.93,1.0
+Uruapan,México,1553.0,756.57,Várias companhias aéreas,UPN,2023-04-06,2023-04-13,http://kayak.com/flights/DEN-UPN/2023-04-06/2023-04-13/,756.57,1.0
+Elko,Estados Unidos,365.0,492.48,Delta,EKO,2023-03-26,2023-03-31,http://kayak.com/flights/DEN-EKO/2023-03-26/2023-03-31/,492.48,1.0
+Clovis,Estados Unidos,2517.0,375.0,Várias companhias aéreas,CVN,2023-03-28,2023-04-02,http://kayak.com/flights/DEN-CVN/2023-03-28/2023-04-02/,375.0,1.0
+Waterloo,Estados Unidos,473.0,440.79,American Airlines,ALO,2023-04-12,2023-04-16,http://kayak.com/flights/DEN-ALO/2023-04-12/2023-04-16/,440.79,1.0
+Quincy,Estados Unidos,1087.0,409.77,Várias companhias aéreas,UIN,2023-05-26,2023-05-31,http://kayak.com/flights/DEN-UIN/2023-05-26/2023-05-31/,409.77,1.0
+Loreto,México,1304.0,531.95,American Airlines,LTO,2023-04-22,2023-04-29,http://kayak.com/flights/DEN-LTO/2023-04-22/2023-04-29/,531.95,1.0
+Manzanillo,México,1628.0,832.69,Aeromexico,ZLO,2023-04-08,2023-04-15,http://kayak.com/flights/DEN-ZLO/2023-04-08/2023-04-15/,832.69,1.0
+Victoria,Estados Unidos,1044.0,606.2,United Airlines,VCT,2023-03-16,2023-03-21,http://kayak.com/flights/DEN-VCT/2023-03-16/2023-03-21/,606.2,1.0
+Cheyenne,Estados Unidos,57.0,104.33,United Airlines,CYS,2023-03-25,2023-04-01,http://kayak.com/flights/DEN-CYS/2023-03-25/2023-04-01/,104.33,1.0
+College Station,Estados Unidos,1026.0,410.71,American Airlines,CLL,2023-04-08,2023-04-15,http://kayak.com/flights/DEN-CLL/2023-04-08/2023-04-15/,410.71,1.0
+West Yellowstone,Estados Unidos,111.0,398.49,United Airlines,WYS,2023-07-01,2023-07-08,http://kayak.com/flights/DEN-WYS/2023-07-01/2023-07-08/,398.49,1.0
+Grand Island,Estados Unidos,1143.0,1070.47,American Airlines,GRI,2023-03-13,2023-03-17,http://kayak.com/flights/DEN-GRI/2023-03-13/2023-03-17/,1070.47,1.0
+Rock Springs,Estados Unidos,70.0,384.4,United Airlines,RKS,2023-08-18,2023-08-23,http://kayak.com/flights/DEN-RKS/2023-08-18/2023-08-23/,384.4,1.0
+Vernal,Estados Unidos,74.0,167.29,United Airlines,VEL,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-VEL/2023-04-10/2023-04-17/,167.29,1.0
+Alamosa,Estados Unidos,55.0,203.01,Denver Air Connection,ALS,2023-07-30,2023-08-06,http://kayak.com/flights/DEN-ALS/2023-07-30/2023-08-06/,203.01,1.0
+Casper,Estados Unidos,73.0,130.64,United Airlines,CPR,2023-04-08,2023-04-15,http://kayak.com/flights/DEN-CPR/2023-04-08/2023-04-15/,130.64,1.0
+Carlsbad,Estados Unidos,1043.0,353.38,Várias companhias aéreas,CNM,2023-07-13,2023-07-17,http://kayak.com/flights/DEN-CNM/2023-07-13/2023-07-17/,353.38,1.0
+Manhattan,Estados Unidos,1152.0,748.11,American Airlines,MHK,2023-03-14,2023-03-18,http://kayak.com/flights/DEN-MHK/2023-03-14/2023-03-18/,748.11,1.0
+Page,Estados Unidos,1383.0,255.64,Várias companhias aéreas,PGA,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-PGA/2023-04-10/2023-04-17/,255.64,1.0
+San Bernardino,Estados Unidos,841.0,426.69,Várias companhias aéreas,SBD,2023-07-03,2023-07-09,http://kayak.com/flights/DEN-SBD/2023-07-03/2023-07-09/,426.69,1.0
+Cody,Estados Unidos,94.0,342.1,United Airlines,COD,2023-03-27,2023-04-03,http://kayak.com/flights/DEN-COD/2023-03-27/2023-04-03/,342.1,1.0
+Pierre,Estados Unidos,90.0,277.25,Denver Air Connection,PIR,2023-05-16,2023-05-23,http://kayak.com/flights/DEN-PIR/2023-05-16/2023-05-23/,277.25,1.0
+Pueblo,Estados Unidos,55.0,88.35,Southern / Mokulele,PUB,2023-04-09,2023-04-16,http://kayak.com/flights/DEN-PUB/2023-04-09/2023-04-16/,88.35,1.0
+Moab,Estados Unidos,360.0,597.74,Delta,CNY,2023-04-13,2023-04-17,http://kayak.com/flights/DEN-CNY/2023-04-13/2023-04-17/,597.74,1.0
+La Crosse,Estados Unidos,312.0,638.15,Delta,LSE,2023-03-17,2023-03-22,http://kayak.com/flights/DEN-LSE/2023-03-17/2023-03-22/,638.15,1.0
+Sioux City,Estados Unidos,1048.0,325.19,United Airlines,SUX,2023-04-27,2023-05-01,http://kayak.com/flights/DEN-SUX/2023-04-27/2023-05-01/,325.19,1.0
+Joplin,Estados Unidos,1783.0,432.33,United Airlines,JLN,2023-03-13,2023-03-20,http://kayak.com/flights/DEN-JLN/2023-03-13/2023-03-20/,432.33,1.0
+Cortez,Estados Unidos,95.0,308.27,Denver Air Connection,CEZ,2023-03-19,2023-03-26,http://kayak.com/flights/DEN-CEZ/2023-03-19/2023-03-26/,308.27,1.0
+Prescott,Estados Unidos,1492.0,374.06,United Airlines,PRC,2023-04-20,2023-04-26,http://kayak.com/flights/DEN-PRC/2023-04-20/2023-04-26/,374.06,1.0
+Texarkana,Estados Unidos,1466.0,317.67,American Airlines,TXK,2023-04-05,2023-04-10,http://kayak.com/flights/DEN-TXK/2023-04-05/2023-04-10/,317.67,1.0
+Del Rio,Estados Unidos,592.0,550.75,American Airlines,DRT,2023-03-18,2023-03-25,http://kayak.com/flights/DEN-DRT/2023-03-18/2023-03-25/,550.75,1.0
+Gunnison,Estados Unidos,71.0,488.72,United Airlines,GUC,2023-03-12,2023-03-18,http://kayak.com/flights/DEN-GUC/2023-03-12/2023-03-18/,488.72,1.0
+Stillwater,Estados Unidos,299.0,346.8,American Airlines,SWO,2023-07-02,2023-07-08,http://kayak.com/flights/DEN-SWO/2023-07-02/2023-07-08/,346.8,1.0
+Longview,Estados Unidos,1555.0,625.93,American Airlines,GGG,2023-03-15,2023-03-22,http://kayak.com/flights/DEN-GGG/2023-03-15/2023-03-22/,625.93,1.0
+Watertown,Estados Unidos,110.0,270.68,Denver Air Connection,ATY,2023-04-10,2023-04-17,http://kayak.com/flights/DEN-ATY/2023-04-10/2023-04-17/,270.68,1.0
+Liberal,Estados Unidos,158.0,281.95,United Airlines,LBL,2023-03-16,2023-03-20,http://kayak.com/flights/DEN-LBL/2023-03-16/2023-03-20/,281.95,1.0
+Tyler,Estados Unidos,383.0,320.49,American Airlines,TYR,2023-04-09,2023-04-14,http://kayak.com/flights/DEN-TYR/2023-04-09/2023-04-14/,320.49,1.0
+Tepic,México,1348.0,762.21,Várias companhias aéreas,TPQ,2023-05-06,2023-05-13,http://kayak.com/flights/DEN-TPQ/2023-05-06/2023-05-13/,762.21,1.0
+San Angelo,Estados Unidos,356.0,515.97,American Airlines,SJT,2023-08-06,2023-08-11,http://kayak.com/flights/DEN-SJT/2023-08-06/2023-08-11/,515.97,1.0
+Hobbs,Estados Unidos,1449.0,380.64,United Airlines,HOB,2023-04-20,2023-04-24,http://kayak.com/flights/DEN-HOB/2023-04-20/2023-04-24/,380.64,1.0
+Mason City,Estados Unidos,549.0,290.41,United Airlines,MCW,2023-04-12,2023-04-16,http://kayak.com/flights/DEN-MCW/2023-04-12/2023-04-16/,290.41,1.0
+Monroe,Estados Unidos,500.0,675.74,Delta,MLU,2023-03-15,2023-03-19,http://kayak.com/flights/DEN-MLU/2023-03-15/2023-03-19/,675.74,1.0
+Laramie,Estados Unidos,63.0,223.68,United Airlines,LAR,2023-04-10,2023-04-15,http://kayak.com/flights/DEN-LAR/2023-04-10/2023-04-15/,223.68,1.0
+McCook,Estados Unidos,80.0,148.5,Denver Air Connection,MCK,2023-04-27,2023-05-01,http://kayak.com/flights/DEN-MCK/2023-04-27/2023-05-01/,148.5,1.0
+Sheridan,Estados Unidos,87.0,217.11,United Airlines,SHR,2023-05-31,2023-06-04,http://kayak.com/flights/DEN-SHR/2023-05-31/2023-06-04/,217.11,1.0
+Lilongwe,Malaui,2439.0,1400.35,Várias companhias aéreas,LLW,2023-04-22,2023-04-29,http://kayak.com/flights/DEN-LLW/2023-04-22/2023-04-29/,1400.35,1.0
+Marquette,Estados Unidos,1033.0,906.94,American Airlines,MQT,2023-06-30,2023-07-07,http://kayak.com/flights/DEN-MQT/2023-06-30/2023-07-07/,906.94,1.0
+Sault Sainte Marie (Michigan),Estados Unidos,1218.0,733.07,Várias companhias aéreas,SSM,2023-07-03,2023-07-10,http://kayak.com/flights/DEN-SSM/2023-07-03/2023-07-10/,733.07,1.0
+Pellston,Estados Unidos,630.0,857.13,Delta,PLN,2023-08-24,2023-08-28,http://kayak.com/flights/DEN-PLN/2023-08-24/2023-08-28/,857.13,1.0
+Presque Isle,Estados Unidos,1060.0,521.61,United Airlines,PQI,2023-05-13,2023-05-19,http://kayak.com/flights/DEN-PQI/2023-05-13/2023-05-19/,521.61,1.0
+Escanaba,Estados Unidos,458.0,460.52,Delta,ESC,2023-05-10,2023-05-15,http://kayak.com/flights/DEN-ESC/2023-05-10/2023-05-15/,460.52,1.0
+Iron Mountain,Estados Unidos,421.0,660.71,Delta,IMT,2023-06-30,2023-07-07,http://kayak.com/flights/DEN-IMT/2023-06-30/2023-07-07/,660.71,1.0
+Nuuk,Gronelândia,1370.0,1456.74,Icelandair,GOH,2023-08-25,2023-08-30,http://kayak.com/flights/DEN-GOH/2023-08-25/2023-08-30/,1456.74,1.0
+Rhinelander,Estados Unidos,346.0,606.2,Delta,RHI,2023-06-15,2023-06-19,http://kayak.com/flights/DEN-RHI/2023-06-15/2023-06-19/,606.2,1.0
+Knock,Irlanda,2090.0,1544.15,Várias companhias aéreas,NOC,2023-03-24,2023-03-30,http://kayak.com/flights/DEN-NOC/2023-03-24/2023-03-30/,1544.15,1.0
+Rarotonga,Ilhas Cook,2718.0,2646.57,Air New Zealand,RAR,2023-03-26,2023-04-02,http://kayak.com/flights/DEN-RAR/2023-03-26/2023-04-02/,2646.57,1.0
+Pago Pago,Samoa Americana,1800.0,2086.43,Várias companhias aéreas,PPG,2024-01-08,2024-01-15,http://kayak.com/flights/DEN-PPG/2024-01-08/2024-01-15/,2086.43,1.0
+Waimea (Kamuela),Estados Unidos,1030.0,996.22,Várias companhias aéreas,MUE,2023-05-14,2023-05-19,http://kayak.com/flights/DEN-MUE/2023-05-14/2023-05-19/,996.22,1.0
+Lanai City,Estados Unidos,1045.0,1124.98,Várias companhias aéreas,LNY,2023-05-27,2023-06-03,http://kayak.com/flights/DEN-LNY/2023-05-27/2023-06-03/,1124.98,1.0
+Puerto Natales,Chile,2452.0,1363.7,LATAM Airlines,PNT,2023-12-26,2024-01-02,http://kayak.com/flights/DEN-PNT/2023-12-26/2024-01-02/,1363.7,1.0
+Santa Cruz da Graciosa,Portugal,1461.0,1890.0,Várias companhias aéreas,GRW,2023-05-18,2023-05-22,http://kayak.com/flights/DEN-GRW/2023-05-18/2023-05-22/,1890.0,1.0
+Velas,Portugal,3136.0,1134.38,Várias companhias aéreas,SJZ,2023-06-01,2023-06-08,http://kayak.com/flights/DEN-SJZ/2023-06-01/2023-06-08/,1134.38,1.0
+Labasa,Fiji,1412.0,1682.3,Fiji Airways,LBS,2023-09-06,2023-09-13,http://kayak.com/flights/DEN-LBS/2023-09-06/2023-09-13/,1682.3,1.0
+Suva,Fiji,1212.0,1669.14,Fiji Airways,SUV,2023-09-07,2023-09-13,http://kayak.com/flights/DEN-SUV/2023-09-07/2023-09-13/,1669.14,1.0
+New Plymouth,Nova Zelândia,2610.0,1569.52,Air New Zealand,NPL,2023-05-15,2023-05-21,http://kayak.com/flights/DEN-NPL/2023-05-15/2023-05-21/,1569.52,1.0
+Savusavu,Fiji,1857.0,1568.58,Várias companhias aéreas,SVU,2023-09-06,2023-09-13,http://kayak.com/flights/DEN-SVU/2023-09-06/2023-09-13/,1568.58,1.0
+Skagway,Estados Unidos,1345.0,1382.49,Várias companhias aéreas,SGY,2023-03-16,2023-03-20,http://kayak.com/flights/DEN-SGY/2023-03-16/2023-03-20/,1382.49,1.0
+Nagua,República Dominicana,966.0,1353.36,Air Canada,AZS,2023-11-18,2023-11-25,http://kayak.com/flights/DEN-AZS/2023-11-18/2023-11-25/,1353.36,1.0
+Gustávia,São Bartolomeu,1005.0,2241.5,Várias companhias aéreas,SBH,2023-04-26,2023-04-30,http://kayak.com/flights/DEN-SBH/2023-04-26/2023-04-30/,2241.5,1.0
+Virgin Gorda,Ilhas Virgens Britânicas,1151.0,1674.78,Várias companhias aéreas,VIJ,2023-12-16,2023-12-23,http://kayak.com/flights/DEN-VIJ/2023-12-16/2023-12-23/,1674.78,1.0
+Salina,Estados Unidos,1169.0,1054.49,Várias companhias aéreas,SLN,2023-06-23,2023-06-30,http://kayak.com/flights/DEN-SLN/2023-06-23/2023-06-30/,1054.49,1.0
+Chiang Rai,Tailândia,2460.0,2597.7,Várias companhias aéreas,CEI,2023-10-15,2023-10-22,http://kayak.com/flights/DEN-CEI/2023-10-15/2023-10-22/,2597.7,1.0
+Tokushima,Japão,1315.0,1805.42,Japan Airlines,TKS,2023-05-10,2023-05-17,http://kayak.com/flights/DEN-TKS/2023-05-10/2023-05-17/,1805.42,1.0
+Dumaguete City,Filipinas,1782.0,3654.06,Várias companhias aéreas,DGT,2023-04-07,2023-04-14,http://kayak.com/flights/DEN-DGT/2023-04-07/2023-04-14/,3654.06,1.0
+Hue,Vietname,1834.0,1900.34,Várias companhias aéreas,HUI,2023-05-06,2023-05-13,http://kayak.com/flights/DEN-HUI/2023-05-06/2023-05-13/,1900.34,1.0
+Komatsu,Japão,1832.0,1183.25,Várias companhias aéreas,KMQ,2023-10-25,2023-11-01,http://kayak.com/flights/DEN-KMQ/2023-10-25/2023-11-01/,1183.25,1.0
+Toyama,Japão,1965.0,1724.59,ANA,TOY,2023-10-25,2023-11-01,http://kayak.com/flights/DEN-TOY/2023-10-25/2023-11-01/,1724.59,1.0
+Shirahama,Japão,1595.0,1833.61,Japan Airlines,SHM,2023-05-09,2023-05-16,http://kayak.com/flights/DEN-SHM/2023-05-09/2023-05-16/,1833.61,1.0
+Kobe,Japão,2135.0,1728.35,ANA,UKB,2023-08-09,2023-08-16,http://kayak.com/flights/DEN-UKB/2023-08-09/2023-08-16/,1728.35,1.0
+Arusha,Tanzânia,3325.0,5531.84,Várias companhias aéreas,ARK,2023-03-18,2023-03-25,http://kayak.com/flights/DEN-ARK/2023-03-18/2023-03-25/,5531.84,1.0
+Addu City,Maldivas,3647.0,1786.62,Várias companhias aéreas,GAN,2023-11-20,2023-11-26,http://kayak.com/flights/DEN-GAN/2023-11-20/2023-11-26/,1786.62,1.0
+Aitutaki,Ilhas Cook,1829.0,2213.3,Air New Zealand,AIT,2023-09-01,2023-09-08,http://kayak.com/flights/DEN-AIT/2023-09-01/2023-09-08/,2213.3,1.0
+Taveuni Island,Fiji,1590.0,2579.84,Fiji Airways,TVU,2023-10-01,2023-10-08,http://kayak.com/flights/DEN-TVU/2023-10-01/2023-10-08/,2579.84,1.0
+Little Cayman,Ilhas Cayman,3990.0,3137.16,Várias companhias aéreas,LYB,2023-03-27,2023-04-01,http://kayak.com/flights/DEN-LYB/2023-03-27/2023-04-01/,3137.16,1.0
+Toyooka,Japão,2075.0,2412.55,Várias companhias aéreas,TJH,2023-05-10,2023-05-17,http://kayak.com/flights/DEN-TJH/2023-05-10/2023-05-17/,2412.55,1.0
+Lampang,Tailândia,1900.0,2199.21,Várias companhias aéreas,LPT,2023-12-18,2023-12-24,http://kayak.com/flights/DEN-LPT/2023-12-18/2023-12-24/,2199.21,1.0
+Hat Yai,Tailândia,2305.0,7606.05,Várias companhias aéreas,HDY,2023-07-23,2023-07-30,http://kayak.com/flights/DEN-HDY/2023-07-23/2023-07-30/,7606.05,1.0
+Udon Thani,Tailândia,2110.0,7506.43,Várias companhias aéreas,UTH,2023-04-07,2023-04-14,http://kayak.com/flights/DEN-UTH/2023-04-07/2023-04-14/,7506.43,1.0

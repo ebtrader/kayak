@@ -1,0 +1,513 @@
+City,Country,Duration,Price,Airline,Airport,Depart,Return,Link,MinPrice,is_MinPrice
+Incheon,Coreia do Sul,1713.0,1856.17,United Airlines,ICN,2023-06-04,2023-06-11,http://kayak.com/flights/EWR-ICN/2023-06-04/2023-06-11/,1856.17,1.0
+Paris,França,490.0,730.25,French Bee,PAR,2023-06-04,2023-06-08,http://kayak.com/flights/EWR-PAR/2023-06-04/2023-06-08/,730.25,1.0
+Los Angeles,Estados Unidos,369.0,287.59,Várias companhias aéreas,LAX,2023-06-02,2023-06-06,http://kayak.com/flights/EWR-LAX/2023-06-02/2023-06-06/,287.59,1.0
+Londres,Reino Unido,1610.0,647.55,Icelandair,LON,2023-06-06,2023-06-10,http://kayak.com/flights/EWR-LON/2023-06-06/2023-06-10/,647.55,1.0
+Copenhaga,Dinamarca,1140.0,750.93,United Airlines,CPH,2023-06-07,2023-06-14,http://kayak.com/flights/EWR-CPH/2023-06-07/2023-06-14/,750.93,1.0
+Madrid,Espanha,1510.0,840.21,TAP AIR PORTUGAL,MAD,2023-06-03,2023-06-08,http://kayak.com/flights/EWR-MAD/2023-06-03/2023-06-08/,840.21,1.0
+Banguecoque,Tailândia,2555.0,1537.57,ANA,BKK,2023-06-09,2023-06-15,http://kayak.com/flights/EWR-BKK/2023-06-09/2023-06-15/,1537.57,1.0
+Barcelona,Espanha,1360.0,742.47,TAP AIR PORTUGAL,BCN,2023-06-05,2023-06-12,http://kayak.com/flights/EWR-BCN/2023-06-05/2023-06-12/,742.47,1.0
+Miami,Estados Unidos,182.0,143.8,Várias companhias aéreas,MIA,2023-06-13,2023-06-20,http://kayak.com/flights/EWR-MIA/2023-06-13/2023-06-20/,143.8,1.0
+São Francisco,Estados Unidos,839.0,325.19,Alaska Airlines,SFO,2023-06-08,2023-06-12,http://kayak.com/flights/EWR-SFO/2023-06-08/2023-06-12/,325.19,1.0
+Boston,Estados Unidos,87.0,176.69,United Airlines,BOS,2023-06-15,2023-06-19,http://kayak.com/flights/EWR-BOS/2023-06-15/2023-06-19/,176.69,1.0
+Lisboa,Portugal,1035.0,796.04,Várias companhias aéreas,LIS,2023-06-07,2023-06-14,http://kayak.com/flights/EWR-LIS/2023-06-07/2023-06-14/,796.04,1.0
+Viena,Áustria,1105.0,1146.6,Scandinavian Airlines,VIE,2023-06-14,2023-06-21,http://kayak.com/flights/EWR-VIE/2023-06-14/2023-06-21/,1146.6,1.0
+Frankfurt,Alemanha,1925.0,845.85,Icelandair,FRA,2023-06-22,2023-06-28,http://kayak.com/flights/EWR-FRA/2023-06-22/2023-06-28/,845.85,1.0
+Amesterdão,Holanda,1765.0,934.2,Turkish Airlines,AMS,2023-06-13,2023-06-20,http://kayak.com/flights/EWR-AMS/2023-06-13/2023-06-20/,934.2,1.0
+Las Vegas,Estados Unidos,321.0,242.48,Spirit Airlines,LAS,2023-06-07,2023-06-13,http://kayak.com/flights/EWR-LAS/2023-06-07/2023-06-13/,242.48,1.0
+Roma,Itália,1145.0,798.86,Várias companhias aéreas,ROM,2023-06-11,2023-06-17,http://kayak.com/flights/EWR-ROM/2023-06-11/2023-06-17/,798.86,1.0
+Atlanta,Estados Unidos,140.0,139.1,United Airlines,ATL,2023-06-04,2023-06-09,http://kayak.com/flights/EWR-ATL/2023-06-04/2023-06-09/,139.1,1.0
+Manila,Filipinas,2075.0,2110.86,Ethiopian Air,MNL,2023-06-22,2023-06-29,http://kayak.com/flights/EWR-MNL/2023-06-22/2023-06-29/,2110.86,1.0
+Nova Deli,Índia,1590.0,1471.78,Air France,DEL,2023-06-07,2023-06-14,http://kayak.com/flights/EWR-DEL/2023-06-07/2023-06-14/,1471.78,1.0
+Seattle,Estados Unidos,373.0,355.26,Alaska Airlines,SEA,2023-06-07,2023-06-14,http://kayak.com/flights/EWR-SEA/2023-06-07/2023-06-14/,355.26,1.0
+Berlim,Alemanha,1185.0,843.97,British Airways,BER,2023-06-18,2023-06-25,http://kayak.com/flights/EWR-BER/2023-06-18/2023-06-25/,843.97,1.0
+Munique,Alemanha,1815.0,867.47,Várias companhias aéreas,MUC,2023-06-20,2023-06-27,http://kayak.com/flights/EWR-MUC/2023-06-20/2023-06-27/,867.47,1.0
+Dallas,Estados Unidos,328.0,182.33,United Airlines,DFW,2023-06-01,2023-06-05,http://kayak.com/flights/EWR-DFW/2023-06-01/2023-06-05/,182.33,1.0
+Singapura,Singapura,1981.0,1634.37,United Airlines,SIN,2023-06-21,2023-06-28,http://kayak.com/flights/EWR-SIN/2023-06-21/2023-06-28/,1634.37,1.0
+Dubai,Emirados Árabes Unidos,2720.0,1196.41,Emirates,DXB,2023-06-01,2023-06-05,http://kayak.com/flights/EWR-DXB/2023-06-01/2023-06-05/,1196.41,1.0
+Bogotá,Colômbia,1276.0,409.77,Várias companhias aéreas,BOG,2023-06-07,2023-06-11,http://kayak.com/flights/EWR-BOG/2023-06-07/2023-06-11/,409.77,1.0
+Denver,Estados Unidos,452.0,298.87,United Airlines,DEN,2023-06-01,2023-06-06,http://kayak.com/flights/EWR-DEN/2023-06-01/2023-06-06/,298.87,1.0
+Cancún,México,244.0,387.21,United Airlines,CUN,2023-06-18,2023-06-22,http://kayak.com/flights/EWR-CUN/2023-06-18/2023-06-22/,387.21,1.0
+Cidade do México,México,367.0,524.43,United Airlines,MEX,2023-06-17,2023-06-23,http://kayak.com/flights/EWR-MEX/2023-06-17/2023-06-23/,524.43,1.0
+Atenas,Grécia,1570.0,862.77,Várias companhias aéreas,ATH,2023-06-11,2023-06-17,http://kayak.com/flights/EWR-ATH/2023-06-11/2023-06-17/,862.77,1.0
+Chicago,Estados Unidos,264.0,173.87,United Airlines,ORD,2023-06-21,2023-06-27,http://kayak.com/flights/EWR-ORD/2023-06-21/2023-06-27/,173.87,1.0
+Zurique,Suíça,670.0,958.63,Icelandair,ZRH,2023-06-14,2023-06-19,http://kayak.com/flights/EWR-ZRH/2023-06-14/2023-06-19/,958.63,1.0
+Orlando,Estados Unidos,163.0,161.66,Várias companhias aéreas,MCO,2023-06-13,2023-06-20,http://kayak.com/flights/EWR-MCO/2023-06-13/2023-06-20/,161.66,1.0
+Sydney,Austrália,1990.0,1987.75,Air Canada,SYD,2023-06-10,2023-06-17,http://kayak.com/flights/EWR-SYD/2023-06-10/2023-06-17/,1987.75,1.0
+Milão,Itália,1710.0,663.52,Scandinavian Airlines,MIL,2023-06-05,2023-06-12,http://kayak.com/flights/EWR-MIL/2023-06-05/2023-06-12/,663.52,1.0
+"Washington, D.C.",Estados Unidos,484.0,380.64,JetBlue,WAS,2023-06-04,2023-06-08,http://kayak.com/flights/EWR-WAS/2023-06-04/2023-06-08/,380.64,1.0
+Fort Lauderdale,Estados Unidos,182.0,163.54,Spirit Airlines,FLL,2023-06-13,2023-06-20,http://kayak.com/flights/EWR-FLL/2023-06-13/2023-06-20/,163.54,1.0
+Telavive,Israel,1876.0,854.31,Delta,TLV,2023-06-07,2023-06-12,http://kayak.com/flights/EWR-TLV/2023-06-07/2023-06-12/,854.31,1.0
+Istambul,Turquia,1095.0,1151.3,British Airways,IST,2023-06-19,2023-06-26,http://kayak.com/flights/EWR-IST/2023-06-19/2023-06-26/,1151.3,1.0
+Palma de Maiorca,Espanha,930.0,1059.19,Várias companhias aéreas,PMI,2023-06-04,2023-06-11,http://kayak.com/flights/EWR-PMI/2023-06-04/2023-06-11/,1059.19,1.0
+Dublin,Irlanda,1880.0,696.42,Scandinavian Airlines,DUB,2023-06-12,2023-06-19,http://kayak.com/flights/EWR-DUB/2023-06-12/2023-06-19/,696.42,1.0
+Phoenix,Estados Unidos,510.0,312.03,United Airlines,PHX,2023-06-02,2023-06-06,http://kayak.com/flights/EWR-PHX/2023-06-02/2023-06-06/,312.03,1.0
+Porto,Portugal,1070.0,903.18,Várias companhias aéreas,OPO,2023-06-07,2023-06-13,http://kayak.com/flights/EWR-OPO/2023-06-07/2023-06-13/,903.18,1.0
+Filadélfia,Estados Unidos,740.0,802.62,Várias companhias aéreas,PHL,2023-06-06,2023-06-13,http://kayak.com/flights/EWR-PHL/2023-06-06/2023-06-13/,802.62,1.0
+Tóquio,Japão,965.0,1545.09,Várias companhias aéreas,TYO,2023-06-14,2023-06-21,http://kayak.com/flights/EWR-TYO/2023-06-14/2023-06-21/,1545.09,1.0
+Bruxelas,Bélgica,1800.0,823.3,TAP AIR PORTUGAL,BRU,2023-06-05,2023-06-11,http://kayak.com/flights/EWR-BRU/2023-06-05/2023-06-11/,823.3,1.0
+Málaga,Espanha,2085.0,1176.67,Turkish Airlines,AGP,2023-06-14,2023-06-20,http://kayak.com/flights/EWR-AGP/2023-06-14/2023-06-20/,1176.67,1.0
+Oslo,Noruega,735.0,947.35,Scandinavian Airlines,OSL,2023-06-10,2023-06-14,http://kayak.com/flights/EWR-OSL/2023-06-10/2023-06-14/,947.35,1.0
+Manchester,Reino Unido,2035.0,846.79,Scandinavian Airlines,MAN,2023-06-05,2023-06-11,http://kayak.com/flights/EWR-MAN/2023-06-05/2023-06-11/,846.79,1.0
+Denpasar,Indonésia,2175.0,1804.48,Várias companhias aéreas,DPS,2023-06-22,2023-06-28,http://kayak.com/flights/EWR-DPS/2023-06-22/2023-06-28/,1804.48,1.0
+Minneapolis,Estados Unidos,172.0,195.49,United Airlines,MSP,2023-06-02,2023-06-06,http://kayak.com/flights/EWR-MSP/2023-06-02/2023-06-06/,195.49,1.0
+Toronto,Canadá,105.0,157.9,Porter Airlines,YTO,2023-06-06,2023-06-13,http://kayak.com/flights/EWR-YTO/2023-06-06/2023-06-13/,157.9,1.0
+Vancouver,Canadá,650.0,366.54,Várias companhias aéreas,YVR,2023-06-04,2023-06-08,http://kayak.com/flights/EWR-YVR/2023-06-04/2023-06-08/,366.54,1.0
+Dusseldorf,Alemanha,1275.0,1156.94,Turkish Airlines,DUS,2023-06-03,2023-06-08,http://kayak.com/flights/EWR-DUS/2023-06-03/2023-06-08/,1156.94,1.0
+San Juan,Porto Rico,609.0,236.84,United Airlines,SJU,2023-06-05,2023-06-10,http://kayak.com/flights/EWR-SJU/2023-06-05/2023-06-10/,236.84,1.0
+Estocolmo,Suécia,825.0,795.1,United Airlines,STO,2023-06-15,2023-06-19,http://kayak.com/flights/EWR-STO/2023-06-15/2023-06-19/,795.1,1.0
+Tampa,Estados Unidos,523.0,189.85,JetBlue,TPA,2023-06-01,2023-06-07,http://kayak.com/flights/EWR-TPA/2023-06-01/2023-06-07/,189.85,1.0
+Mumbai,Índia,1515.0,1621.21,Ethiopian Air,BOM,2023-06-17,2023-06-24,http://kayak.com/flights/EWR-BOM/2023-06-17/2023-06-24/,1621.21,1.0
+Joanesburgo,África do Sul,1605.0,1287.57,Ethiopian Air,JNB,2023-06-06,2023-06-10,http://kayak.com/flights/EWR-JNB/2023-06-06/2023-06-10/,1287.57,1.0
+Lyon,França,1650.0,1147.54,Turkish Airlines,LYS,2023-06-13,2023-06-18,http://kayak.com/flights/EWR-LYS/2023-06-13/2023-06-18/,1147.54,1.0
+São Paulo,Brasil,1688.0,664.46,LATAM Airlines,SAO,2023-06-02,2023-06-09,http://kayak.com/flights/EWR-SAO/2023-06-02/2023-06-09/,664.46,1.0
+Hong Kong,Hong Kong,2755.0,1464.26,Várias companhias aéreas,HKG,2023-06-14,2023-06-20,http://kayak.com/flights/EWR-HKG/2023-06-14/2023-06-20/,1464.26,1.0
+Helsínquia,Finlândia,1045.0,914.46,Scandinavian Airlines,HEL,2023-06-19,2023-06-26,http://kayak.com/flights/EWR-HEL/2023-06-19/2023-06-26/,914.46,1.0
+Hamburgo,Alemanha,670.0,1078.93,Icelandair,HAM,2023-06-18,2023-06-22,http://kayak.com/flights/EWR-HAM/2023-06-18/2023-06-22/,1078.93,1.0
+Honolulu,Estados Unidos,773.0,736.83,United Airlines,HNL,2023-06-08,2023-06-12,http://kayak.com/flights/EWR-HNL/2023-06-08/2023-06-12/,736.83,1.0
+Melbourne,Austrália,1828.0,2452.02,Qantas Airways,MEL,2023-06-20,2023-06-27,http://kayak.com/flights/EWR-MEL/2023-06-20/2023-06-27/,2452.02,1.0
+Cairo,Egito,1505.0,1078.93,Delta,CAI,2023-06-06,2023-06-13,http://kayak.com/flights/EWR-CAI/2023-06-06/2023-06-13/,1078.93,1.0
+Lima,Perú,1091.0,516.91,LATAM Airlines,LIM,2023-06-13,2023-06-20,http://kayak.com/flights/EWR-LIM/2023-06-13/2023-06-20/,516.91,1.0
+Kuala Lumpur,Malásia,3575.0,2124.96,Turkish Airlines,KUL,2023-06-15,2023-06-19,http://kayak.com/flights/EWR-KUL/2023-06-15/2023-06-19/,2124.96,1.0
+San José,Costa Rica,751.0,494.36,Spirit Airlines,SJO,2023-06-07,2023-06-12,http://kayak.com/flights/EWR-SJO/2023-06-07/2023-06-12/,494.36,1.0
+Praga,República Checa,1835.0,1263.14,Turkish Airlines,PRG,2023-06-16,2023-06-22,http://kayak.com/flights/EWR-PRG/2023-06-16/2023-06-22/,1263.14,1.0
+São Diego,Estados Unidos,1581.0,351.5,Várias companhias aéreas,SAN,2023-06-23,2023-06-27,http://kayak.com/flights/EWR-SAN/2023-06-23/2023-06-27/,351.5,1.0
+Budapeste,Hungria,845.0,1268.78,United Airlines,BUD,2023-06-14,2023-06-21,http://kayak.com/flights/EWR-BUD/2023-06-14/2023-06-21/,1268.78,1.0
+Marselha,França,900.0,1285.69,Delta,MRS,2023-06-21,2023-06-28,http://kayak.com/flights/EWR-MRS/2023-06-21/2023-06-28/,1285.69,1.0
+Taipé,Taiwan,2726.0,1770.64,Várias companhias aéreas,TPE,2023-06-22,2023-06-26,http://kayak.com/flights/EWR-TPE/2023-06-22/2023-06-26/,1770.64,1.0
+Houston,Estados Unidos,229.0,281.01,Spirit Airlines,IAH,2023-06-14,2023-06-19,http://kayak.com/flights/EWR-IAH/2023-06-14/2023-06-19/,281.01,1.0
+Genebra,Suíça,867.0,933.26,United Airlines,GVA,2023-06-21,2023-06-28,http://kayak.com/flights/EWR-GVA/2023-06-21/2023-06-28/,933.26,1.0
+Nice,França,735.0,982.13,Várias companhias aéreas,NCE,2023-06-05,2023-06-12,http://kayak.com/flights/EWR-NCE/2023-06-05/2023-06-12/,982.13,1.0
+Seul,Coreia do Sul,1713.0,1856.17,United Airlines,SEL,2023-06-04,2023-06-11,http://kayak.com/flights/EWR-SEL/2023-06-04/2023-06-11/,1856.17,1.0
+Austin,Estados Unidos,504.0,218.99,Várias companhias aéreas,AUS,2023-06-14,2023-06-21,http://kayak.com/flights/EWR-AUS/2023-06-14/2023-06-21/,218.99,1.0
+Veneza,Itália,1245.0,979.31,Várias companhias aéreas,VCE,2023-06-10,2023-06-17,http://kayak.com/flights/EWR-VCE/2023-06-10/2023-06-17/,979.31,1.0
+Cidade de Ho Chi Minh,Vietname,1978.0,1590.2,Japan Airlines,SGN,2023-06-24,2023-06-28,http://kayak.com/flights/EWR-SGN/2023-06-24/2023-06-28/,1590.2,1.0
+Charlotte,Estados Unidos,118.0,175.75,United Airlines,CLT,2023-06-21,2023-06-28,http://kayak.com/flights/EWR-CLT/2023-06-21/2023-06-28/,175.75,1.0
+Montreal,Canadá,358.0,202.07,Porter Airlines,YUL,2023-06-05,2023-06-12,http://kayak.com/flights/EWR-YUL/2023-06-05/2023-06-12/,202.07,1.0
+Nápoles,Itália,1870.0,1021.6,Várias companhias aéreas,NAP,2023-06-14,2023-06-21,http://kayak.com/flights/EWR-NAP/2023-06-14/2023-06-21/,1021.6,1.0
+Nantes,França,1810.0,1472.72,Aer Lingus,NTE,2023-06-17,2023-06-24,http://kayak.com/flights/EWR-NTE/2023-06-17/2023-06-24/,1472.72,1.0
+Salt Lake City,Estados Unidos,933.0,390.97,Spirit Airlines,SLC,2023-06-07,2023-06-14,http://kayak.com/flights/EWR-SLC/2023-06-07/2023-06-14/,390.97,1.0
+Nashville,Estados Unidos,143.0,204.89,Spirit Airlines,BNA,2023-06-05,2023-06-09,http://kayak.com/flights/EWR-BNA/2023-06-05/2023-06-09/,204.89,1.0
+Raleigh,Estados Unidos,106.0,157.9,United Airlines,RDU,2023-06-08,2023-06-12,http://kayak.com/flights/EWR-RDU/2023-06-08/2023-06-12/,157.9,1.0
+Cidade do Cabo,África do Sul,2100.0,1160.7,British Airways,CPT,2023-06-09,2023-06-13,http://kayak.com/flights/EWR-CPT/2023-06-09/2023-06-13/,1160.7,1.0
+Buenos Aires,Argentina,2483.0,924.8,LATAM Airlines,BUE,2023-06-01,2023-06-08,http://kayak.com/flights/EWR-BUE/2023-06-01/2023-06-08/,924.8,1.0
+Cracóvia,Polónia,1130.0,953.93,Delta,KRK,2023-06-14,2023-06-21,http://kayak.com/flights/EWR-KRK/2023-06-14/2023-06-21/,953.93,1.0
+Edimburgo,Reino Unido,1500.0,998.1,Aer Lingus,EDI,2023-06-10,2023-06-15,http://kayak.com/flights/EWR-EDI/2023-06-10/2023-06-15/,998.1,1.0
+Medellín,Colômbia,1809.0,544.17,Várias companhias aéreas,MDE,2023-06-01,2023-06-06,http://kayak.com/flights/EWR-MDE/2023-06-01/2023-06-06/,544.17,1.0
+Marraquexe,Marrocos,1855.0,1030.06,TAP AIR PORTUGAL,RAK,2023-06-03,2023-06-08,http://kayak.com/flights/EWR-RAK/2023-06-03/2023-06-08/,1030.06,1.0
+Detroit,Estados Unidos,117.0,223.68,United Airlines,DTW,2023-06-04,2023-06-09,http://kayak.com/flights/EWR-DTW/2023-06-04/2023-06-09/,223.68,1.0
+Estugarda,Alemanha,1675.0,1151.3,Turkish Airlines,STR,2023-06-21,2023-06-28,http://kayak.com/flights/EWR-STR/2023-06-21/2023-06-28/,1151.3,1.0
+Gotemburgo,Suécia,885.0,688.9,Scandinavian Airlines,GOT,2023-06-06,2023-06-13,http://kayak.com/flights/EWR-GOT/2023-06-06/2023-06-13/,688.9,1.0
+Valência,Espanha,890.0,992.47,British Airways,VLC,2023-06-12,2023-06-18,http://kayak.com/flights/EWR-VLC/2023-06-12/2023-06-18/,992.47,1.0
+Nova Orleães,Estados Unidos,197.0,195.49,United Airlines,MSY,2023-06-02,2023-06-09,http://kayak.com/flights/EWR-MSY/2023-06-02/2023-06-09/,195.49,1.0
+Rio de Janeiro,Brasil,1568.0,703.0,LATAM Airlines,RIO,2023-06-11,2023-06-18,http://kayak.com/flights/EWR-RIO/2023-06-11/2023-06-18/,703.0,1.0
+Baltimore,Estados Unidos,540.0,404.13,Várias companhias aéreas,BWI,2023-06-17,2023-06-24,http://kayak.com/flights/EWR-BWI/2023-06-17/2023-06-24/,404.13,1.0
+Bucareste,Roménia,1147.0,1237.76,Air Canada,BUH,2023-06-14,2023-06-21,http://kayak.com/flights/EWR-BUH/2023-06-14/2023-06-21/,1237.76,1.0
+Phuket,Tailândia,1690.0,2224.58,British Airways,HKT,2023-06-23,2023-06-30,http://kayak.com/flights/EWR-HKT/2023-06-23/2023-06-30/,2224.58,1.0
+Luqa,Malta,980.0,982.13,Várias companhias aéreas,MLA,2023-06-01,2023-06-06,http://kayak.com/flights/EWR-MLA/2023-06-01/2023-06-06/,982.13,1.0
+Punta Cana,República Dominicana,254.0,455.82,United Airlines,PUJ,2023-06-05,2023-06-09,http://kayak.com/flights/EWR-PUJ/2023-06-05/2023-06-09/,455.82,1.0
+Amã,Jordânia,1660.0,1011.26,Air Canada,AMM,2023-06-08,2023-06-13,http://kayak.com/flights/EWR-AMM/2023-06-08/2023-06-13/,1011.26,1.0
+Riga,Letónia,935.0,873.11,airBaltic,RIX,2023-06-13,2023-06-19,http://kayak.com/flights/EWR-RIX/2023-06-13/2023-06-19/,873.11,1.0
+Beirute,Líbano,1455.0,986.83,Várias companhias aéreas,BEY,2023-06-01,2023-06-08,http://kayak.com/flights/EWR-BEY/2023-06-01/2023-06-08/,986.83,1.0
+Toulouse,França,870.0,921.98,Várias companhias aéreas,TLS,2023-06-18,2023-06-22,http://kayak.com/flights/EWR-TLS/2023-06-18/2023-06-22/,921.98,1.0
+Auckland,Nova Zelândia,1810.0,1956.73,Várias companhias aéreas,AKL,2023-06-17,2023-06-24,http://kayak.com/flights/EWR-AKL/2023-06-17/2023-06-24/,1956.73,1.0
+Calgary,Canadá,581.0,418.23,Várias companhias aéreas,YYC,2023-06-14,2023-06-21,http://kayak.com/flights/EWR-YYC/2023-06-14/2023-06-21/,418.23,1.0
+Hyderabad,Índia,2326.0,1518.77,Várias companhias aéreas,HYD,2023-06-15,2023-06-19,http://kayak.com/flights/EWR-HYD/2023-06-15/2023-06-19/,1518.77,1.0
+Brisbane,Austrália,1940.0,1697.34,Air Canada,BNE,2023-06-24,2023-06-30,http://kayak.com/flights/EWR-BNE/2023-06-24/2023-06-30/,1697.34,1.0
+Cleveland,Estados Unidos,96.0,157.9,United Airlines,CLE,2023-06-18,2023-06-25,http://kayak.com/flights/EWR-CLE/2023-06-18/2023-06-25/,157.9,1.0
+Catânia,Itália,1065.0,1085.51,Várias companhias aéreas,CTA,2023-06-10,2023-06-17,http://kayak.com/flights/EWR-CTA/2023-06-10/2023-06-17/,1085.51,1.0
+Bordéus,França,1415.0,958.63,Várias companhias aéreas,BOD,2023-06-08,2023-06-13,http://kayak.com/flights/EWR-BOD/2023-06-08/2023-06-13/,958.63,1.0
+Sevilha,Espanha,1870.0,1219.9,Várias companhias aéreas,SVQ,2023-06-20,2023-06-26,http://kayak.com/flights/EWR-SVQ/2023-06-20/2023-06-26/,1219.9,1.0
+Colónia,Alemanha,1660.0,1116.52,Turkish Airlines,CGN,2023-06-04,2023-06-11,http://kayak.com/flights/EWR-CGN/2023-06-04/2023-06-11/,1116.52,1.0
+Cebu,Filipinas,1617.0,1365.58,Korean Air,CEB,2023-06-12,2023-06-18,http://kayak.com/flights/EWR-CEB/2023-06-12/2023-06-18/,1365.58,1.0
+Santo Domingo,República Dominicana,246.0,327.07,United Airlines,SDQ,2023-06-08,2023-06-13,http://kayak.com/flights/EWR-SDQ/2023-06-08/2023-06-13/,327.07,1.0
+Fort Myers,Estados Unidos,185.0,190.79,JetBlue,RSW,2023-06-05,2023-06-09,http://kayak.com/flights/EWR-RSW/2023-06-05/2023-06-09/,190.79,1.0
+Las Palmas,Espanha,1025.0,1411.63,Várias companhias aéreas,LPA,2023-06-24,2023-06-29,http://kayak.com/flights/EWR-LPA/2023-06-24/2023-06-29/,1411.63,1.0
+Jidá,Arábia Saudita,1965.0,1189.83,Ethiopian Air,JED,2023-06-01,2023-06-08,http://kayak.com/flights/EWR-JED/2023-06-01/2023-06-08/,1189.83,1.0
+Cidade da Guatemala,Guatemala,960.0,472.74,Várias companhias aéreas,GUA,2023-06-07,2023-06-13,http://kayak.com/flights/EWR-GUA/2023-06-07/2023-06-13/,472.74,1.0
+Bolonha,Itália,1810.0,1007.5,TAP AIR PORTUGAL,BLQ,2023-06-04,2023-06-08,http://kayak.com/flights/EWR-BLQ/2023-06-04/2023-06-08/,1007.5,1.0
+Faro,Portugal,1030.0,928.56,Várias companhias aéreas,FAO,2023-06-08,2023-06-15,http://kayak.com/flights/EWR-FAO/2023-06-08/2023-06-15/,928.56,1.0
+Bangalore,Índia,1335.0,2116.5,Lufthansa,BLR,2023-06-08,2023-06-14,http://kayak.com/flights/EWR-BLR/2023-06-08/2023-06-14/,2116.5,1.0
+Birmingham,Reino Unido,1935.0,861.83,Scandinavian Airlines,BHX,2023-06-19,2023-06-26,http://kayak.com/flights/EWR-BHX/2023-06-19/2023-06-26/,861.83,1.0
+Chennai,Índia,2105.0,1429.49,Emirates,MAA,2023-06-08,2023-06-14,http://kayak.com/flights/EWR-MAA/2023-06-08/2023-06-14/,1429.49,1.0
+Guadalajara,México,2092.0,727.43,Alaska Airlines,GDL,2023-06-07,2023-06-12,http://kayak.com/flights/EWR-GDL/2023-06-07/2023-06-12/,727.43,1.0
+Casablanca,Marrocos,1015.0,903.18,Delta,CMN,2023-06-06,2023-06-13,http://kayak.com/flights/EWR-CMN/2023-06-06/2023-06-13/,903.18,1.0
+Tallin,Estónia,775.0,1091.15,Scandinavian Airlines,TLL,2023-06-20,2023-06-27,http://kayak.com/flights/EWR-TLL/2023-06-20/2023-06-27/,1091.15,1.0
+Palermo,Itália,1025.0,923.86,Várias companhias aéreas,PMO,2023-06-11,2023-06-17,http://kayak.com/flights/EWR-PMO/2023-06-11/2023-06-17/,923.86,1.0
+Colombo,Sri Lanka,4150.0,2897.5,Singapore Airlines,CMB,2023-06-24,2023-06-30,http://kayak.com/flights/EWR-CMB/2023-06-24/2023-06-30/,2897.5,1.0
+Jacksonville,Estados Unidos,277.0,261.28,United Airlines,JAX,2023-06-21,2023-06-28,http://kayak.com/flights/EWR-JAX/2023-06-21/2023-06-28/,261.28,1.0
+Cidade do Panamá,Panamá,317.0,780.06,United Airlines,PTY,2023-06-17,2023-06-24,http://kayak.com/flights/EWR-PTY/2023-06-17/2023-06-24/,780.06,1.0
+Ibiza,Espanha,1515.0,1059.19,TAP AIR PORTUGAL,IBZ,2023-06-14,2023-06-19,http://kayak.com/flights/EWR-IBZ/2023-06-14/2023-06-19/,1059.19,1.0
+Indianápolis,Estados Unidos,264.0,186.09,United Airlines,IND,2023-06-08,2023-06-12,http://kayak.com/flights/EWR-IND/2023-06-08/2023-06-12/,186.09,1.0
+Pittsburgh,Estados Unidos,83.0,156.96,Spirit Airlines,PIT,2023-06-08,2023-06-13,http://kayak.com/flights/EWR-PIT/2023-06-08/2023-06-13/,156.96,1.0
+Cartagena,Colômbia,1789.0,484.02,Várias companhias aéreas,CTG,2023-06-08,2023-06-12,http://kayak.com/flights/EWR-CTG/2023-06-08/2023-06-12/,484.02,1.0
+Hanói,Vietname,3625.0,1563.88,Várias companhias aéreas,HAN,2023-06-11,2023-06-16,http://kayak.com/flights/EWR-HAN/2023-06-11/2023-06-16/,1563.88,1.0
+Split,Croácia,805.0,1002.8,Várias companhias aéreas,SPU,2023-06-17,2023-06-23,http://kayak.com/flights/EWR-SPU/2023-06-17/2023-06-23/,1002.8,1.0
+São Salvador,El Salvador,969.0,485.9,American Airlines,SAL,2023-06-03,2023-06-10,http://kayak.com/flights/EWR-SAL/2023-06-03/2023-06-10/,485.9,1.0
+Lárnaca,Chipre,3370.0,1477.42,Emirates,LCA,2023-06-15,2023-06-20,http://kayak.com/flights/EWR-LCA/2023-06-15/2023-06-20/,1477.42,1.0
+Hanover,Alemanha,1660.0,1285.69,Turkish Airlines,HAJ,2023-06-20,2023-06-25,http://kayak.com/flights/EWR-HAJ/2023-06-20/2023-06-25/,1285.69,1.0
+Túnis,Tunísia,1415.0,1179.49,Lufthansa,TUN,2023-06-11,2023-06-15,http://kayak.com/flights/EWR-TUN/2023-06-11/2023-06-15/,1179.49,1.0
+West Palm Beach,Estados Unidos,173.0,280.07,JetBlue,PBI,2023-06-24,2023-06-30,http://kayak.com/flights/EWR-PBI/2023-06-24/2023-06-30/,280.07,1.0
+San Antonio,Estados Unidos,856.0,378.76,United Airlines,SAT,2023-06-14,2023-06-18,http://kayak.com/flights/EWR-SAT/2023-06-14/2023-06-18/,378.76,1.0
+Funchal,Portugal,1270.0,1016.9,TAP AIR PORTUGAL,FNC,2023-06-14,2023-06-20,http://kayak.com/flights/EWR-FNC/2023-06-14/2023-06-20/,1016.9,1.0
+Quito,Equador,1686.0,503.75,Várias companhias aéreas,UIO,2023-06-01,2023-06-07,http://kayak.com/flights/EWR-UIO/2023-06-01/2023-06-07/,503.75,1.0
+Heraclião,Grécia,1815.0,1428.55,SWISS,HER,2023-06-03,2023-06-10,http://kayak.com/flights/EWR-HER/2023-06-03/2023-06-10/,1428.55,1.0
+Cincinnati,Estados Unidos,128.0,190.79,United Airlines,CVG,2023-06-21,2023-06-25,http://kayak.com/flights/EWR-CVG/2023-06-21/2023-06-25/,190.79,1.0
+Manágua,Nicarágua,619.0,710.52,American Airlines,MGA,2023-06-08,2023-06-15,http://kayak.com/flights/EWR-MGA/2023-06-08/2023-06-15/,710.52,1.0
+Montego Bay,Jamaica,243.0,351.5,United Airlines,MBJ,2023-06-02,2023-06-08,http://kayak.com/flights/EWR-MBJ/2023-06-02/2023-06-08/,351.5,1.0
+Santa Ana,Estados Unidos,782.0,405.07,Várias companhias aéreas,SNA,2023-06-09,2023-06-13,http://kayak.com/flights/EWR-SNA/2023-06-09/2023-06-13/,405.07,1.0
+Gdansk,Polónia,2255.0,1012.2,Scandinavian Airlines,GDN,2023-06-11,2023-06-18,http://kayak.com/flights/EWR-GDN/2023-06-11/2023-06-18/,1012.2,1.0
+Santa Cruz de Tenerife,Espanha,1095.0,1178.55,Várias companhias aéreas,TCI,2023-06-01,2023-06-07,http://kayak.com/flights/EWR-TCI/2023-06-01/2023-06-07/,1178.55,1.0
+Sófia,Bulgária,915.0,1255.62,Várias companhias aéreas,SOF,2023-06-01,2023-06-08,http://kayak.com/flights/EWR-SOF/2023-06-01/2023-06-08/,1255.62,1.0
+Bilbau,Espanha,2320.0,1181.37,SWISS,BIO,2023-06-13,2023-06-17,http://kayak.com/flights/EWR-BIO/2023-06-13/2023-06-17/,1181.37,1.0
+Charleston,Estados Unidos,131.0,176.69,United Airlines,CHS,2023-06-17,2023-06-24,http://kayak.com/flights/EWR-CHS/2023-06-17/2023-06-24/,176.69,1.0
+Belgrado,Sérvia,1390.0,952.05,Várias companhias aéreas,BEG,2023-06-14,2023-06-20,http://kayak.com/flights/EWR-BEG/2023-06-14/2023-06-20/,952.05,1.0
+Guaiaquil,Equador,1139.0,570.48,United Airlines,GYE,2023-06-08,2023-06-12,http://kayak.com/flights/EWR-GYE/2023-06-08/2023-06-12/,570.48,1.0
+St Louis,Estados Unidos,163.0,359.96,United Airlines,STL,2023-06-01,2023-06-05,http://kayak.com/flights/EWR-STL/2023-06-01/2023-06-05/,359.96,1.0
+Zagreb,Croácia,1810.0,1122.16,LOT,ZAG,2023-06-06,2023-06-13,http://kayak.com/flights/EWR-ZAG/2023-06-06/2023-06-13/,1122.16,1.0
+Columbus,Estados Unidos,226.0,322.37,United Airlines,CMH,2023-06-18,2023-06-23,http://kayak.com/flights/EWR-CMH/2023-06-18/2023-06-23/,322.37,1.0
+Bari,Itália,1040.0,1707.68,Lufthansa,BRI,2023-06-10,2023-06-17,http://kayak.com/flights/EWR-BRI/2023-06-10/2023-06-17/,1707.68,1.0
+Malé,Maldivas,2455.0,7994.2,United Airlines,MLE,2023-06-01,2023-06-08,http://kayak.com/flights/EWR-MLE/2023-06-01/2023-06-08/,7994.2,1.0
+Reiquiavique,Islândia,375.0,514.09,Icelandair,REK,2023-06-03,2023-06-09,http://kayak.com/flights/EWR-REK/2023-06-03/2023-06-09/,514.09,1.0
+Nairobi,Quénia,1325.0,1226.48,British Airways,NBO,2023-06-06,2023-06-12,http://kayak.com/flights/EWR-NBO/2023-06-06/2023-06-12/,1226.48,1.0
+Tirana,Albânia,1326.0,1238.7,Várias companhias aéreas,TIA,2023-06-07,2023-06-14,http://kayak.com/flights/EWR-TIA/2023-06-07/2023-06-14/,1238.7,1.0
+San Jose,Estados Unidos,1262.0,381.58,Spirit Airlines,SJC,2023-06-13,2023-06-20,http://kayak.com/flights/EWR-SJC/2023-06-13/2023-06-20/,381.58,1.0
+Antália,Turquia,1435.0,1258.44,Várias companhias aéreas,AYT,2023-06-22,2023-06-28,http://kayak.com/flights/EWR-AYT/2023-06-22/2023-06-28/,1258.44,1.0
+Cidade do Kansas,Estados Unidos,188.0,247.18,United Airlines,MCI,2023-06-21,2023-06-28,http://kayak.com/flights/EWR-MCI/2023-06-21/2023-06-28/,247.18,1.0
+Salónica,Grécia,1860.0,1114.64,Austrian Airlines,SKG,2023-06-11,2023-06-17,http://kayak.com/flights/EWR-SKG/2023-06-11/2023-06-17/,1114.64,1.0
+Cali,Colômbia,955.0,406.01,Várias companhias aéreas,CLO,2023-06-07,2023-06-12,http://kayak.com/flights/EWR-CLO/2023-06-07/2023-06-12/,406.01,1.0
+Ahmedabad,Índia,2590.0,1157.88,Várias companhias aéreas,AMD,2023-06-06,2023-06-13,http://kayak.com/flights/EWR-AMD/2023-06-06/2023-06-13/,1157.88,1.0
+Granadilla de Abona,Espanha,1450.0,1211.45,Várias companhias aéreas,TFS,2023-06-01,2023-06-07,http://kayak.com/flights/EWR-TFS/2023-06-01/2023-06-07/,1211.45,1.0
+Katovice,Polónia,1995.0,1296.97,LOT,KTW,2023-06-08,2023-06-13,http://kayak.com/flights/EWR-KTW/2023-06-08/2023-06-13/,1296.97,1.0
+Dubrovnik,Croácia,1735.0,1279.11,LOT,DBV,2023-06-24,2023-06-29,http://kayak.com/flights/EWR-DBV/2023-06-24/2023-06-29/,1279.11,1.0
+Vilnius,Lituânia,1660.0,946.41,Turkish Airlines,VNO,2023-06-13,2023-06-19,http://kayak.com/flights/EWR-VNO/2023-06-13/2023-06-19/,946.41,1.0
+Lahore,Paquistão,1965.0,1351.48,Várias companhias aéreas,LHE,2023-06-17,2023-06-24,http://kayak.com/flights/EWR-LHE/2023-06-17/2023-06-24/,1351.48,1.0
+Katmandu,Nepal,2435.0,2500.89,Singapore Airlines,KTM,2023-06-21,2023-06-26,http://kayak.com/flights/EWR-KTM/2023-06-21/2023-06-26/,2500.89,1.0
+Port Louis,Maurícia,3125.0,1808.24,SWISS,MRU,2023-06-23,2023-06-30,http://kayak.com/flights/EWR-MRU/2023-06-23/2023-06-30/,1808.24,1.0
+Daca,Bangladexe,2380.0,1747.15,Várias companhias aéreas,DAC,2023-06-17,2023-06-24,http://kayak.com/flights/EWR-DAC/2023-06-17/2023-06-24/,1747.15,1.0
+Cagliari,Itália,1035.0,1673.84,Várias companhias aéreas,CAG,2023-06-10,2023-06-17,http://kayak.com/flights/EWR-CAG/2023-06-10/2023-06-17/,1673.84,1.0
+Kahului,Estados Unidos,892.0,731.19,United Airlines,OGG,2023-06-02,2023-06-08,http://kayak.com/flights/EWR-OGG/2023-06-02/2023-06-08/,731.19,1.0
+Puerto Vallarta,México,374.0,537.59,United Airlines,PVR,2023-06-03,2023-06-10,http://kayak.com/flights/EWR-PVR/2023-06-03/2023-06-10/,537.59,1.0
+San José del Cabo,México,1430.0,639.09,Spirit Airlines,SJD,2023-06-18,2023-06-23,http://kayak.com/flights/EWR-SJD/2023-06-18/2023-06-23/,639.09,1.0
+Sacramento,Estados Unidos,981.0,578.94,Spirit Airlines,SMF,2023-06-13,2023-06-17,http://kayak.com/flights/EWR-SMF/2023-06-13/2023-06-17/,578.94,1.0
+Luxemburgo,Luxemburgo,1730.0,1110.88,LOT,LUX,2023-06-20,2023-06-27,http://kayak.com/flights/EWR-LUX/2023-06-20/2023-06-27/,1110.88,1.0
+Buffalo,Estados Unidos,83.0,228.38,United Airlines,BUF,2023-06-17,2023-06-21,http://kayak.com/flights/EWR-BUF/2023-06-17/2023-06-21/,228.38,1.0
+Glasgow,Reino Unido,1647.0,832.69,American Airlines,GLA,2023-06-03,2023-06-10,http://kayak.com/flights/EWR-GLA/2023-06-03/2023-06-10/,832.69,1.0
+Bérgamo,Itália,2425.0,1733.05,Emirates,BGY,2023-06-05,2023-06-12,http://kayak.com/flights/EWR-BGY/2023-06-05/2023-06-12/,1733.05,1.0
+Acra,Gana,1165.0,1256.56,British Airways,ACC,2023-06-08,2023-06-12,http://kayak.com/flights/EWR-ACC/2023-06-08/2023-06-12/,1256.56,1.0
+Richmond,Estados Unidos,209.0,421.05,United Airlines,RIC,2023-06-21,2023-06-25,http://kayak.com/flights/EWR-RIC/2023-06-21/2023-06-25/,421.05,1.0
+Oakland,Estados Unidos,372.0,310.15,Spirit Airlines,OAK,2023-06-05,2023-06-12,http://kayak.com/flights/EWR-OAK/2023-06-05/2023-06-12/,310.15,1.0
+Ontário,Estados Unidos,1216.0,437.03,Várias companhias aéreas,ONT,2023-06-07,2023-06-13,http://kayak.com/flights/EWR-ONT/2023-06-07/2023-06-13/,437.03,1.0
+Milwaukee,Estados Unidos,879.0,416.35,Várias companhias aéreas,MKE,2023-06-21,2023-06-25,http://kayak.com/flights/EWR-MKE/2023-06-21/2023-06-25/,416.35,1.0
+Thera,Grécia,805.0,1143.78,British Airways,JTR,2023-06-10,2023-06-17,http://kayak.com/flights/EWR-JTR/2023-06-10/2023-06-17/,1143.78,1.0
+Basileia,Suíça,2175.0,941.71,Turkish Airlines,EAP,2023-06-13,2023-06-19,http://kayak.com/flights/EWR-EAP/2023-06-13/2023-06-19/,941.71,1.0
+Erevã,Arménia,2460.0,1235.88,Várias companhias aéreas,EVN,2023-06-22,2023-06-26,http://kayak.com/flights/EWR-EVN/2023-06-22/2023-06-26/,1235.88,1.0
+Recife,Brasil,1345.0,778.18,LATAM Airlines,REC,2023-06-14,2023-06-20,http://kayak.com/flights/EWR-REC/2023-06-14/2023-06-20/,778.18,1.0
+Riade,Arábia Saudita,1255.0,1271.59,Lufthansa,RUH,2023-06-01,2023-06-07,http://kayak.com/flights/EWR-RUH/2023-06-01/2023-06-07/,1271.59,1.0
+Anchorage,Estados Unidos,1716.0,743.41,Sun Country Air,ANC,2023-06-08,2023-06-14,http://kayak.com/flights/EWR-ANC/2023-06-08/2023-06-14/,743.41,1.0
+Zanzibar,Tanzânia,2025.0,1451.1,Ethiopian Air,ZNZ,2023-06-01,2023-06-05,http://kayak.com/flights/EWR-ZNZ/2023-06-01/2023-06-05/,1451.1,1.0
+Turim,Itália,1295.0,1215.21,Várias companhias aéreas,TRN,2023-06-10,2023-06-17,http://kayak.com/flights/EWR-TRN/2023-06-10/2023-06-17/,1215.21,1.0
+Corfú,Grécia,2185.0,1487.76,Lufthansa,CFU,2023-06-22,2023-06-29,http://kayak.com/flights/EWR-CFU/2023-06-22/2023-06-29/,1487.76,1.0
+Bergen,Noruega,1430.0,960.51,Scandinavian Airlines,BGO,2023-06-20,2023-06-25,http://kayak.com/flights/EWR-BGO/2023-06-20/2023-06-25/,960.51,1.0
+Oranjestad,Aruba,295.0,411.65,United Airlines,AUA,2023-06-04,2023-06-09,http://kayak.com/flights/EWR-AUA/2023-06-04/2023-06-09/,411.65,1.0
+Savannah,Estados Unidos,139.0,179.51,United Airlines,SAV,2023-06-20,2023-06-27,http://kayak.com/flights/EWR-SAV/2023-06-20/2023-06-27/,179.51,1.0
+Myrtle Beach,Estados Unidos,436.0,246.24,Delta,MYR,2023-06-21,2023-06-28,http://kayak.com/flights/EWR-MYR/2023-06-21/2023-06-28/,246.24,1.0
+Reno,Estados Unidos,902.0,400.37,Spirit Airlines,RNO,2023-06-13,2023-06-20,http://kayak.com/flights/EWR-RNO/2023-06-13/2023-06-20/,400.37,1.0
+Xangai,China,1900.0,2153.16,Ethiopian Air,PVG,2023-06-17,2023-06-24,http://kayak.com/flights/EWR-PVG/2023-06-17/2023-06-24/,2153.16,1.0
+Salzburgo,Áustria,867.0,1354.3,Air Canada,SZG,2023-06-14,2023-06-21,http://kayak.com/flights/EWR-SZG/2023-06-14/2023-06-21/,1354.3,1.0
+Ottawa,Canadá,274.0,257.52,Porter Airlines,YOW,2023-06-22,2023-06-26,http://kayak.com/flights/EWR-YOW/2023-06-22/2023-06-26/,257.52,1.0
+Montevidéu,Uruguai,921.0,1175.73,Copa Airlines,MVD,2023-06-13,2023-06-20,http://kayak.com/flights/EWR-MVD/2023-06-13/2023-06-20/,1175.73,1.0
+Tbilisi,Geórgia,1520.0,1020.66,Turkish Airlines,TBS,2023-06-13,2023-06-19,http://kayak.com/flights/EWR-TBS/2023-06-13/2023-06-19/,1020.66,1.0
+Syracuse,Estados Unidos,74.0,139.1,United Airlines,SYR,2023-06-21,2023-06-26,http://kayak.com/flights/EWR-SYR/2023-06-21/2023-06-26/,139.1,1.0
+Nassau,Bahamas,193.0,343.04,United Airlines,NAS,2023-06-05,2023-06-09,http://kayak.com/flights/EWR-NAS/2023-06-05/2023-06-09/,343.04,1.0
+Norfolk,Estados Unidos,104.0,139.1,United Airlines,ORF,2023-06-08,2023-06-12,http://kayak.com/flights/EWR-ORF/2023-06-08/2023-06-12/,139.1,1.0
+Tamuning,Guam,1559.0,2151.28,United Airlines,GUM,2023-06-21,2023-06-27,http://kayak.com/flights/EWR-GUM/2023-06-21/2023-06-27/,2151.28,1.0
+Albuquerque,Estados Unidos,906.0,390.03,Spirit Airlines,ABQ,2023-06-07,2023-06-13,http://kayak.com/flights/EWR-ABQ/2023-06-07/2023-06-13/,390.03,1.0
+Dakar,Senegal,1590.0,1266.9,TAP AIR PORTUGAL,DSS,2023-06-19,2023-06-25,http://kayak.com/flights/EWR-DSS/2023-06-19/2023-06-25/,1266.9,1.0
+Boise,Estados Unidos,735.0,542.29,Delta,BOI,2023-06-06,2023-06-13,http://kayak.com/flights/EWR-BOI/2023-06-06/2023-06-13/,542.29,1.0
+Omaha,Estados Unidos,423.0,363.72,Delta,OMA,2023-06-06,2023-06-11,http://kayak.com/flights/EWR-OMA/2023-06-06/2023-06-11/,363.72,1.0
+Fortaleza,Brasil,2188.0,1152.24,LATAM Airlines,FOR,2023-06-21,2023-06-25,http://kayak.com/flights/EWR-FOR/2023-06-21/2023-06-25/,1152.24,1.0
+Roterdão,Holanda,905.0,1670.08,British Airways,RTM,2023-06-17,2023-06-24,http://kayak.com/flights/EWR-RTM/2023-06-17/2023-06-24/,1670.08,1.0
+Pisa,Itália,1320.0,1500.91,British Airways,PSA,2023-06-22,2023-06-29,http://kayak.com/flights/EWR-PSA/2023-06-22/2023-06-29/,1500.91,1.0
+Bristol,Reino Unido,1040.0,904.12,Várias companhias aéreas,BRS,2023-06-14,2023-06-21,http://kayak.com/flights/EWR-BRS/2023-06-14/2023-06-21/,904.12,1.0
+Monterrei,México,1731.0,771.61,British Airways,MTY,2023-06-26,2023-06-30,http://kayak.com/flights/EWR-MTY/2023-06-26/2023-06-30/,771.61,1.0
+Edmonton,Canadá,507.0,436.09,Air Canada,YEG,2023-06-01,2023-06-05,http://kayak.com/flights/EWR-YEG/2023-06-01/2023-06-05/,436.09,1.0
+Sarasota,Estados Unidos,172.0,186.09,United Airlines,SRQ,2023-06-12,2023-06-16,http://kayak.com/flights/EWR-SRQ/2023-06-12/2023-06-16/,186.09,1.0
+Grand Rapids,Estados Unidos,135.0,501.87,United Airlines,GRR,2023-06-21,2023-06-26,http://kayak.com/flights/EWR-GRR/2023-06-21/2023-06-26/,501.87,1.0
+Tucson,Estados Unidos,449.0,628.75,American Airlines,TUS,2023-06-18,2023-06-22,http://kayak.com/flights/EWR-TUS/2023-06-18/2023-06-22/,628.75,1.0
+Memphis,Estados Unidos,171.0,374.06,United Airlines,MEM,2023-06-14,2023-06-18,http://kayak.com/flights/EWR-MEM/2023-06-14/2023-06-18/,374.06,1.0
+Olbia,Itália,885.0,937.96,Várias companhias aéreas,OLB,2023-06-10,2023-06-17,http://kayak.com/flights/EWR-OLB/2023-06-10/2023-06-17/,937.96,1.0
+Rochester,Estados Unidos,90.0,242.48,United Airlines,ROC,2023-06-03,2023-06-08,http://kayak.com/flights/EWR-ROC/2023-06-03/2023-06-08/,242.48,1.0
+Ponta Delgada,Portugal,370.0,885.32,United Airlines,PDL,2023-06-22,2023-06-29,http://kayak.com/flights/EWR-PDL/2023-06-22/2023-06-29/,885.32,1.0
+Halifax,Canadá,380.0,258.46,Porter Airlines,YHZ,2023-06-07,2023-06-14,http://kayak.com/flights/EWR-YHZ/2023-06-07/2023-06-14/,258.46,1.0
+Portland,Estados Unidos,550.0,316.73,United Airlines,PWM,2023-06-18,2023-06-23,http://kayak.com/flights/EWR-PWM/2023-06-18/2023-06-23/,316.73,1.0
+Spokane,Estados Unidos,2254.0,530.07,American Airlines,GEG,2023-06-22,2023-06-27,http://kayak.com/flights/EWR-GEG/2023-06-22/2023-06-27/,530.07,1.0
+Rodes,Grécia,1320.0,1159.76,British Airways,RHO,2023-06-02,2023-06-08,http://kayak.com/flights/EWR-RHO/2023-06-02/2023-06-08/,1159.76,1.0
+Jacarta,Indonésia,2305.0,2922.88,Qantas Airways,JKT,2023-06-02,2023-06-06,http://kayak.com/flights/EWR-JKT/2023-06-02/2023-06-06/,2922.88,1.0
+Providence,Estados Unidos,86.0,214.29,United Airlines,PVD,2023-06-07,2023-06-11,http://kayak.com/flights/EWR-PVD/2023-06-07/2023-06-11/,214.29,1.0
+Burbank,Estados Unidos,935.0,531.01,Spirit Airlines,BUR,2023-06-02,2023-06-06,http://kayak.com/flights/EWR-BUR/2023-06-02/2023-06-06/,531.01,1.0
+Bozeman,Estados Unidos,948.0,474.62,American Airlines,BZN,2023-06-03,2023-06-07,http://kayak.com/flights/EWR-BZN/2023-06-03/2023-06-07/,474.62,1.0
+Knoxville,Estados Unidos,286.0,323.31,American Airlines,TYS,2023-06-13,2023-06-20,http://kayak.com/flights/EWR-TYS/2023-06-13/2023-06-20/,323.31,1.0
+Louisville,Estados Unidos,145.0,465.22,United Airlines,SDF,2023-06-15,2023-06-19,http://kayak.com/flights/EWR-SDF/2023-06-15/2023-06-19/,465.22,1.0
+Kingston,Jamaica,606.0,484.96,Várias companhias aéreas,KIN,2023-06-03,2023-06-07,http://kayak.com/flights/EWR-KIN/2023-06-03/2023-06-07/,484.96,1.0
+Pensacola,Estados Unidos,438.0,413.53,American Airlines,PNS,2023-06-13,2023-06-17,http://kayak.com/flights/EWR-PNS/2023-06-13/2023-06-17/,413.53,1.0
+Míconos,Grécia,1875.0,1170.09,British Airways,JMK,2023-06-04,2023-06-10,http://kayak.com/flights/EWR-JMK/2023-06-04/2023-06-10/,1170.09,1.0
+Palm Springs,Estados Unidos,2174.0,661.65,Alaska Airlines,PSP,2023-06-09,2023-06-13,http://kayak.com/flights/EWR-PSP/2023-06-09/2023-06-13/,661.65,1.0
+Oklahoma City,Estados Unidos,442.0,495.3,American Airlines,OKC,2023-06-15,2023-06-19,http://kayak.com/flights/EWR-OKC/2023-06-15/2023-06-19/,495.3,1.0
+Tânger,Marrocos,1650.0,922.92,Várias companhias aéreas,TNG,2023-06-12,2023-06-19,http://kayak.com/flights/EWR-TNG/2023-06-12/2023-06-19/,922.92,1.0
+Leipzig,Alemanha,1020.0,1635.31,TAP AIR PORTUGAL,LEJ,2023-06-11,2023-06-16,http://kayak.com/flights/EWR-LEJ/2023-06-11/2023-06-16/,1635.31,1.0
+Winnipeg,Canadá,584.0,973.67,Delta,YWG,2023-06-17,2023-06-22,http://kayak.com/flights/EWR-YWG/2023-06-17/2023-06-22/,973.67,1.0
+Santiago,República Dominicana,237.0,390.03,United Airlines,STI,2023-06-21,2023-06-26,http://kayak.com/flights/EWR-STI/2023-06-21/2023-06-26/,390.03,1.0
+Bridgetown,Barbados,1043.0,627.81,Air Canada,BGI,2023-06-08,2023-06-14,http://kayak.com/flights/EWR-BGI/2023-06-08/2023-06-14/,627.81,1.0
+Kailua-Kona,Estados Unidos,1348.0,830.81,Alaska Airlines,KOA,2023-06-08,2023-06-13,http://kayak.com/flights/EWR-KOA/2023-06-08/2023-06-13/,830.81,1.0
+Porto de Espanha,Trinidad e Tobago,1315.0,725.55,American Airlines,POS,2023-06-01,2023-06-05,http://kayak.com/flights/EWR-POS/2023-06-01/2023-06-05/,725.55,1.0
+Fresno,Estados Unidos,536.0,548.87,American Airlines,FAT,2023-06-17,2023-06-24,http://kayak.com/flights/EWR-FAT/2023-06-17/2023-06-24/,548.87,1.0
+Liubliana,Eslovénia,865.0,1202.05,SWISS,LJU,2023-06-06,2023-06-13,http://kayak.com/flights/EWR-LJU/2023-06-06/2023-06-13/,1202.05,1.0
+Barranquilla,Colômbia,1240.0,537.59,American Airlines,BAQ,2023-06-09,2023-06-13,http://kayak.com/flights/EWR-BAQ/2023-06-09/2023-06-13/,537.59,1.0
+Chania,Grécia,2150.0,1492.46,Várias companhias aéreas,CHQ,2023-06-01,2023-06-07,http://kayak.com/flights/EWR-CHQ/2023-06-01/2023-06-07/,1492.46,1.0
+Des Moines,Estados Unidos,490.0,325.19,Várias companhias aéreas,DSM,2023-06-13,2023-06-20,http://kayak.com/flights/EWR-DSM/2023-06-13/2023-06-20/,325.19,1.0
+Verona,Itália,1385.0,1661.62,Várias companhias aéreas,VRN,2023-06-01,2023-06-05,http://kayak.com/flights/EWR-VRN/2023-06-01/2023-06-05/,1661.62,1.0
+Pequim,China,2310.0,1252.8,Várias companhias aéreas,BJS,2023-06-07,2023-06-13,http://kayak.com/flights/EWR-BJS/2023-06-07/2023-06-13/,1252.8,1.0
+Zadar,Croácia,1400.0,1640.01,Várias companhias aéreas,ZAD,2023-06-22,2023-06-28,http://kayak.com/flights/EWR-ZAD/2023-06-22/2023-06-28/,1640.01,1.0
+Cantão,China,2140.0,2143.76,Turkish Airlines,CAN,2023-06-21,2023-06-25,http://kayak.com/flights/EWR-CAN/2023-06-21/2023-06-25/,2143.76,1.0
+Santa Marta,Colômbia,2293.0,530.07,Várias companhias aéreas,SMR,2023-06-09,2023-06-13,http://kayak.com/flights/EWR-SMR/2023-06-09/2023-06-13/,530.07,1.0
+Lagos,Nigéria,1185.0,1664.44,Lufthansa,LOS,2023-06-22,2023-06-28,http://kayak.com/flights/EWR-LOS/2023-06-22/2023-06-28/,1664.44,1.0
+Phnom Penh,Cambodja,3051.0,1704.86,Várias companhias aéreas,PNH,2023-06-18,2023-06-23,http://kayak.com/flights/EWR-PNH/2023-06-18/2023-06-23/,1704.86,1.0
+Saint Thomas Island,Ilhas Virgens Americanas,270.0,548.87,United Airlines,STT,2023-06-04,2023-06-10,http://kayak.com/flights/EWR-STT/2023-06-04/2023-06-10/,548.87,1.0
+Lihue,Estados Unidos,1325.0,757.51,United Airlines,LIH,2023-06-05,2023-06-12,http://kayak.com/flights/EWR-LIH/2023-06-05/2023-06-12/,757.51,1.0
+Libéria,Costa Rica,319.0,803.56,United Airlines,LIR,2023-06-18,2023-06-25,http://kayak.com/flights/EWR-LIR/2023-06-18/2023-06-25/,803.56,1.0
+Belo Horizonte,Brasil,1021.0,890.96,Várias companhias aéreas,BHZ,2023-06-01,2023-06-06,http://kayak.com/flights/EWR-BHZ/2023-06-01/2023-06-06/,890.96,1.0
+Quebec,Canadá,415.0,234.96,Porter Airlines,YQB,2023-06-24,2023-06-29,http://kayak.com/flights/EWR-YQB/2023-06-24/2023-06-29/,234.96,1.0
+Liverpool,Reino Unido,1380.0,1355.24,Lufthansa,LPL,2023-06-21,2023-06-26,http://kayak.com/flights/EWR-LPL/2023-06-21/2023-06-26/,1355.24,1.0
+San Pedro,Honduras,839.0,635.33,Spirit Airlines,SAP,2023-06-17,2023-06-23,http://kayak.com/flights/EWR-SAP/2023-06-17/2023-06-23/,635.33,1.0
+Pereira,Colômbia,568.0,803.56,United Airlines,PEI,2023-06-07,2023-06-12,http://kayak.com/flights/EWR-PEI/2023-06-07/2023-06-12/,803.56,1.0
+Madison,Estados Unidos,345.0,349.62,Delta,MSN,2023-06-15,2023-06-20,http://kayak.com/flights/EWR-MSN/2023-06-15/2023-06-20/,349.62,1.0
+Pointe-à-Pitre,Guadalupe,1467.0,651.31,Air Canada,PTP,2023-06-17,2023-06-24,http://kayak.com/flights/EWR-PTP/2023-06-17/2023-06-24/,651.31,1.0
+Calcutá,Índia,1755.0,7569.4,Várias companhias aéreas,CCU,2023-06-04,2023-06-11,http://kayak.com/flights/EWR-CCU/2023-06-04/2023-06-11/,7569.4,1.0
+Asheville,Estados Unidos,136.0,331.76,United Airlines,AVL,2023-06-02,2023-06-08,http://kayak.com/flights/EWR-AVL/2023-06-02/2023-06-08/,331.76,1.0
+Key West,Estados Unidos,348.0,291.35,American Airlines,EYW,2023-06-20,2023-06-27,http://kayak.com/flights/EWR-EYW/2023-06-20/2023-06-27/,291.35,1.0
+Greenville,Estados Unidos,385.0,355.26,Delta,GSP,2023-06-02,2023-06-08,http://kayak.com/flights/EWR-GSP/2023-06-02/2023-06-08/,355.26,1.0
+El Paso,Estados Unidos,477.0,609.95,Delta,ELP,2023-06-20,2023-06-27,http://kayak.com/flights/EWR-ELP/2023-06-20/2023-06-27/,609.95,1.0
+Harare,Zimbábue,1405.0,1410.69,Ethiopian Air,HRE,2023-06-03,2023-06-09,http://kayak.com/flights/EWR-HRE/2023-06-03/2023-06-09/,1410.69,1.0
+Thiruvananthapuram,Índia,2505.0,1587.38,Emirates,TRV,2023-06-07,2023-06-14,http://kayak.com/flights/EWR-TRV/2023-06-07/2023-06-14/,1587.38,1.0
+Zaquinto,Grécia,815.0,1702.98,Várias companhias aéreas,ZTH,2023-06-23,2023-06-30,http://kayak.com/flights/EWR-ZTH/2023-06-23/2023-06-30/,1702.98,1.0
+Eugene,Estados Unidos,1022.0,514.09,Várias companhias aéreas,EUG,2023-06-15,2023-06-19,http://kayak.com/flights/EWR-EUG/2023-06-15/2023-06-19/,514.09,1.0
+Sharjah,Emirados Árabes Unidos,1950.0,1779.1,Qatar Airways,SHJ,2023-06-02,2023-06-09,http://kayak.com/flights/EWR-SHJ/2023-06-02/2023-06-09/,1779.1,1.0
+Podgorica,Montenegro,2070.0,1227.42,LOT,TGD,2023-06-23,2023-06-30,http://kayak.com/flights/EWR-TGD/2023-06-23/2023-06-30/,1227.42,1.0
+Iași,Roménia,1735.0,1318.59,Austrian Airlines,IAS,2023-06-01,2023-06-08,http://kayak.com/flights/EWR-IAS/2023-06-01/2023-06-08/,1318.59,1.0
+Providenciales,Ilhas Turcas e Caicos,1435.0,438.91,United Airlines,PLS,2023-06-01,2023-06-05,http://kayak.com/flights/EWR-PLS/2023-06-01/2023-06-05/,438.91,1.0
+Cidade de Belize,Belize,495.0,596.8,United Airlines,BZE,2023-06-03,2023-06-07,http://kayak.com/flights/EWR-BZE/2023-06-03/2023-06-07/,596.8,1.0
+Simpson Bay,São Martinho (Sint Maarten),1135.0,684.2,Várias companhias aéreas,SXM,2023-06-15,2023-06-21,http://kayak.com/flights/EWR-SXM/2023-06-15/2023-06-21/,684.2,1.0
+Redmond,Estados Unidos,1620.0,643.79,Várias companhias aéreas,RDM,2023-06-23,2023-06-27,http://kayak.com/flights/EWR-RDM/2023-06-23/2023-06-27/,643.79,1.0
+Dar Es Salaam,Tanzânia,1375.0,1529.11,Ethiopian Air,DAR,2023-06-22,2023-06-29,http://kayak.com/flights/EWR-DAR/2023-06-22/2023-06-29/,1529.11,1.0
+Tulsa,Estados Unidos,355.0,674.8,American Airlines,TUL,2023-06-19,2023-06-25,http://kayak.com/flights/EWR-TUL/2023-06-19/2023-06-25/,674.8,1.0
+Varsóvia,Polónia,1435.0,873.11,Várias companhias aéreas,WMI,2023-06-06,2023-06-13,http://kayak.com/flights/EWR-WMI/2023-06-06/2023-06-13/,873.11,1.0
+Maceió,Brasil,3667.0,997.16,Várias companhias aéreas,MCZ,2023-06-05,2023-06-12,http://kayak.com/flights/EWR-MCZ/2023-06-05/2023-06-12/,997.16,1.0
+Lamezia Terme,Itália,1990.0,2420.07,Várias companhias aéreas,SUF,2023-06-09,2023-06-16,http://kayak.com/flights/EWR-SUF/2023-06-09/2023-06-16/,2420.07,1.0
+San Andrés,Colômbia,1744.0,632.51,Copa Airlines,ADZ,2023-06-15,2023-06-19,http://kayak.com/flights/EWR-ADZ/2023-06-15/2023-06-19/,632.51,1.0
+Aguadilla,Porto Rico,948.0,445.48,Spirit Airlines,BQN,2023-06-11,2023-06-15,http://kayak.com/flights/EWR-BQN/2023-06-11/2023-06-15/,445.48,1.0
+Shannon,Irlanda,810.0,999.98,United Airlines,SNN,2023-06-14,2023-06-18,http://kayak.com/flights/EWR-SNN/2023-06-14/2023-06-18/,999.98,1.0
+Missoula,Estados Unidos,1049.0,551.69,American Airlines,MSO,2023-06-18,2023-06-23,http://kayak.com/flights/EWR-MSO/2023-06-18/2023-06-23/,551.69,1.0
+Kalispell,Estados Unidos,1552.0,665.4,American Airlines,FCA,2023-06-16,2023-06-20,http://kayak.com/flights/EWR-FCA/2023-06-16/2023-06-20/,665.4,1.0
+Fort-de-France,Martinica,1300.0,585.52,Air Canada,FDF,2023-06-10,2023-06-14,http://kayak.com/flights/EWR-FDF/2023-06-10/2023-06-14/,585.52,1.0
+Colorado Springs,Estados Unidos,560.0,515.97,American Airlines,COS,2023-06-01,2023-06-08,http://kayak.com/flights/EWR-COS/2023-06-01/2023-06-08/,515.97,1.0
+Panama City,Estados Unidos,264.0,375.0,Delta,ECP,2023-06-01,2023-06-05,http://kayak.com/flights/EWR-ECP/2023-06-01/2023-06-05/,375.0,1.0
+Saraievo,Bósnia-Herzegóvina,1250.0,1197.35,Várias companhias aéreas,SJJ,2023-06-20,2023-06-27,http://kayak.com/flights/EWR-SJJ/2023-06-20/2023-06-27/,1197.35,1.0
+Medford,Estados Unidos,1449.0,641.91,Várias companhias aéreas,MFR,2023-06-22,2023-06-26,http://kayak.com/flights/EWR-MFR/2023-06-22/2023-06-26/,641.91,1.0
+León,México,1045.0,586.46,American Airlines,BJX,2023-06-19,2023-06-26,http://kayak.com/flights/EWR-BJX/2023-06-19/2023-06-26/,586.46,1.0
+Génova,Itália,760.0,1382.49,Lufthansa,GOA,2023-06-21,2023-06-28,http://kayak.com/flights/EWR-GOA/2023-06-21/2023-06-28/,1382.49,1.0
+Vitória,Canadá,975.0,610.89,Air Canada,YYJ,2023-06-04,2023-06-10,http://kayak.com/flights/EWR-YYJ/2023-06-04/2023-06-10/,610.89,1.0
+Cuzco,Perú,1157.0,1169.15,Várias companhias aéreas,CUZ,2023-06-03,2023-06-10,http://kayak.com/flights/EWR-CUZ/2023-06-03/2023-06-10/,1169.15,1.0
+Willemstad,Curaçao,1325.0,537.59,American Airlines,CUR,2023-06-23,2023-06-29,http://kayak.com/flights/EWR-CUR/2023-06-23/2023-06-29/,537.59,1.0
+Billings,Estados Unidos,1147.0,709.58,American Airlines,BIL,2023-06-21,2023-06-28,http://kayak.com/flights/EWR-BIL/2023-06-21/2023-06-28/,709.58,1.0
+Wilmington,Estados Unidos,248.0,295.11,American Airlines,ILM,2023-06-06,2023-06-10,http://kayak.com/flights/EWR-ILM/2023-06-06/2023-06-10/,295.11,1.0
+Porto Plata,República Dominicana,234.0,491.54,United Airlines,POP,2023-06-11,2023-06-17,http://kayak.com/flights/EWR-POP/2023-06-11/2023-06-17/,491.54,1.0
+Papete,Polinésia Francesa,1555.0,804.5,Várias companhias aéreas,PPT,2023-06-11,2023-06-15,http://kayak.com/flights/EWR-PPT/2023-06-11/2023-06-15/,804.5,1.0
+Nadi,Fiji,2680.0,1612.75,American Airlines,NAN,2023-06-22,2023-06-27,http://kayak.com/flights/EWR-NAN/2023-06-22/2023-06-27/,1612.75,1.0
+Entebbe,Uganda,1440.0,1255.62,Ethiopian Air,EBB,2023-06-03,2023-06-09,http://kayak.com/flights/EWR-EBB/2023-06-03/2023-06-09/,1255.62,1.0
+Cedar Rapids,Estados Unidos,384.0,461.46,American Airlines,CID,2023-06-08,2023-06-13,http://kayak.com/flights/EWR-CID/2023-06-08/2023-06-13/,461.46,1.0
+Antananarivo,Madagáscar,2220.0,1757.49,Várias companhias aéreas,TNR,2023-06-15,2023-06-22,http://kayak.com/flights/EWR-TNR/2023-06-15/2023-06-22/,1757.49,1.0
+Quichinau,Moldávia,1730.0,1219.9,Austrian Airlines,KIV,2023-06-18,2023-06-24,http://kayak.com/flights/EWR-KIV/2023-06-18/2023-06-24/,1219.9,1.0
+Banjul,Gâmbia,1350.0,1509.37,Várias companhias aéreas,BJL,2023-06-15,2023-06-19,http://kayak.com/flights/EWR-BJL/2023-06-15/2023-06-19/,1509.37,1.0
+Saskatoon,Canadá,818.0,571.42,Air Canada,YXE,2023-06-05,2023-06-10,http://kayak.com/flights/EWR-YXE/2023-06-05/2023-06-10/,571.42,1.0
+Brindisi,Itália,1070.0,1519.71,Várias companhias aéreas,BDS,2023-06-10,2023-06-17,http://kayak.com/flights/EWR-BDS/2023-06-10/2023-06-17/,1519.71,1.0
+Kelowna,Canadá,913.0,484.02,United Airlines,YLW,2023-06-08,2023-06-14,http://kayak.com/flights/EWR-YLW/2023-06-08/2023-06-14/,484.02,1.0
+Dayton,Estados Unidos,351.0,376.88,Delta,DAY,2023-06-01,2023-06-05,http://kayak.com/flights/EWR-DAY/2023-06-01/2023-06-05/,376.88,1.0
+Georgetown,Guiana,717.0,771.61,Copa Airlines,GEO,2023-06-08,2023-06-15,http://kayak.com/flights/EWR-GEO/2023-06-08/2023-06-15/,771.61,1.0
+Rabate,Marrocos,945.0,885.32,Delta,RBA,2023-06-07,2023-06-12,http://kayak.com/flights/EWR-RBA/2023-06-07/2023-06-12/,885.32,1.0
+Nagóia,Japão,1776.0,1687.0,Air Canada,NGO,2023-06-11,2023-06-18,http://kayak.com/flights/EWR-NGO/2023-06-11/2023-06-18/,1687.0,1.0
+Jerez de la Frontera,Espanha,2555.0,1250.92,Várias companhias aéreas,XRY,2023-06-21,2023-06-28,http://kayak.com/flights/EWR-XRY/2023-06-21/2023-06-28/,1250.92,1.0
+Mérida,México,487.0,606.2,American Airlines,MID,2023-06-04,2023-06-10,http://kayak.com/flights/EWR-MID/2023-06-04/2023-06-10/,606.2,1.0
+Belfast,Reino Unido,660.0,986.83,British Airways,BFS,2023-06-12,2023-06-18,http://kayak.com/flights/EWR-BFS/2023-06-12/2023-06-18/,986.83,1.0
+St John's,Canadá,570.0,530.07,Porter Airlines,YYT,2023-06-01,2023-06-08,http://kayak.com/flights/EWR-YYT/2023-06-01/2023-06-08/,530.07,1.0
+Harrisburg,Estados Unidos,1371.0,671.98,Allegiant Air,MDT,2023-06-25,2023-06-29,http://kayak.com/flights/EWR-MDT/2023-06-25/2023-06-29/,671.98,1.0
+Hamilton,Bermudas,155.0,374.06,United Airlines,BDA,2023-06-01,2023-06-05,http://kayak.com/flights/EWR-BDA/2023-06-01/2023-06-05/,374.06,1.0
+Grande Caimão,Ilhas Cayman,246.0,484.96,United Airlines,GCM,2023-06-10,2023-06-17,http://kayak.com/flights/EWR-GCM/2023-06-10/2023-06-17/,484.96,1.0
+Trieste,Itália,2165.0,1255.62,TAP AIR PORTUGAL,TRS,2023-06-13,2023-06-20,http://kayak.com/flights/EWR-TRS/2023-06-13/2023-06-20/,1255.62,1.0
+Leeds,Reino Unido,1216.0,2015.0,British Airways,LBA,2023-06-20,2023-06-27,http://kayak.com/flights/EWR-LBA/2023-06-20/2023-06-27/,2015.0,1.0
+Santa Rosa,Estados Unidos,1320.0,520.67,Várias companhias aéreas,STS,2023-06-06,2023-06-11,http://kayak.com/flights/EWR-STS/2023-06-06/2023-06-11/,520.67,1.0
+Fairbanks,Estados Unidos,951.0,908.82,American Airlines,FAI,2023-06-19,2023-06-26,http://kayak.com/flights/EWR-FAI/2023-06-19/2023-06-26/,908.82,1.0
+Saint George.s,Granada,1693.0,513.15,American Airlines,GND,2023-06-15,2023-06-19,http://kayak.com/flights/EWR-GND/2023-06-15/2023-06-19/,513.15,1.0
+Valparaíso,Estados Unidos,619.0,298.87,Allegiant Air,VPS,2023-06-23,2023-06-29,http://kayak.com/flights/EWR-VPS/2023-06-23/2023-06-29/,298.87,1.0
+Cork,Irlanda,1668.0,885.32,KLM,ORK,2023-06-01,2023-06-08,http://kayak.com/flights/EWR-ORK/2023-06-01/2023-06-08/,885.32,1.0
+Comayagua,Honduras,955.0,582.7,Spirit Airlines,XPL,2023-06-03,2023-06-10,http://kayak.com/flights/EWR-XPL/2023-06-03/2023-06-10/,582.7,1.0
+Springfield,Estados Unidos,375.0,508.45,Delta,SGF,2023-06-08,2023-06-12,http://kayak.com/flights/EWR-SGF/2023-06-08/2023-06-12/,508.45,1.0
+Sioux Falls,Estados Unidos,557.0,582.7,American Airlines,FSD,2023-06-23,2023-06-27,http://kayak.com/flights/EWR-FSD/2023-06-23/2023-06-27/,582.7,1.0
+Lexington,Estados Unidos,291.0,387.21,Delta,LEX,2023-06-22,2023-06-26,http://kayak.com/flights/EWR-LEX/2023-06-22/2023-06-26/,387.21,1.0
+Columbia,Estados Unidos,350.0,364.66,American Airlines,CAE,2023-06-15,2023-06-19,http://kayak.com/flights/EWR-CAE/2023-06-15/2023-06-19/,364.66,1.0
+Huntsville,Estados Unidos,357.0,589.28,Delta,HSV,2023-06-25,2023-06-30,http://kayak.com/flights/EWR-HSV/2023-06-25/2023-06-30/,589.28,1.0
+Esmirna,Turquia,1435.0,2105.22,LOT,IZM,2023-06-03,2023-06-10,http://kayak.com/flights/EWR-IZM/2023-06-03/2023-06-10/,2105.22,1.0
+Daytona Beach,Estados Unidos,411.0,379.7,American Airlines,DAB,2023-06-04,2023-06-11,http://kayak.com/flights/EWR-DAB/2023-06-04/2023-06-11/,379.7,1.0
+Santa Barbara,Estados Unidos,1392.0,469.92,United Airlines,SBA,2023-06-01,2023-06-05,http://kayak.com/flights/EWR-SBA/2023-06-01/2023-06-05/,469.92,1.0
+Oaxaca,México,572.0,636.27,American Airlines,OAX,2023-06-04,2023-06-10,http://kayak.com/flights/EWR-OAX/2023-06-04/2023-06-10/,636.27,1.0
+Tallahassee,Estados Unidos,275.0,393.79,Delta,TLH,2023-06-03,2023-06-07,http://kayak.com/flights/EWR-TLH/2023-06-03/2023-06-07/,393.79,1.0
+Fargo,Estados Unidos,371.0,492.48,Delta,FAR,2023-06-03,2023-06-07,http://kayak.com/flights/EWR-FAR/2023-06-03/2023-06-07/,492.48,1.0
+Jackson,Estados Unidos,433.0,531.95,American Airlines,JAN,2023-06-04,2023-06-11,http://kayak.com/flights/EWR-JAN/2023-06-04/2023-06-11/,531.95,1.0
+Kosice,Eslováquia,3245.0,1220.84,LOT,KSC,2023-06-01,2023-06-08,http://kayak.com/flights/EWR-KSC/2023-06-01/2023-06-08/,1220.84,1.0
+Querétaro,México,796.0,562.96,American Airlines,QRO,2023-06-19,2023-06-26,http://kayak.com/flights/EWR-QRO/2023-06-19/2023-06-26/,562.96,1.0
+Almaty,Cazaquistão,1415.0,1849.59,Várias companhias aéreas,ALA,2023-06-11,2023-06-17,http://kayak.com/flights/EWR-ALA/2023-06-11/2023-06-17/,1849.59,1.0
+Akron,Estados Unidos,319.0,408.83,American Airlines,CAK,2023-06-07,2023-06-11,http://kayak.com/flights/EWR-CAK/2023-06-07/2023-06-11/,408.83,1.0
+Trapani,Itália,1630.0,1019.72,Várias companhias aéreas,TPS,2023-06-11,2023-06-18,http://kayak.com/flights/EWR-TPS/2023-06-11/2023-06-18/,1019.72,1.0
+Arusha,Tanzânia,1990.0,1813.88,Ethiopian Air,JRO,2023-06-15,2023-06-22,http://kayak.com/flights/EWR-JRO/2023-06-15/2023-06-22/,1813.88,1.0
+Saint John's,Antígua e Barbuda,1013.0,520.67,Air Canada,ANU,2023-06-17,2023-06-24,http://kayak.com/flights/EWR-ANU/2023-06-17/2023-06-24/,520.67,1.0
+Castries,Santa Lúcia,307.0,927.62,United Airlines,UVF,2023-06-17,2023-06-24,http://kayak.com/flights/EWR-UVF/2023-06-17/2023-06-24/,927.62,1.0
+Aspen,Estados Unidos,1297.0,652.25,Alaska Airlines,ASE,2023-06-08,2023-06-12,http://kayak.com/flights/EWR-ASE/2023-06-08/2023-06-12/,652.25,1.0
+Aberdeen,Reino Unido,765.0,1001.86,British Airways,ABZ,2023-06-20,2023-06-25,http://kayak.com/flights/EWR-ABZ/2023-06-20/2023-06-25/,1001.86,1.0
+Cozumel,México,1212.0,567.66,American Airlines,CZM,2023-06-08,2023-06-12,http://kayak.com/flights/EWR-CZM/2023-06-08/2023-06-12/,567.66,1.0
+Traverse City,Estados Unidos,803.0,431.39,American Airlines,TVC,2023-06-17,2023-06-24,http://kayak.com/flights/EWR-TVC/2023-06-17/2023-06-24/,431.39,1.0
+Bangor,Estados Unidos,114.0,403.19,United Airlines,BGR,2023-06-15,2023-06-19,http://kayak.com/flights/EWR-BGR/2023-06-15/2023-06-19/,403.19,1.0
+Juneau,Estados Unidos,945.0,999.98,Delta,JNU,2023-06-08,2023-06-12,http://kayak.com/flights/EWR-JNU/2023-06-08/2023-06-12/,999.98,1.0
+Rapid City,Estados Unidos,1337.0,699.24,United Airlines,RAP,2023-06-05,2023-06-09,http://kayak.com/flights/EWR-RAP/2023-06-05/2023-06-09/,699.24,1.0
+Alexandria,Egito,1560.0,1594.9,Turkish Airlines,HBE,2023-06-26,2023-06-30,http://kayak.com/flights/EWR-HBE/2023-06-26/2023-06-30/,1594.9,1.0
+Roanoke,Estados Unidos,346.0,304.51,American Airlines,ROA,2023-06-01,2023-06-05,http://kayak.com/flights/EWR-ROA/2023-06-01/2023-06-05/,304.51,1.0
+Green Bay,Estados Unidos,313.0,403.19,Delta,GRB,2023-06-07,2023-06-14,http://kayak.com/flights/EWR-GRB/2023-06-07/2023-06-14/,403.19,1.0
+Pula,Croácia,1055.0,1710.5,Lufthansa,PUY,2023-06-10,2023-06-17,http://kayak.com/flights/EWR-PUY/2023-06-10/2023-06-17/,1710.5,1.0
+Macau,Macau,2790.0,1768.77,Várias companhias aéreas,MFM,2023-06-05,2023-06-11,http://kayak.com/flights/EWR-MFM/2023-06-05/2023-06-11/,1768.77,1.0
+Aguascalientes,México,1697.0,888.14,Aeromexico,AGU,2023-06-09,2023-06-13,http://kayak.com/flights/EWR-AGU/2023-06-09/2023-06-13/,888.14,1.0
+Malmo,Suécia,2010.0,1128.74,Várias companhias aéreas,MMA,2023-06-03,2023-06-10,http://kayak.com/flights/EWR-MMA/2023-06-03/2023-06-10/,1128.74,1.0
+Montería,Colômbia,1601.0,633.45,Várias companhias aéreas,MTR,2023-06-18,2023-06-25,http://kayak.com/flights/EWR-MTR/2023-06-18/2023-06-25/,633.45,1.0
+Algueiro,Itália,1060.0,1332.68,Várias companhias aéreas,AHO,2023-06-10,2023-06-17,http://kayak.com/flights/EWR-AHO/2023-06-10/2023-06-17/,1332.68,1.0
+San Carlos DeBariloche,Argentina,1950.0,1598.66,Várias companhias aéreas,BRC,2023-06-08,2023-06-15,http://kayak.com/flights/EWR-BRC/2023-06-08/2023-06-15/,1598.66,1.0
+Mobile,Estados Unidos,342.0,573.3,American Airlines,MOB,2023-06-10,2023-06-17,http://kayak.com/flights/EWR-MOB/2023-06-10/2023-06-17/,573.3,1.0
+Panglao,Filipinas,2370.0,2546.94,Várias companhias aéreas,TAG,2023-06-12,2023-06-19,http://kayak.com/flights/EWR-TAG/2023-06-12/2023-06-19/,2546.94,1.0
+Everett,Estados Unidos,1767.0,734.01,Alaska Airlines,PAE,2023-06-22,2023-06-26,http://kayak.com/flights/EWR-PAE/2023-06-22/2023-06-26/,734.01,1.0
+Road Town,Ilhas Virgens Britânicas,830.0,685.14,Várias companhias aéreas,EIS,2023-06-22,2023-06-28,http://kayak.com/flights/EWR-EIS/2023-06-22/2023-06-28/,685.14,1.0
+Santa Fé,Estados Unidos,540.0,539.47,American Airlines,SAF,2023-06-03,2023-06-10,http://kayak.com/flights/EWR-SAF/2023-06-03/2023-06-10/,539.47,1.0
+Ponce,Porto Rico,608.0,545.11,JetBlue,PSE,2023-06-24,2023-06-29,http://kayak.com/flights/EWR-PSE/2023-06-24/2023-06-29/,545.11,1.0
+Hilton Head Island,Estados Unidos,388.0,370.3,American Airlines,HHH,2023-06-20,2023-06-24,http://kayak.com/flights/EWR-HHH/2023-06-20/2023-06-24/,370.3,1.0
+Nantucket,Estados Unidos,348.0,319.55,JetBlue,ACK,2023-06-02,2023-06-06,http://kayak.com/flights/EWR-ACK/2023-06-02/2023-06-06/,319.55,1.0
+Helena,Estados Unidos,2091.0,754.69,Várias companhias aéreas,HLN,2023-06-14,2023-06-18,http://kayak.com/flights/EWR-HLN/2023-06-14/2023-06-18/,754.69,1.0
+Kigali,Ruanda,1650.0,1794.14,Turkish Airlines,KGL,2023-06-13,2023-06-20,http://kayak.com/flights/EWR-KGL/2023-06-13/2023-06-20/,1794.14,1.0
+Coxen Hole,Honduras,507.0,700.18,American Airlines,RTB,2023-06-04,2023-06-09,http://kayak.com/flights/EWR-RTB/2023-06-04/2023-06-09/,700.18,1.0
+Rzeszów,Polónia,850.0,1405.99,Várias companhias aéreas,RZE,2023-06-19,2023-06-26,http://kayak.com/flights/EWR-RZE/2023-06-19/2023-06-26/,1405.99,1.0
+Vail,Estados Unidos,751.0,403.19,American Airlines,EGE,2023-06-03,2023-06-07,http://kayak.com/flights/EWR-EGE/2023-06-03/2023-06-07/,403.19,1.0
+Christiansted,Ilhas Virgens Americanas,537.0,507.51,United Airlines,STX,2023-06-15,2023-06-19,http://kayak.com/flights/EWR-STX/2023-06-15/2023-06-19/,507.51,1.0
+Flagstaff,Estados Unidos,1173.0,766.91,American Airlines,FLG,2023-06-03,2023-06-09,http://kayak.com/flights/EWR-FLG/2023-06-03/2023-06-09/,766.91,1.0
+Inverness,Reino Unido,800.0,757.51,British Airways,INV,2023-06-03,2023-06-10,http://kayak.com/flights/EWR-INV/2023-06-03/2023-06-10/,757.51,1.0
+Shreveport,Estados Unidos,406.0,440.79,Delta,SHV,2023-06-03,2023-06-10,http://kayak.com/flights/EWR-SHV/2023-06-03/2023-06-10/,440.79,1.0
+Comox,Canadá,1467.0,712.4,Várias companhias aéreas,YQQ,2023-06-12,2023-06-18,http://kayak.com/flights/EWR-YQQ/2023-06-12/2023-06-18/,712.4,1.0
+Idaho Falls,Estados Unidos,1305.0,648.49,Várias companhias aéreas,IDA,2023-06-07,2023-06-11,http://kayak.com/flights/EWR-IDA/2023-06-07/2023-06-11/,648.49,1.0
+Abuja,Nigéria,1350.0,1249.04,Lufthansa,ABV,2023-06-21,2023-06-26,http://kayak.com/flights/EWR-ABV/2023-06-21/2023-06-26/,1249.04,1.0
+Monterey,Estados Unidos,721.0,567.66,American Airlines,MRY,2023-06-23,2023-06-27,http://kayak.com/flights/EWR-MRY/2023-06-23/2023-06-27/,567.66,1.0
+Great Falls,Estados Unidos,1437.0,629.69,Várias companhias aéreas,GTF,2023-06-02,2023-06-09,http://kayak.com/flights/EWR-GTF/2023-06-02/2023-06-09/,629.69,1.0
+Peshawar,Paquistão,1965.0,1632.49,Várias companhias aéreas,PEW,2023-06-15,2023-06-20,http://kayak.com/flights/EWR-PEW/2023-06-15/2023-06-20/,1632.49,1.0
+Moline,Estados Unidos,555.0,765.97,United Airlines,MLI,2023-06-08,2023-06-13,http://kayak.com/flights/EWR-MLI/2023-06-08/2023-06-13/,765.97,1.0
+Durango,Estados Unidos,443.0,574.24,American Airlines,DRO,2023-06-10,2023-06-14,http://kayak.com/flights/EWR-DRO/2023-06-10/2023-06-14/,574.24,1.0
+Ilhéus,Brasil,1508.0,919.16,Várias companhias aéreas,IOS,2023-06-19,2023-06-26,http://kayak.com/flights/EWR-IOS/2023-06-19/2023-06-26/,919.16,1.0
+Abbotsford,Canadá,650.0,366.54,Várias companhias aéreas,YXX,2023-06-04,2023-06-08,http://kayak.com/flights/EWR-YXX/2023-06-04/2023-06-08/,366.54,1.0
+Fayetteville,Estados Unidos,430.0,377.82,Delta,FAY,2023-06-07,2023-06-14,http://kayak.com/flights/EWR-FAY/2023-06-07/2023-06-14/,377.82,1.0
+Ulã Bator,Mongólia,1870.0,2268.75,Várias companhias aéreas,UBN,2023-06-07,2023-06-14,http://kayak.com/flights/EWR-UBN/2023-06-07/2023-06-14/,2268.75,1.0
+Southampton,Reino Unido,815.0,1685.12,British Airways,SOU,2023-06-21,2023-06-25,http://kayak.com/flights/EWR-SOU/2023-06-21/2023-06-25/,1685.12,1.0
+Nanaimo,Canadá,574.0,581.76,Air Canada,YCD,2023-06-20,2023-06-27,http://kayak.com/flights/EWR-YCD/2023-06-20/2023-06-27/,581.76,1.0
+Cardiff,Reino Unido,1975.0,2404.09,Aer Lingus,CWL,2023-06-19,2023-06-24,http://kayak.com/flights/EWR-CWL/2023-06-19/2023-06-24/,2404.09,1.0
+Duluth,Estados Unidos,648.0,942.65,Delta,DLH,2023-06-15,2023-06-19,http://kayak.com/flights/EWR-DLH/2023-06-15/2023-06-19/,942.65,1.0
+Basseterre,São Cristóvão e Neves,514.0,759.39,American Airlines,SKB,2023-06-01,2023-06-08,http://kayak.com/flights/EWR-SKB/2023-06-01/2023-06-08/,759.39,1.0
+Roseau,Dominica,1425.0,716.16,Várias companhias aéreas,DOM,2023-06-14,2023-06-21,http://kayak.com/flights/EWR-DOM/2023-06-14/2023-06-21/,716.16,1.0
+Freeport,Bahamas,586.0,1180.43,American Airlines,FPO,2023-06-02,2023-06-06,http://kayak.com/flights/EWR-FPO/2023-06-02/2023-06-06/,1180.43,1.0
+Bismarck,Estados Unidos,1280.0,572.36,American Airlines,BIS,2023-06-12,2023-06-19,http://kayak.com/flights/EWR-BIS/2023-06-12/2023-06-19/,572.36,1.0
+George Town,Bahamas,1232.0,807.32,American Airlines,GGT,2023-06-09,2023-06-16,http://kayak.com/flights/EWR-GGT/2023-06-09/2023-06-16/,807.32,1.0
+Lomé,Togo,1250.0,1173.85,Air France,LFW,2023-06-02,2023-06-09,http://kayak.com/flights/EWR-LFW/2023-06-02/2023-06-09/,1173.85,1.0
+Lajes,Portugal,865.0,1162.57,Várias companhias aéreas,TER,2023-06-10,2023-06-17,http://kayak.com/flights/EWR-TER/2023-06-10/2023-06-17/,1162.57,1.0
+Sørvágur,Ilhas Faroe,825.0,939.83,Várias companhias aéreas,FAE,2023-06-01,2023-06-05,http://kayak.com/flights/EWR-FAE/2023-06-01/2023-06-05/,939.83,1.0
+Yuma,Estados Unidos,515.0,587.4,American Airlines,YUM,2023-06-16,2023-06-23,http://kayak.com/flights/EWR-YUM/2023-06-16/2023-06-23/,587.4,1.0
+Freetown,Serra Leoa,2645.0,1025.36,Várias companhias aéreas,FNA,2023-06-20,2023-06-27,http://kayak.com/flights/EWR-FNA/2023-06-20/2023-06-27/,1025.36,1.0
+Hailey,Estados Unidos,512.0,1182.31,Delta,SUN,2023-06-19,2023-06-25,http://kayak.com/flights/EWR-SUN/2023-06-19/2023-06-25/,1182.31,1.0
+Rijeka,Croácia,2085.0,1502.79,Várias companhias aéreas,RJK,2023-06-10,2023-06-17,http://kayak.com/flights/EWR-RJK/2023-06-10/2023-06-17/,1502.79,1.0
+West Tisbury,Estados Unidos,425.0,864.65,Várias companhias aéreas,MVY,2023-06-15,2023-06-19,http://kayak.com/flights/EWR-MVY/2023-06-15/2023-06-19/,864.65,1.0
+Kralendijk,Países Baixos Caribenhos,300.0,562.96,United Airlines,BON,2023-06-03,2023-06-10,http://kayak.com/flights/EWR-BON/2023-06-03/2023-06-10/,562.96,1.0
+Baltra,Equador,2690.0,1242.46,Várias companhias aéreas,GPS,2023-06-03,2023-06-10,http://kayak.com/flights/EWR-GPS/2023-06-03/2023-06-10/,1242.46,1.0
+Hilo,Estados Unidos,1128.0,1644.71,Delta,ITO,2023-06-01,2023-06-05,http://kayak.com/flights/EWR-ITO/2023-06-01/2023-06-05/,1644.71,1.0
+Grande Prairie,Canadá,1235.0,641.91,Delta,YQU,2023-06-12,2023-06-16,http://kayak.com/flights/EWR-YQU/2023-06-12/2023-06-16/,641.91,1.0
+Bar Harbor,Estados Unidos,355.0,671.98,Várias companhias aéreas,BHB,2023-06-10,2023-06-17,http://kayak.com/flights/EWR-BHB/2023-06-10/2023-06-17/,671.98,1.0
+Montrose,Estados Unidos,1392.0,472.74,American Airlines,MTJ,2023-06-03,2023-06-10,http://kayak.com/flights/EWR-MTJ/2023-06-03/2023-06-10/,472.74,1.0
+Kingstown,São Vicente e Granadinas,562.0,646.61,American Airlines,SVD,2023-06-04,2023-06-09,http://kayak.com/flights/EWR-SVD/2023-06-04/2023-06-09/,646.61,1.0
+Lincoln,Estados Unidos,415.0,987.77,United Airlines,LNK,2023-06-20,2023-06-25,http://kayak.com/flights/EWR-LNK/2023-06-20/2023-06-25/,987.77,1.0
+Tampico,México,980.0,541.35,United Airlines,TAM,2023-06-07,2023-06-14,http://kayak.com/flights/EWR-TAM/2023-06-07/2023-06-14/,541.35,1.0
+Erie,Estados Unidos,529.0,487.78,American Airlines,ERI,2023-06-07,2023-06-14,http://kayak.com/flights/EWR-ERI/2023-06-07/2023-06-14/,487.78,1.0
+Kalamazoo,Estados Unidos,764.0,401.31,American Airlines,AZO,2023-06-01,2023-06-07,http://kayak.com/flights/EWR-AZO/2023-06-01/2023-06-07/,401.31,1.0
+Ítaca,Estados Unidos,79.0,286.65,United Airlines,ITH,2023-06-03,2023-06-10,http://kayak.com/flights/EWR-ITH/2023-06-03/2023-06-10/,286.65,1.0
+Bakersfield,Estados Unidos,852.0,571.42,American Airlines,BFL,2023-06-13,2023-06-20,http://kayak.com/flights/EWR-BFL/2023-06-13/2023-06-20/,571.42,1.0
+Blountville,Estados Unidos,560.0,1047.92,Várias companhias aéreas,TRI,2023-06-07,2023-06-13,http://kayak.com/flights/EWR-TRI/2023-06-07/2023-06-13/,1047.92,1.0
+Ushuaia,Argentina,2095.0,1449.22,Várias companhias aéreas,USH,2023-06-01,2023-06-08,http://kayak.com/flights/EWR-USH/2023-06-01/2023-06-08/,1449.22,1.0
+Lynchburg,Estados Unidos,266.0,362.78,American Airlines,LYH,2023-06-12,2023-06-18,http://kayak.com/flights/EWR-LYH/2023-06-12/2023-06-18/,362.78,1.0
+The Valley,Anguila,866.0,644.73,Várias companhias aéreas,AXA,2023-06-02,2023-06-08,http://kayak.com/flights/EWR-AXA/2023-06-02/2023-06-08/,644.73,1.0
+Gustávia,São Bartolomeu,1512.0,1205.81,Várias companhias aéreas,SBH,2023-06-02,2023-06-06,http://kayak.com/flights/EWR-SBH/2023-06-02/2023-06-06/,1205.81,1.0
+Palanga,Lituânia,1240.0,964.27,airBaltic,PLQ,2023-06-13,2023-06-19,http://kayak.com/flights/EWR-PLQ/2023-06-13/2023-06-19/,964.27,1.0
+Molde,Noruega,1290.0,1042.28,Scandinavian Airlines,MOL,2023-06-08,2023-06-15,http://kayak.com/flights/EWR-MOL/2023-06-08/2023-06-15/,1042.28,1.0
+Fort Saint John,Canadá,918.0,741.53,Delta,YXJ,2023-06-01,2023-06-05,http://kayak.com/flights/EWR-YXJ/2023-06-01/2023-06-05/,741.53,1.0
+Osaka,Japão,2170.0,1286.63,ANA,ITM,2023-06-05,2023-06-12,http://kayak.com/flights/EWR-ITM/2023-06-05/2023-06-12/,1286.63,1.0
+Vieques,Porto Rico,567.0,710.52,United Airlines,VQS,2023-06-18,2023-06-25,http://kayak.com/flights/EWR-VQS/2023-06-18/2023-06-25/,710.52,1.0
+West Yellowstone,Estados Unidos,1334.0,614.65,United Airlines,WYS,2023-06-10,2023-06-17,http://kayak.com/flights/EWR-WYS/2023-06-10/2023-06-17/,614.65,1.0
+Rayong,Tailândia,2620.0,1646.59,Emirates,UTP,2023-06-06,2023-06-13,http://kayak.com/flights/EWR-UTP/2023-06-06/2023-06-13/,1646.59,1.0
+Cedar City,Estados Unidos,542.0,847.73,Delta,CDC,2023-06-23,2023-06-30,http://kayak.com/flights/EWR-CDC/2023-06-23/2023-06-30/,847.73,1.0
+Escanaba,Estados Unidos,458.0,573.3,Delta,ESC,2023-06-15,2023-06-19,http://kayak.com/flights/EWR-ESC/2023-06-15/2023-06-19/,573.3,1.0
+Cayman Brac,Ilhas Cayman,1705.0,900.36,Várias companhias aéreas,CYB,2023-06-15,2023-06-19,http://kayak.com/flights/EWR-CYB/2023-06-15/2023-06-19/,900.36,1.0
+Brunswick,Estados Unidos,300.0,440.79,Delta,BQK,2023-06-10,2023-06-14,http://kayak.com/flights/EWR-BQK/2023-06-10/2023-06-14/,440.79,1.0
+Nuuk,Gronelândia,2097.0,1604.29,Icelandair,GOH,2023-06-08,2023-06-15,http://kayak.com/flights/EWR-GOH/2023-06-08/2023-06-15/,1604.29,1.0
+Iron Mountain,Estados Unidos,270.0,521.61,Delta,IMT,2023-06-15,2023-06-19,http://kayak.com/flights/EWR-IMT/2023-06-15/2023-06-19/,521.61,1.0
+Grand-Case,São Martinho (Saint-Martin),1477.0,863.71,Várias companhias aéreas,SFG,2023-06-17,2023-06-21,http://kayak.com/flights/EWR-SFG/2023-06-17/2023-06-21/,863.71,1.0
+Valdosta,Estados Unidos,370.0,436.09,Delta,VLD,2023-06-20,2023-06-27,http://kayak.com/flights/EWR-VLD/2023-06-20/2023-06-27/,436.09,1.0
+Florença,Estados Unidos,340.0,271.62,American Airlines,FLO,2023-06-01,2023-06-06,http://kayak.com/flights/EWR-FLO/2023-06-01/2023-06-06/,271.62,1.0
+Hyannis Port,Estados Unidos,600.0,522.55,Várias companhias aéreas,HYA,2023-06-11,2023-06-18,http://kayak.com/flights/EWR-HYA/2023-06-11/2023-06-18/,522.55,1.0
+Marquette,Estados Unidos,775.0,620.29,American Airlines,MQT,2023-06-15,2023-06-19,http://kayak.com/flights/EWR-MQT/2023-06-15/2023-06-19/,620.29,1.0
+Waterloo,Estados Unidos,664.0,506.57,American Airlines,ALO,2023-06-08,2023-06-13,http://kayak.com/flights/EWR-ALO/2023-06-08/2023-06-13/,506.57,1.0
+Moab,Estados Unidos,682.0,1239.64,United Airlines,CNY,2023-06-22,2023-06-29,http://kayak.com/flights/EWR-CNY/2023-06-22/2023-06-29/,1239.64,1.0
+Telluride,Estados Unidos,1113.0,1041.34,Várias companhias aéreas,TEX,2023-06-08,2023-06-12,http://kayak.com/flights/EWR-TEX/2023-06-08/2023-06-12/,1041.34,1.0
+Joplin,Estados Unidos,1115.0,523.49,United Airlines,JLN,2023-06-01,2023-06-07,http://kayak.com/flights/EWR-JLN/2023-06-01/2023-06-07/,523.49,1.0
+Cody,Estados Unidos,616.0,883.45,United Airlines,COD,2023-06-17,2023-06-24,http://kayak.com/flights/EWR-COD/2023-06-17/2023-06-24/,883.45,1.0
+San Cristobal,Equador,2812.0,1181.37,Várias companhias aéreas,SCY,2023-06-03,2023-06-10,http://kayak.com/flights/EWR-SCY/2023-06-03/2023-06-10/,1181.37,1.0
+Stillwater,Estados Unidos,1229.0,562.96,American Airlines,SWO,2023-06-18,2023-06-22,http://kayak.com/flights/EWR-SWO/2023-06-18/2023-06-22/,562.96,1.0
+Karpathos,Grécia,1690.0,3829.81,Várias companhias aéreas,AOK,2023-06-15,2023-06-22,http://kayak.com/flights/EWR-AOK/2023-06-15/2023-06-22/,3829.81,1.0
+Loreto,México,3128.0,1826.09,American Airlines,LTO,2023-06-06,2023-06-12,http://kayak.com/flights/EWR-LTO/2023-06-06/2023-06-12/,1826.09,1.0
+Perugia,Itália,1410.0,1809.18,Várias companhias aéreas,PEG,2023-06-14,2023-06-18,http://kayak.com/flights/EWR-PEG/2023-06-14/2023-06-18/,1809.18,1.0
+El Calafate,Argentina,2907.0,1778.16,Várias companhias aéreas,FTE,2023-06-10,2023-06-17,http://kayak.com/flights/EWR-FTE/2023-06-10/2023-06-17/,1778.16,1.0
+Sheridan,Estados Unidos,601.0,789.46,United Airlines,SHR,2023-06-14,2023-06-18,http://kayak.com/flights/EWR-SHR/2023-06-14/2023-06-18/,789.46,1.0
+Kapalua,Estados Unidos,1718.0,1188.89,Várias companhias aéreas,JHM,2023-06-08,2023-06-15,http://kayak.com/flights/EWR-JHM/2023-06-08/2023-06-15/,1188.89,1.0
+Erfurt,Alemanha,2555.0,1749.97,Várias companhias aéreas,ERF,2023-06-11,2023-06-16,http://kayak.com/flights/EWR-ERF/2023-06-11/2023-06-16/,1749.97,1.0
+Carcassonne,França,1865.0,1437.94,Várias companhias aéreas,CCF,2023-06-22,2023-06-27,http://kayak.com/flights/EWR-CCF/2023-06-22/2023-06-27/,1437.94,1.0
+Harrison,Estados Unidos,793.0,593.98,Várias companhias aéreas,HRO,2023-06-12,2023-06-16,http://kayak.com/flights/EWR-HRO/2023-06-12/2023-06-16/,593.98,1.0
+Paleochori,Grécia,1130.0,1833.61,Várias companhias aéreas,MLO,2023-06-18,2023-06-24,http://kayak.com/flights/EWR-MLO/2023-06-18/2023-06-24/,1833.61,1.0
+Knock,Irlanda,1962.0,1110.88,Várias companhias aéreas,NOC,2023-06-16,2023-06-23,http://kayak.com/flights/EWR-NOC/2023-06-16/2023-06-23/,1110.88,1.0
+Little Cayman,Ilhas Cayman,1600.0,952.99,Várias companhias aéreas,LYB,2023-06-24,2023-06-28,http://kayak.com/flights/EWR-LYB/2023-06-24/2023-06-28/,952.99,1.0
+Mayagüez,Porto Rico,1207.0,518.79,Várias companhias aéreas,MAZ,2023-06-21,2023-06-26,http://kayak.com/flights/EWR-MAZ/2023-06-21/2023-06-26/,518.79,1.0
+San Bernardino,Estados Unidos,1153.0,538.53,Várias companhias aéreas,SBD,2023-06-02,2023-06-06,http://kayak.com/flights/EWR-SBD/2023-06-02/2023-06-06/,538.53,1.0
+Gander,Canadá,497.0,736.83,Air Canada,YQX,2023-06-01,2023-06-08,http://kayak.com/flights/EWR-YQX/2023-06-01/2023-06-08/,736.83,1.0
+Ålesund,Noruega,1105.0,2084.55,Lufthansa,AES,2023-06-08,2023-06-15,http://kayak.com/flights/EWR-AES/2023-06-08/2023-06-15/,2084.55,1.0
+Port Royal,Bahamas,1200.0,601.5,United Airlines,BIM,2023-06-09,2023-06-16,http://kayak.com/flights/EWR-BIM/2023-06-09/2023-06-16/,601.5,1.0
+Butte,Estados Unidos,780.0,871.23,Delta,BTM,2023-06-08,2023-06-15,http://kayak.com/flights/EWR-BTM/2023-06-08/2023-06-15/,871.23,1.0
+Laramie,Estados Unidos,825.0,473.68,United Airlines,LAR,2023-06-14,2023-06-18,http://kayak.com/flights/EWR-LAR/2023-06-14/2023-06-18/,473.68,1.0
+Rockland,Estados Unidos,370.0,596.8,JetBlue,RKD,2023-06-08,2023-06-12,http://kayak.com/flights/EWR-RKD/2023-06-08/2023-06-12/,596.8,1.0
+Blantyre,Malaui,2165.0,1711.44,Várias companhias aéreas,BLZ,2023-06-20,2023-06-27,http://kayak.com/flights/EWR-BLZ/2023-06-20/2023-06-27/,1711.44,1.0
+Ilha do Pico,Portugal,2860.0,2082.67,TAP AIR PORTUGAL,PIX,2023-06-10,2023-06-17,http://kayak.com/flights/EWR-PIX/2023-06-10/2023-06-17/,2082.67,1.0
+Horta,Portugal,3305.0,2093.95,TAP AIR PORTUGAL,HOR,2023-06-10,2023-06-17,http://kayak.com/flights/EWR-HOR/2023-06-10/2023-06-17/,2093.95,1.0
+Lubumbashi,República Democrática do Congo,2050.0,1628.73,Ethiopian Air,FBM,2023-06-01,2023-06-05,http://kayak.com/flights/EWR-FBM/2023-06-01/2023-06-05/,1628.73,1.0
+Nagua,República Dominicana,1052.0,1103.37,Air Canada,AZS,2023-06-08,2023-06-15,http://kayak.com/flights/EWR-AZS/2023-06-08/2023-06-15/,1103.37,1.0
+Hoolehua,Estados Unidos,1241.0,1474.6,Várias companhias aéreas,MKK,2023-06-24,2023-06-30,http://kayak.com/flights/EWR-MKK/2023-06-24/2023-06-30/,1474.6,1.0
+Waimea (Kamuela),Estados Unidos,1545.0,1288.51,Várias companhias aéreas,MUE,2023-06-15,2023-06-22,http://kayak.com/flights/EWR-MUE/2023-06-15/2023-06-22/,1288.51,1.0
+Virgin Gorda,Ilhas Virgens Britânicas,1121.0,1427.61,Várias companhias aéreas,VIJ,2023-06-01,2023-06-08,http://kayak.com/flights/EWR-VIJ/2023-06-01/2023-06-08/,1427.61,1.0
+Aqaba,Jordânia,2378.0,3990.52,American Airlines,AQJ,2023-06-13,2023-06-20,http://kayak.com/flights/EWR-AQJ/2023-06-13/2023-06-20/,3990.52,1.0
+Kobe,Japão,1385.0,1493.39,ANA,UKB,2023-06-05,2023-06-12,http://kayak.com/flights/EWR-UKB/2023-06-05/2023-06-12/,1493.39,1.0
+Sendai,Japão,1340.0,2114.62,ANA,SDJ,2023-06-23,2023-06-29,http://kayak.com/flights/EWR-SDJ/2023-06-23/2023-06-29/,2114.62,1.0
+Haiphong,Vietname,2235.0,7585.37,Várias companhias aéreas,HPH,2023-06-09,2023-06-15,http://kayak.com/flights/EWR-HPH/2023-06-09/2023-06-15/,7585.37,1.0
+Savusavu,Fiji,1945.0,7160.57,Várias companhias aéreas,SVU,2023-06-05,2023-06-12,http://kayak.com/flights/EWR-SVU/2023-06-05/2023-06-12/,7160.57,1.0
+Suva,Fiji,2611.0,7026.17,Várias companhias aéreas,SUV,2023-06-05,2023-06-12,http://kayak.com/flights/EWR-SUV/2023-06-05/2023-06-12/,7026.17,1.0
