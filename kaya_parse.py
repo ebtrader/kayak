@@ -47,6 +47,9 @@ print(cheap_index)
 incremented = [x+1 for x in cheap_index]
 print(incremented)
 
+incremented.append(incremented[1] + 1)
+print(incremented)
+
 list_length = len(incremented)
 print(list_length)
 
@@ -65,6 +68,32 @@ for i in range(0, list_length):
     # print(df['flights'].iloc[incremented[i]])
 
 print(cheap_list)
+
+best = df[df["flights"].str.contains("Best")]
+print(best)
+
+best_index = df.index[df['flights']=='Best'].tolist()
+print(best_index)
+incremented_best = [x+1 for x in best_index]
+print(incremented_best)
+
+incremented_best.append(incremented_best[1] + 1)
+incremented_best.append(incremented_best[2] + 1)
+
+print(incremented_best)
+
+best_list = []
+
+list_length = len(incremented_best)
+print(list_length)
+
+for i in range(0, list_length):
+    best_item = df['flights'].iloc[incremented_best[i]]
+    print(best_item)
+    best_list.append(best_item)
+    # print(df['flights'].iloc[incremented[i]])
+
+print(best_list)
 
 # df.to_csv('kayak_parsed.csv')
 
