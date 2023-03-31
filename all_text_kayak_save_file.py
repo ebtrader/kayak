@@ -8,7 +8,7 @@ options = webdriver.ChromeOptions()
 driver = webdriver.Chrome(options=options)
 
 # Target URL
-driver.get('https://www.kayak.com/flights/JFK-SFO/2023-05-25/2023-06-03?sort=bestflight_a')
+driver.get('https://www.kayak.com/flights/EWR-DEN/2023-05-25/2023-06-03?sort=bestflight_a')
 # To load entire webpage
 time.sleep(15)
 
