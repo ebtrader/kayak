@@ -50,11 +50,21 @@ print(incremented)
 list_length = len(incremented)
 print(list_length)
 
-print(df['flights'].iloc[incremented[0]])
-print(df['flights'].iloc[incremented[1]])
+# print(df['flights'].iloc[incremented[0]])
+# print(df['flights'].iloc[incremented[1]])
 
-for i in range(0,list_length):
-    print(df['flights'].iloc[incremented[i]])
+# for i in range(0,list_length):
+#     print(df['flights'].iloc[incremented[i]])
+
+cheap_list = []
+
+for i in range(0, list_length):
+    cheap_item = df['flights'].iloc[incremented[i]]
+    print(cheap_item)
+    cheap_list.append(cheap_item)
+    # print(df['flights'].iloc[incremented[i]])
+
+print(cheap_list)
 
 # df.to_csv('kayak_parsed.csv')
 
