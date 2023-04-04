@@ -16,14 +16,27 @@ driver.get('https://www.expedia.com/Hotel-Search?adults=2&d1=2023-05-03&d2=2023-
 # To load entire webpage
 time.sleep(15)
 
-text_file = driver.find_element("xpath", "/html/body").text
-
-file = open('expedia.txt', 'w', encoding='utf-8')
-
-file.write(text_file)
+# text_file = driver.find_element("xpath", "/html/body").text
 
 
-file.close()
+parser = driver.find_element("xpath", "///script[@id='cachedResultsJson']//").text
+
+# json_data_xpath = parser.xpath("//script[@id='cachedResultsJson']//text()")
+
+# hotels = driver.find_element('xpath', './/h3[@data-stid="content-hotel-title"]').text
+#
+    # review = hotel.xpath('string(.//div[@data-stid="content-hotel-review-info"]/span/span[1])').get()
+    # price = hotel.xpath('.//span[@data-stid="price-lockup-text"]/text()').get()
+    # hotel_name = hotel.xpath('.//h3[@data-stid="content-hotel-title"]/text()').get()
+    # location = hotel.xpath('.//div[@data-test-id="content-hotel-neighborhood"]/text()').get()
+
+
+# file = open('expedia.txt', 'w', encoding='utf-8')
+#
+# file.write(text_file)
+#
+#
+# file.close()
 
 
 

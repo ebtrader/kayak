@@ -9,10 +9,7 @@ options = webdriver.ChromeOptions()
 driver = webdriver.Chrome(options=options)
 
 # Target URL
-driver.get('https://www.expedia.com/Hotel-Search?adults=2&d1=2023-05-03&d2=2023-05-08&'
-           'destination=Grace%20Bay%2C%20Providenciales%2C%20Providenciales%2C%20Turks%20and%20Caicos&'
-           'endDate=2023-05-08&latLong=21.799715%2C-72.168269&regionId=55041&rooms=1&semdtl=&sort=RECOMMENDED&'
-           'startDate=2023-05-03&theme=&useRewards=false&userIntent=')
+driver.get('https://weather.com/weather/tenday/l/226a69a53a978c2a409958b7a487d34f9e8cabc0f5ebdd08cdaa5f81bc4b0f6f')
 # To load entire webpage
 time.sleep(15)
 
