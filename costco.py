@@ -8,7 +8,7 @@ options = webdriver.ChromeOptions()
 
 driver = webdriver.Chrome(options=options)
 
-url_path = 'https://www.costco.com/gaming-computers.html?gclid=Cj0KCQjwuNemBhCBARIsADp74QQNsBzfRUh8SyFhYNAOH3WSPMbgh7DL8q3JDsRHTdc9OWc6_Pv3p5IaAvMuEALw_wcB'
+url_path = 'https://www.costco.com/gaming-computers.html?gclid=Cj0KCQjwuNemBhCBARIsADp74QQNsBzfRUh8SyFhYNAOH3WSPMbgh7DL8q3JDsRHTdc9OWc6_Pv3p5IaAvMuEALw_wcB&graphic-card=nvidia-geforce-rtx-3060ti+nvidia-geforce-rtx-4060ti+nvidia-geforce-rtx-3060+nvidia-rtx-4070ti+nvidia-geforce-rtx-3070ti+nvidia-geforce-rtx-3080+nvidia-geforce-rtx-4070+nvidia-geforce-rtx-4080&memory-(ram)=32-gb&deliveryFacetFlag=false&refine=%7C%7CMemory__RAM__attr-32%2BGB%7C%7CGraphic_Card_attr-NVIDIA%2BGeForce%2BRTX%2B3060Ti%7C%7CGraphic_Card_attr-NVIDIA%2BGeForce%2BRTX%2B4060Ti%7C%7CGraphic_Card_attr-NVIDIA%2BGeForce%2BRTX%2B3060%7C%7CGraphic_Card_attr-NVIDIA%2BRTX%2B4070Ti%7C%7CGraphic_Card_attr-NVIDIA%2BGeForce%2BRTX%2B3070Ti%7C%7CGraphic_Card_attr-NVIDIA%2BGeForce%2BRTX%2B3080%7C%7CGraphic_Card_attr-NVIDIA%2BGeForce%2BRTX%2B4070||Graphic_Card_attr-NVIDIA%2BGeForce%2BRTX%2B4080'
 # Target URL
 driver.get(url_path)
 
